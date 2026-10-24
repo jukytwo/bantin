@@ -1,0 +1,214 @@
+<!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Toàn cảnh thị trường · TVN Insight</title><meta name="description" content="Chỉ số, dòng tiền, ngành, la bàn chu kỳ và 15 bộ lọc cổ phiếu sau mỗi phiên."><meta name="theme-color" content="#16294A"><meta property="og:title" content="Toàn cảnh thị trường · TVN Insight"><meta property="og:description" content="Chỉ số, dòng tiền, ngành, la bàn chu kỳ và 15 bộ lọc cổ phiếu sau mỗi phiên."><meta property="og:image" content="../og.jpg"><link rel="icon" href="../icon-192.png"><link rel="apple-touch-icon" href="../apple-touch-icon.png"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet"><style>:root{--bg:#F6F7FA;--surface:#FFFFFF;--ink:#16213A;--mute:#5B6579;--line:#DCE2EC;--navy:#1F3864;--gold:#C8992F;--chip:#EEF2F8;
+--up:#1E7A46;--dn:#B23A3A;--l0:#2E8B57;--l1:#C8992F;--l2:#D9822B;--l3:#C0392B;
+--f:"Be Vietnam Pro",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0E1524;--surface:#16203A;--ink:#E7ECF5;--mute:#9AA6BC;--line:#2A3757;--navy:#8FB0E8;--gold:#E2BE6A;--chip:#1D2A47;--up:#4CC38A;--dn:#F07070;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0E1524;--surface:#16203A;--ink:#E7ECF5;--mute:#9AA6BC;--line:#2A3757;--navy:#8FB0E8;--gold:#E2BE6A;--chip:#1D2A47;--up:#4CC38A;--dn:#F07070;color-scheme:dark}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f);font-size:15px;line-height:1.5}
+a{color:var(--navy)}
+.wrap{max-width:860px;margin:0 auto;padding:0 16px 56px}
+.top{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:2px solid var(--navy);padding:calc(10px + env(safe-area-inset-top)) 0 10px;margin-bottom:14px}
+.top .row1{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.back{display:inline-flex;align-items:center;gap:6px;font-size:.85rem;font-weight:600;color:var(--navy);text-decoration:none;padding:6px 0}
+.brand{font-weight:700;letter-spacing:.08em;font-size:.72rem;color:var(--gold);text-transform:uppercase}
+h1{font-size:1.35rem;line-height:1.25;margin:4px 0 2px;color:var(--navy)}
+.sub{color:var(--mute);font-size:.82rem}
+.stale{display:inline-block;margin-left:6px;padding:1px 8px;border-radius:10px;background:rgba(217,130,43,.15);color:var(--l2);font-weight:600;font-size:.75rem}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px 14px 12px;margin:0 0 12px}
+.card h2{display:flex;align-items:center;gap:8px;margin:0 0 10px;font-size:.98rem;color:var(--ink)}
+.card h2 svg{width:18px;height:18px;flex:0 0 18px;fill:none;stroke:var(--gold);stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.card h2 .n{margin-left:auto;font-weight:500;font-size:.78rem;color:var(--mute)}
+.note{color:var(--mute);font-size:.78rem;margin:8px 0 0}
+.chips{display:flex;gap:6px;overflow-x:auto;padding-bottom:4px;margin:0 0 10px;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chips button{flex:0 0 auto;font:600 .8rem var(--f);color:var(--ink);background:var(--chip);border:1px solid var(--line);border-radius:16px;padding:6px 12px;cursor:pointer}
+.chips button.on{background:var(--navy);border-color:var(--navy);color:#fff}
+:root[data-theme="dark"] .chips button.on{color:#0E1524}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .chips button.on{color:#0E1524}}
+.up{color:var(--up)}.dn{color:var(--dn)}.mu{color:var(--mute)}
+.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+@media (min-width:640px){.grid2{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.tile{border:1px solid var(--line);border-radius:12px;padding:9px 10px 6px;background:var(--bg)}
+.tile .t{font-size:.74rem;color:var(--mute);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tile .v{font-weight:700;font-size:1.02rem;margin-top:1px}
+.tile .d{font-size:.76rem;font-weight:600}
+.tile svg.sp{display:block;width:100%;height:26px;margin-top:4px}
+.lvl{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px;vertical-align:middle}
+.list{list-style:none;margin:0;padding:0}
+.list li{padding:9px 0;border-bottom:1px solid var(--line)}
+.list li:last-child{border-bottom:0}
+.list .h{display:flex;justify-content:space-between;gap:10px;font-weight:600}
+.list .s{color:var(--mute);font-size:.8rem;margin-top:2px}
+.bar{height:8px;border-radius:5px;background:var(--chip);overflow:hidden}
+.bar i{display:block;height:100%;border-radius:5px}
+.tbl{width:100%;border-collapse:collapse;font-size:.82rem}
+.tbl th{position:sticky;top:0;background:var(--surface);color:var(--mute);font-weight:600;text-align:right;padding:6px 6px;border-bottom:1px solid var(--line);white-space:nowrap}
+.tbl td{text-align:right;padding:7px 6px;border-bottom:1px solid var(--line);white-space:nowrap}
+.tbl th:first-child,.tbl td:first-child{text-align:left;position:sticky;left:0;background:var(--surface)}
+.tbl td.ng{text-align:left;color:var(--mute);max-width:130px;overflow:hidden;text-overflow:ellipsis}
+.tw{overflow-x:auto;max-height:520px;margin:0 -4px}
+.tag{display:inline-block;font-size:.7rem;font-weight:700;padding:1px 8px;border-radius:10px;margin-right:6px}
+.tag.p{background:rgba(30,122,70,.13);color:var(--up)}.tag.m{background:rgba(178,58,58,.13);color:var(--dn)}.tag.z{background:var(--chip);color:var(--mute)}
+.mchip{display:inline-block;font:600 .74rem var(--f);padding:1px 7px;margin:3px 4px 0 0;border-radius:8px;border:1px solid var(--line)}
+.foot{color:var(--mute);font-size:.76rem;text-align:center;margin-top:18px;line-height:1.6}
+.empty{color:var(--mute);font-size:.88rem;padding:24px 4px;text-align:center}
+.fade{animation:fi .35s ease both}@keyframes fi{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.fade{animation:none}}
+.card svg.sp{display:block;width:100%;height:44px;margin-top:4px}.tile svg.sp{height:26px}
+.list .h>span:first-child{min-width:0;overflow-wrap:anywhere}
+.emb .top{display:none}.emb .wrap{padding-top:4px;padding-bottom:16px}.emb #tvnqa-b{display:none!important}
+</style></head><body><div class="wrap"><header class="top"><div class="row1"><a class="back" href="../">‹ TVN Insight</a><span class="brand">TVN &amp; Partners</span></div><h1>Toàn cảnh thị trường</h1><div class="sub" id="sub">Đang tải…</div></header><main id="main"><div class="empty">Đang tải số liệu…</div></main></div><script>window.TC_SRC=["/tvn-hub/data/toan_canh_mobile.json"];</script><script>/* Dùng chung cho các màn Thế giới → Việt Nam và Toàn cảnh thị trường của TVN Insight. */
+if (/[?&]embed=1\b/.test(location.search)) document.documentElement.classList.add("emb");   /* nhúng trong TVN Insight: ẩn đầu trang riêng */
+(function () {
+  try { var th = localStorage.getItem("tvn_dash_theme"); if (th === "light" || th === "dark") document.documentElement.setAttribute("data-theme", th); } catch (e) { }
+})();
+var T = {
+  esc: function (s) { return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); },
+  n: function (x, d) { if (x == null || x === "" || isNaN(x)) return "–"; return Number(x).toLocaleString("vi-VN", { maximumFractionDigits: d == null ? 2 : d, minimumFractionDigits: d == null ? 0 : Math.min(d, 2) }); },
+  sg: function (x, d, suf) { if (x == null || isNaN(x)) return "–"; return (x > 0 ? "+" : x < 0 ? "−" : "") + T.n(Math.abs(x), d) + (suf || ""); },
+  cls: function (x, bad) { if (x == null || isNaN(x) || x === 0) return "mu"; var good = x > 0; if (bad) good = !good; return good ? "up" : "dn"; },
+  dmy: function (s) { if (!s) return ""; var p = String(s).slice(0, 10).split("-"); return p.length === 3 ? p[2] + "/" + p[1] + (p[0] !== String(new Date().getFullYear()) ? "/" + p[0] : "") : s; },
+  hm: function (iso) { var m = /T(\d\d:\d\d)/.exec(iso || ""); return m ? m[1] : ""; },
+  ago: function (iso) { var t = Date.parse(iso || ""); return isNaN(t) ? 0 : (Date.now() - t) / 36e5; },
+  spark: function (ls, color) {
+    var v = (ls || []).filter(function (x) { return x != null && !isNaN(x); });
+    if (v.length < 2) return "";
+    var mn = Math.min.apply(null, v), mx = Math.max.apply(null, v), r = mx - mn || 1, w = 100, h = 26;
+    var pts = v.map(function (x, i) { return (i * w / (v.length - 1)).toFixed(1) + "," + (h - 2 - (x - mn) / r * (h - 4)).toFixed(1); }).join(" ");
+    return '<svg class="sp" viewBox="0 0 100 26" preserveAspectRatio="none" aria-hidden="true"><polyline points="' + pts + '" fill="none" style="stroke:' + color + '" stroke-width="1.6" vector-effect="non-scaling-stroke"/></svg>';
+  },
+  lv: ["var(--l0)", "var(--l1)", "var(--l2)", "var(--l3)"],
+  ic: {
+    gauge: '<path d="M4 16a8 8 0 1 1 16 0"/><path d="M12 16l4-5"/>', sig: '<path d="M3 12h4l3-8 4 16 3-8h4"/>', globe: '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/>',
+    vn: '<path d="M12 3l2.6 5.6 6 .7-4.5 4.1 1.2 6L12 16.5 6.7 19.4l1.2-6L3.4 9.3l6-.7z"/>', cal: '<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/>',
+    doc: '<path d="M6 3h9l4 4v14H6z"/><path d="M9 11h7M9 15h7M9 7h4"/>', fire: '<path d="M12 3c1 4 5 6 5 11a5 5 0 0 1-10 0c0-2 1-3 2-4 0 2 1 3 2 3 0-4-1-6 1-10z"/>',
+    ship: '<path d="M3 17l2 4h14l2-4H3z"/><path d="M6 17V9h12v8M12 9V4"/>', wave: '<path d="M3 12c3-4 6 4 9 0s6 4 9 0"/><path d="M3 17c3-4 6 4 9 0s6 4 9 0"/>',
+    news: '<path d="M4 5h13v14H6a2 2 0 0 1-2-2z"/><path d="M17 9h3v8a2 2 0 0 1-2 2"/><path d="M7 9h7M7 13h7"/>', fx: '<circle cx="12" cy="12" r="9"/><path d="M15 9a3 3 0 0 0-3-1.5c-2 0-3 1-3 2.3 0 3 6 1.7 6 4.7 0 1.3-1.2 2.3-3 2.3a3.4 3.4 0 0 1-3-1.6M12 5v2M12 17v2"/>',
+    bars: '<path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/>', comp: '<circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/>', filt: '<path d="M3 5h18l-7 8v6l-4 2v-8z"/>',
+    sum: '<path d="M5 5h14M5 10h14M5 15h9"/>', down: '<path d="M3 7l6 6 4-4 8 8"/><path d="M21 11v6h-6"/>'
+  },
+  h2: function (ic, t, n) { return '<h2><svg viewBox="0 0 24 24" aria-hidden="true">' + (T.ic[ic] || "") + "</svg>" + T.esc(t) + (n != null && n !== "" ? '<span class="n">' + T.esc(n) + "</span>" : "") + "</h2>"; },
+  card: function (html, id) { return '<section class="card fade"' + (id ? ' id="' + id + '"' : "") + ">" + html + "</section>"; },
+  load: function (urls) {
+    var i = 0;
+    return new Promise(function (ok, no) {
+      (function next() {
+        if (i >= urls.length) return no(new Error("không tải được"));
+        var u = urls[i++];
+        fetch(u + (u.indexOf("?") < 0 ? "?" : "&") + "t=" + Math.floor(Date.now() / 6e5), { cache: "no-cache" })
+          .then(function (r) { if (!r.ok) throw 0; return r.json(); }).then(function (j) { if (!j || !j.v) throw 0; ok(j); }).catch(next);
+      })();
+    });
+  },
+  tabs: function (box, items, cur, onpick) {
+    box.innerHTML = items.map(function (it) { return '<button type="button" data-k="' + T.esc(it[0]) + '"' + (it[0] === cur ? ' class="on"' : "") + ">" + T.esc(it[1]) + "</button>"; }).join("");
+    box.querySelectorAll("button").forEach(function (b) { b.onclick = function () { box.querySelectorAll("button").forEach(function (x) { x.classList.toggle("on", x === b); }); onpick(b.getAttribute("data-k")); }; });
+  }
+};
+</script><script>/* Màn Toàn cảnh thị trường (dữ liệu toan_canh_mobile_latest.json do Vũ max dựng sau 16:10, không dùng AI). */
+(function () {
+  var M = document.getElementById("main"), SUB = document.getElementById("sub");
+  var SRC = (window.TC_SRC || []).concat(["../toan_canh.json"]);
+  T.load(SRC).then(render, function () { M.innerHTML = '<div class="empty">Chưa có số liệu Toàn cảnh thị trường. Trang tự cập nhật sau 16:10 mỗi phiên.</div>'; });
+
+  var NHAN = {
+    ma: "Mã", nganh: "Ngành", gia: "Giá", pct: "%", kl: "Khối lượng", kl_so_bq5: "So TB 5 phiên", gt: "Giá trị (tỷ)", kl20: "KL TB 20 phiên", kl_x: "Gấp TB 20",
+    rong_ty: "Ròng (tỷ)", dinh_cu: "Đỉnh cũ", ngay_dinh_cu: "Ngày đỉnh cũ", ngay_vuot: "Ngày vượt", con_tren: "Còn trên đỉnh", day_cu: "Đáy cũ", ngay_day_cu: "Ngày đáy cũ",
+    ngay_thung: "Ngày thủng", con_duoi: "Còn dưới đáy", dinh: "Đỉnh 1 năm", ngay_dinh: "Ngày đỉnh", cach_pct: "Cách", day: "Đáy 1 năm", ngay_day: "Ngày đáy",
+    so_phien: "Số phiên", bien_pct: "Biên dao động", vi_tri: "Vị trí trong biên", loi_suat: "Lợi suất", hon_vni: "Hơn VN-Index"
+  };
+  var GIA = { gia: 1, dinh_cu: 1, day_cu: 1, dinh: 1, day: 1 };
+  function o(c, v) {
+    if (v == null || v === "") return "–";
+    if (GIA[c]) return T.n(v / 1000, 2);
+    if (c === "pct") return '<span class="' + T.cls(v) + '">' + T.sg(v, 2, "%") + "</span>";
+    if (c === "rong_ty") return '<span class="' + T.cls(v) + '">' + T.sg(v, 1) + "</span>";
+    if (c === "kl" || c === "kl20") return T.n(v, 0);
+    if (c === "kl_so_bq5") return T.n(v, 0) + "%";
+    if (c === "kl_x") return T.n(v, 1) + " lần";
+    if (c === "gt") return T.n(v, 1);
+    if (c === "cach_pct" || c === "bien_pct") return T.n(v, 1) + "%";
+    if (c === "loi_suat" || c === "hon_vni") return '<span class="' + T.cls(v) + '">' + T.sg(v, 1, "%") + "</span>";
+    if (c === "vi_tri") return T.n(v, 0);
+    if (c === "con_tren" || c === "con_duoi") return v ? '<b class="' + (c === "con_tren" ? "up" : "dn") + '">Có</b>' : '<span class="mu">Không</span>';
+    if (/^ngay/.test(c)) return T.esc(T.dmy(v));
+    return T.esc(v);
+  }
+  function idx(t, v, p) {
+    return '<div class="tile"><div class="t">' + t + '</div><div class="v">' + T.n(v, 2) + '</div><div class="d ' + T.cls(p) + '">' + T.sg(p, 2, "%") + "</div></div>";
+  }
+  function meter(v, lbl, txt) {
+    var x = Math.max(-100, Math.min(100, +v || 0)), w = Math.abs(x) / 2, c = x >= 0 ? "var(--up)" : "var(--dn)";
+    return '<div style="margin:8px 0 2px"><div class="h" style="display:flex;justify-content:space-between;font-size:.85rem;font-weight:600"><span>' + T.esc(lbl) + '</span><span style="color:' + c + '">' + T.esc(txt || "") + " · " + T.sg(x, 0) + '</span></div>' +
+      '<div class="bar" style="position:relative;margin-top:5px"><i style="position:absolute;top:0;bottom:0;' + (x >= 0 ? "left:50%" : "right:50%") + ";width:" + w + "%;background:" + c + '"></i><b style="position:absolute;left:50%;top:-2px;bottom:-2px;width:2px;background:var(--mute);opacity:.5"></b></div>' +
+      '<div class="s mu" style="display:flex;justify-content:space-between;font-size:.7rem"><span>−100</span><span>0</span><span>+100</span></div></div>';
+  }
+
+  function render(D) {
+    var age = T.ago(D.dung_luc);
+    SUB.innerHTML = "Phiên " + T.esc(T.dmy(D.ngay)) + " · dựng lúc " + T.esc(T.hm(D.dung_luc)) + (age > 80 ? '<span class="stale">chưa có phiên mới</span>' : "");
+    var h = "", K = D.market || {};
+    /* 0. Đọc nhanh: kết luận phiên lên đầu (anh Vũ 19/10/2026) */
+    var S = D.tom_tat || [];
+    if (S.length) h += '<section class="card fade" style="border-left:4px solid var(--gold)"><div style="font:700 .74rem var(--f);letter-spacing:.08em;text-transform:uppercase;color:var(--gold);margin-bottom:6px">Đọc nhanh · phiên ' + T.esc(T.dmy(D.ngay)) + '</div><ul class="list">' + S.map(function (s) { return '<li style="padding:6px 0;font-weight:500">' + T.esc(s) + "</li>"; }).join("") + (D.la_ban && D.la_ban.ket_luan ? '<li style="padding:6px 0"><b>La bàn:</b> ' + T.esc(D.la_ban.ket_luan) + "</li>" : "") + "</ul></section>";
+    /* 1. Chỉ số và thanh khoản */
+    var tg = +K.tang || 0, dg = +K.dung || 0, gm = +K.giam || 0, tot = tg + dg + gm || 1;
+    h += T.card(T.h2("bars", "Chỉ số và dòng tiền") + '<div class="grid2">' + idx("VN-Index", K.vnindex, K.vnindex_pct) + idx("VN30", K.vn30, K.vn30_pct) + idx("HNX-Index", K.hnx, K.hnx_pct) +
+      '<div class="tile"><div class="t">Giá trị giao dịch (HOSE)</div><div class="v">' + T.n(K.gt_tong_ty, 0) + ' <span class="mu" style="font-size:.7rem;font-weight:500">tỷ</span></div><div class="d mu">khớp lệnh ' + T.n(K.gt_khop_ty, 0) + " tỷ</div></div>" +
+      '<div class="tile"><div class="t">Khối ngoại ròng</div><div class="v ' + T.cls(K.ngoai_rong_ty) + '">' + T.sg(K.ngoai_rong_ty, 1) + ' <span class="mu" style="font-size:.7rem;font-weight:500">tỷ</span></div><div class="d mu">' + (K.ngoai_rong_ty < 0 ? "bán ròng" : "mua ròng") + "</div></div>" +
+      '<div class="tile"><div class="t">Độ rộng (HOSE)</div><div class="v"><span class="up">' + tg + '</span> · <span class="mu">' + dg + '</span> · <span class="dn">' + gm + '</span></div><div class="bar" style="display:flex;margin-top:8px"><i style="width:' + (tg / tot * 100) + '%;background:var(--up);border-radius:0"></i><i style="width:' + (dg / tot * 100) + '%;background:var(--l1);border-radius:0"></i><i style="width:' + (gm / tot * 100) + '%;background:var(--dn);border-radius:0"></i></div><div class="d mu" style="margin-top:3px">tăng · đứng · giảm</div></div>' +
+      "</div>");
+    /* 3. La bàn chu kỳ */
+    var L = D.la_ban;
+    if (L) {
+      var wk = (L.sau_tuan || []).slice(-6);
+      var sp = T.spark(wk.map(function (w) { return w.vnindex; }), "var(--gold)");
+      h += T.card(T.h2("comp", "La bàn chu kỳ", "tuần kết thúc " + T.dmy(L.tuan_ket_thuc)) +
+        '<div style="font-weight:700;font-size:1.02rem">' + T.esc(L.ket_luan || "") + "</div>" + meter(L.da, "Đà giá", L.da_tt) + meter(L.tam_ly, "Tâm lý", L.tam_ly_muc) +
+        (wk.length ? '<div class="tw" style="margin-top:8px"><table class="tbl"><thead><tr><th>Tuần</th><th>VN-Index</th><th>Đà</th><th>Tâm lý</th><th style="text-align:left">Trạng thái</th></tr></thead><tbody>' + wk.slice().reverse().map(function (w) {
+          return "<tr><td>" + T.esc(T.dmy(w.tuan)) + "</td><td>" + T.n(w.vnindex, 2) + '</td><td class="' + T.cls(w.da) + '">' + T.sg(w.da, 0) + '</td><td class="' + T.cls(w.tam_ly) + '">' + T.sg(w.tam_ly, 0) + '</td><td style="text-align:left">' + T.esc(w.trang_thai || "") + (w.tin_hieu ? " · <b>" + T.esc(w.tin_hieu) + "</b>" : "") + "</td></tr>";
+        }).join("") + "</tbody></table></div>" + '<div class="s mu" style="font-size:.74rem;margin-top:6px">VN-Index 6 tuần</div>' + sp : "") +
+        (L.do_tin_cay ? '<p class="note">' + T.esc(L.do_tin_cay) + "</p>" : ""));
+    }
+    /* 4. Nhịp giảm gần nhất */
+    var G = D.nhip_giam;
+    if (G) h += T.card(T.h2("down", "Nhịp giảm gần nhất của VN-Index") + '<div class="grid2"><div class="tile"><div class="t">Đỉnh ' + T.esc(T.dmy(G.dinh)) + '</div><div class="v">' + T.n(G.vni_dinh, 2) + '</div></div><div class="tile"><div class="t">Đáy ' + T.esc(T.dmy(G.day)) + '</div><div class="v">' + T.n(G.vni_day, 2) + '</div><div class="d dn">' + T.sg(G.giam_pct, 1, "%") + "</div></div></div>" +
+      '<p class="note">Bộ lọc "Khỏe trong nhịp giảm" đo từng mã trên đúng quãng này.</p>');
+    /* 5. Ngành */
+    var N = D.nganh || [];
+    if (N.length) {
+      var mxp = Math.max.apply(null, N.map(function (x) { return Math.abs(+x.pct || 0); }).concat([0.5]));
+      h += T.card(T.h2("bars", "Ngành trong phiên", N.length + " ngành") + '<ul class="list">' + N.map(function (x) {
+        var p = +x.pct || 0, w = Math.abs(p) / mxp * 50;
+        return '<li><div class="h"><span>' + T.esc(x.ten) + '</span><span class="' + T.cls(p) + '">' + T.sg(p, 2, "%") + '</span></div><div class="bar" style="position:relative;margin-top:5px"><i style="position:absolute;top:0;bottom:0;' + (p >= 0 ? "left:50%" : "right:50%") + ";width:" + w + "%;background:" + (p >= 0 ? "var(--up)" : "var(--dn)") + '"></i></div><div class="s">' + T.n(x.gt, 1) + " tỷ · " + T.n(x.ty_trong, 1) + "% giá trị sàn · " + T.n(x.tang, 0) + " tăng, " + T.n(x.giam, 0) + " giảm / " + T.n(x.so_ma, 0) + " mã</div></li>";
+      }).join("") + "</ul>");
+    }
+    /* 6. Bộ lọc cổ phiếu */
+    var Q = D.quet || {}, keys = Object.keys(Q).filter(function (k) { return Q[k] && Q[k].cot; });
+    if (keys.length) h += T.card(T.h2("filt", "Bộ lọc cổ phiếu", keys.length + " bộ lọc") + '<div class="chips" id="qg"></div><div class="chips" id="qk"></div><div id="qd" class="s" style="margin:-2px 0 8px;color:var(--mute);font-size:.8rem"></div><div class="tw"><table class="tbl" id="qt"></table></div>' +
+      '<p class="note">Giá tính bằng nghìn đồng. Chỉ xét mã có giá trị giao dịch từ ' + T.n(D.min_gt || 10, 0) + " tỷ đồng mỗi phiên. Đây là bộ lọc số liệu, không phải khuyến nghị mua bán.</p>", "loc");
+    h += '<div class="foot">Số liệu do TVN tổng hợp tự động sau phiên từ dữ liệu giao dịch HOSE; phân loại theo quy tắc, không dùng AI.</div>';
+    M.innerHTML = h;
+
+    if (keys.length) {
+      var groups = [];
+      keys.forEach(function (k) { var g = Q[k].nhom || "Khác"; if (groups.indexOf(g) < 0) groups.push(g); });
+      var qg = document.getElementById("qg"), qk = document.getElementById("qk"), qd = document.getElementById("qd"), qt = document.getElementById("qt");
+      var showK = function (k) {
+        var L = Q[k], cot = L.cot || [], rows = L.dong || [];
+        qd.textContent = (L.mo_ta || "") + (L.so_ma != null ? " Có " + L.so_ma + " mã" + (L.so_ma > rows.length ? ", hiện " + rows.length + " mã đầu." : ".") : "");
+        if (!rows.length) { qt.innerHTML = '<tbody><tr><td class="mu" style="text-align:left;position:static">Phiên này không có mã nào.</td></tr></tbody>'; return; }
+        qt.innerHTML = "<thead><tr>" + cot.map(function (c) { return "<th" + (c === "nganh" ? ' style="text-align:left"' : "") + ">" + T.esc(NHAN[c] || c) + "</th>"; }).join("") + "</tr></thead><tbody>" +
+          rows.map(function (r) { return "<tr>" + cot.map(function (c, i) { return c === "nganh" ? '<td class="ng" title="' + T.esc(r[i]) + '">' + T.esc(r[i]) + "</td>" : c === "ma" ? "<td><b>" + T.esc(r[i]) + "</b></td>" : "<td>" + o(c, r[i]) + "</td>"; }).join("") + "</tr>"; }).join("") + "</tbody>";
+      };
+      var showG = function (g) {
+        var ks = keys.filter(function (k) { return (Q[k].nhom || "Khác") === g; });
+        T.tabs(qk, ks.map(function (k) { return [k, Q[k].ten + (Q[k].so_ma != null ? " (" + Q[k].so_ma + ")" : "")]; }), ks[0], showK);
+        showK(ks[0]);
+      };
+      T.tabs(qg, groups.map(function (g) { return [g, g]; }), groups[0], showG);
+      showG(groups[0]);
+    }
+  }
+})();
+</script><script src="../gate.js"></script><!--tvn-brand--><!--tvn-qa--><script defer src="../qa/qa.js"></script></body></html>
