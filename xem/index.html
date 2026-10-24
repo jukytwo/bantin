@@ -1,0 +1,42 @@
+<!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>TVN Insight</title><meta name="robots" content="noindex"><meta name="theme-color" content="#16294A"><link rel="icon" href="../icon-192.png"><link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<style>
+html,body{margin:0;height:100%;background:#0E1524;overflow:hidden}
+.bar{position:fixed;top:0;left:0;right:0;z-index:3;box-sizing:border-box;height:calc(50px + env(safe-area-inset-top,0px));padding:env(safe-area-inset-top,0px) max(12px,env(safe-area-inset-right,0px)) 0 max(8px,env(safe-area-inset-left,0px));background:#16294A;border-bottom:1px solid rgba(227,192,112,.35);display:flex;align-items:center;gap:8px;font:600 15px "Be Vietnam Pro",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.bar a{display:inline-flex;align-items:center;gap:4px;color:#E3C070;text-decoration:none;font-weight:700;padding:10px 8px;border-radius:10px;white-space:nowrap}
+.bar a:focus-visible{outline:2px solid #E3C070}
+.bar span{color:#fff;opacity:.92;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+.bar small{margin-left:auto;color:#AEB9CF;font-weight:500;font-size:12px;white-space:nowrap}
+iframe{position:fixed;left:0;right:0;bottom:0;top:calc(50px + env(safe-area-inset-top,0px));width:100%;height:calc(100% - 50px - env(safe-area-inset-top,0px));border:0;background:#fff}
+.err{color:#E7ECF5;font:500 15px system-ui,sans-serif;padding:80px 20px;text-align:center}.err a{color:#E3C070}
+#tvnqa-b{display:none!important}
+</style></head><body>
+<div class="bar"><a href="../" id="back">‹ TVN Insight</a><span id="t"></span><small id="s"></small></div>
+<iframe id="f" title="Nội dung" allow="fullscreen; clipboard-write; autoplay"></iframe>
+<script>
+(function(){
+  /* Trang mở riêng cho các phần nằm ngoài TVN Insight (Vĩ mô, Hub) và bản đầy đủ của bản tin: luôn có "‹ TVN Insight" để quay về. */
+  var th = "light"; try { var x = localStorage.getItem("tvn_dash_theme"); if (x === "dark" || (x !== "light" && matchMedia("(prefers-color-scheme: dark)").matches)) th = "dark"; } catch (e) { }
+  var P = {
+    vimo: ["/vimo/", "Vĩ mô"],
+    hamy: ["/tvn-hub/?embed=1&khoi=hamy,cs&theme=" + th, "Hàm ý & chính sách"],
+    baocao: ["/tvn-hub/?embed=1&khoi=bc&theme=" + th, "Báo cáo"],
+    thucthi: ["/tvn-hub/?embed=1&khoi=run&theme=" + th, "🔎 Cào tin & phân tích"],
+    bando: ["/tvn-hub/thegioi/#ban-do", "Thế giới → Việt Nam · bản đồ"]
+  };
+  var q = new URLSearchParams(location.search), k = q.get("p") || "", x = P[k], f = document.getElementById("f");
+  if (k === "doc") {   /* bản đầy đủ của một số bản tin: chỉ nhận đường dẫn trong trang này */
+    var d = q.get("f") || "";
+    if (/^(sang|phien|tuan|a\/[0-9]{8}-(sang|phien|tuan))\/[a-z_]+\.html$/.test(d)) x = ["../" + d, q.get("n") || "Bản tin"];
+  }
+  if (k === "thucthi") {   /* 24/10: nút "Cào tin" trên thẻ mã, mục Thị trường truyền sẵn loại phiếu và mã sang Hub */
+    ["the", "ma", "q"].forEach(function (n) { var v = (q.get(n) || "").slice(0, 120); if (v) x = [x[0] + "&" + n + "=" + encodeURIComponent(v), x[1]]; });
+  }
+  if (!x) { f.remove(); document.body.insertAdjacentHTML("beforeend", '<p class="err">Không tìm thấy trang này. <a href="../">Về TVN Insight</a></p>'); return; }
+  document.getElementById("t").textContent = x[1]; document.getElementById("s").textContent = q.get("d") || "";
+  document.title = x[1] + " · TVN Insight"; f.title = x[1]; f.src = x[0];
+  /* nếu người đọc mở thẳng trang này rồi bấm quay về thì về đúng mục đã mở */
+  document.getElementById("back").addEventListener("click", function (e) { if (history.length > 1 && document.referrer && new URL(document.referrer).pathname.indexOf("/bantin/") === 0 && !/\/xem\//.test(document.referrer)) { e.preventDefault(); history.back(); } });
+})();
+</script>
+<!--tvn-brand--><!--tvn-qa--><script defer src="../qa/qa.js"></script></body></html>
