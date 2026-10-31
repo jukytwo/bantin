@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<meta name="referrer" content="no-referrer">
+<title>Chuyển đăng nhập TVN</title>
+<style>
+  :root{--bg:#f6f7fb;--card:#fff;--ink:#14213d;--mu:#5b6478;--navy:#0b2a5b;--ok:#0a7a3d;--bad:#b42318}
+  @media (prefers-color-scheme:dark){:root{--bg:#0e1420;--card:#172033;--ink:#e8edf7;--mu:#9aa6bd;--navy:#7fb0ff;--ok:#4cc38a;--bad:#ff8a80}}
+  html,body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+  main{max-width:420px;margin:12vh auto 0;padding:0 16px}
+  .card{background:var(--card);border-radius:14px;padding:22px 20px;box-shadow:0 2px 14px rgba(0,0,0,.08);text-align:center}
+  h1{font-size:17px;margin:0 0 8px;color:var(--navy)}
+  p{margin:6px 0;color:var(--mu)}
+  .ok{color:var(--ok)} .bad{color:var(--bad)}
+  button{margin-top:14px;font:600 15px/1 inherit;padding:12px 18px;border:0;border-radius:10px;background:var(--navy);color:#fff;cursor:pointer}
+  @media (prefers-color-scheme:dark){button{color:#0e1420}}
+</style>
+</head>
+<body>
+<main><div class="card">
+  <h1>TVN Insight → TVN Biểu đồ</h1>
+  <p id="tb">Đang kiểm tra đăng nhập…</p>
+  <div id="nut"></div>
+  <span id="chip" hidden></span>
+</div></main>
+<script>
+/* Trang cầu nối chuyển đăng nhập TVN từ TVN Insight (jukytwo.github.io) sang TVN Biểu đồ.
+   Thỏa thuận thư h-20261025-070559-lu (Vũ max) và i-20261025-2ja8 (Vũ TVN Team), 25/10/2026.
+   - Chỉ gửi cho đúng nguồn trong danh sách CHO_PHEP (so khớp nguyên chuỗi).
+   - Gửi qua window.opener.postMessage với targetOrigin = ve, không dùng "*".
+   - Không đưa mã vào đường dẫn, không ghi nhật ký mã. */
+(function () {
+  "use strict";
+  var CHO_PHEP = ["https://bieudo.103-110-85-100.sslip.io"];
+  var tb = document.getElementById("tb"), nut = document.getElementById("nut");
+  function bao(t, lop) { tb.textContent = t; tb.className = lop || ""; }
+  function ls(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
+
+  var ve = "";
+  try { ve = new URLSearchParams(location.search).get("ve") || ""; } catch (e) { ve = ""; }
+  if (CHO_PHEP.indexOf(ve) < 0) { bao("Địa chỉ không được phép.", "bad"); return; }
+  if (!window.opener || window.opener === window) {
+    bao("Hãy mở trang này từ nút \"Dùng đăng nhập TVN Insight trên máy này\" trong TVN Biểu đồ.", "bad"); return;
+  }
+
+  var da_gui = false;
+  function gui() {
+    if (da_gui) return true;
+    var the = ls("tvn_the");
+    if (!the) return false;
+    try {
+      window.opener.postMessage({ loai: "tvn-the", the: the, may: ls("tvn_may") || null }, ve);
+    } catch (e) { bao("Không chuyển được. Anh chị đóng trang này và thử lại.", "bad"); return true; }
+    da_gui = true;
+    bao("Đã chuyển đăng nhập sang TVN Biểu đồ.", "ok");
+    setTimeout(function () { try { window.close(); } catch (e) {} }, 900);
+    return true;
+  }
+
+  if (gui()) return;
+
+  bao("Anh chị chưa đăng nhập TVN Insight trên máy này. Đăng nhập một lần, trang sẽ tự chuyển sang TVN Biểu đồ.");
+  window.addEventListener("tvn-auth", function (e) {
+    var p = e && e.detail;
+    if (p && p.dang_nhap) gui();
+  });
+  function veNut() {
+    if (!window.TVNAuth || !TVNAuth.moDangNhap) return false;
+    var b = document.createElement("button");
+    b.type = "button"; b.textContent = "Đăng nhập";
+    b.addEventListener("click", function () { TVNAuth.moDangNhap(); });
+    nut.innerHTML = ""; nut.appendChild(b);
+    return true;
+  }
+  var s = document.createElement("script");
+  s.src = "https://taikhoan.103-110-85-100.sslip.io/tvn-auth.js";
+  s.setAttribute("data-app", "bantin");
+  s.setAttribute("data-dai", "0");
+  s.setAttribute("data-chip", "#chip"); /* nút tài khoản để ẩn, trang chỉ còn một nút Đăng nhập */
+  s.onload = function () { if (!gui()) veNut(); };
+  s.onerror = function () { bao("Chưa kết nối được máy chủ tài khoản TVN. Anh chị thử lại sau ít phút.", "bad"); };
+  document.body.appendChild(s);
+})();
+</script>
+<!--tvn-brand--><!--tvn-qa--></body>
+</html>

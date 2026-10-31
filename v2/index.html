@@ -1,0 +1,488 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>TVN Insight</title>
+<meta name="theme-color" content="#13213B">
+<link rel="icon" href="../icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Lora:wght@600;700&display=swap">
+<script>try{sessionStorage.removeItem("tvn-cu")}catch(e){}try{var t0=localStorage.getItem("tvn-theme");if(t0==="dark"||t0==="light")document.documentElement.setAttribute("data-theme",t0)}catch(e){}</script>
+<style>
+/* TVN Insight · "Một app, một khung" (anh Vũ duyệt 27/10/2026). Khung (đầu trang, thanh 5 mục) luôn đứng yên; mọi nội dung hiện bên trong. */
+:root{--navy:#13213B;--navy2:#1F3459;--gold:#C8992F;--gold2:#E3C070;--goldt:#9A7420;--bg:#F3F5F9;--card:#FFFFFF;--line:#DCE2EC;--ink:#16213A;--mute:#5B6579;--chip:#EEF1F6;--up:#1E8A4C;--dn:#B4372B;--warn:#C0702A;--cream:#FFFCF4;--creaml:#E6D3A3;--f:"Be Vietnam Pro",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;--fs:Lora,Georgia,serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0E1626;--card:#16203A;--line:#2A3757;--ink:#E7ECF5;--mute:#9AA6BC;--chip:#1E2A47;--up:#4CC28A;--dn:#F08A7E;--warn:#F0A070;--cream:#1B2540;--creaml:#5A4A22;--goldt:#E3C070}}
+:root[data-theme=dark]{--bg:#0E1626;--card:#16203A;--line:#2A3757;--ink:#E7ECF5;--mute:#9AA6BC;--chip:#1E2A47;--up:#4CC28A;--dn:#F08A7E;--warn:#F0A070;--cream:#1B2540;--creaml:#5A4A22;--goldt:#E3C070}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f);font-size:15px;line-height:1.5;-webkit-text-size-adjust:100%}
+a{color:inherit}
+button{font:inherit;color:inherit}
+#app{min-height:100vh}
+#rail{display:none}
+#top{position:sticky;top:0;z-index:50;height:56px;padding:0 10px 0 14px;display:flex;align-items:center;gap:10px;background:var(--navy);color:#fff;padding-top:env(safe-area-inset-top)}
+#top .lg{flex:none;display:flex}#top .lg svg,#rail .brand svg{flex:none;display:block;stroke:none}#rail .brand svg{width:56.8px;height:44px}
+#back{flex:none;width:44px;height:44px;margin-left:-8px;border:0;background:none;color:var(--gold2);font-size:26px;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center}
+#top .tt{flex:1;min-width:0;display:flex;flex-direction:column;line-height:1.15}
+#top .tt b{font-size:16px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#top .tt small{font-size:11px;color:#AEB9CF}
+.pill{font-size:11px;font-weight:600;color:var(--navy);background:var(--gold2);border-radius:999px;padding:4px 9px;white-space:nowrap}
+.ib{width:40px;height:40px;border:0;border-radius:10px;background:transparent;color:#C9D4E8;cursor:pointer;font-size:17px;display:flex;align-items:center;justify-content:center}
+#tick{display:flex;gap:16px;padding:7px 14px;background:#0F1B31;color:#fff;font-size:12px;white-space:nowrap;overflow-x:auto;scrollbar-width:none}
+#tick::-webkit-scrollbar{display:none}
+#tick span i{font-style:normal;color:#9FB0CC}
+#tick .r{color:#FF9B9B}#tick .g{color:#6FD49B}
+#main{padding:14px 14px calc(96px + env(safe-area-inset-bottom));max-width:1180px;margin:0 auto}
+#bnav{position:fixed;left:0;right:0;bottom:0;z-index:55;display:grid;grid-template-columns:repeat(5,1fr);background:var(--navy);border-top:1px solid rgba(227,192,112,.32);padding:4px 2px calc(6px + env(safe-area-inset-bottom))}
+#bnav button,#rail .nv{appearance:none;border:0;background:none;cursor:pointer;color:#AEB9CF;font-weight:600}
+#bnav button{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;min-height:54px;font-size:10.5px;position:relative}
+#bnav svg,#rail svg{width:23px;height:23px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}
+#bnav button[aria-current=page],#rail .nv[aria-current=page]{color:var(--gold2)}
+#bnav button[aria-current=page]::before{content:"";position:absolute;top:-4px;left:30%;right:30%;height:3px;border-radius:0 0 3px 3px;background:var(--gold2)}
+.v{display:flex;flex-direction:column;gap:12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px}
+.card.hi{background:var(--cream);border-color:var(--creaml)}
+.card.dk{background:var(--navy);border-color:var(--navy);color:#fff}
+.lab{font-size:11px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--goldt)}
+.dk .lab{color:var(--gold2)}
+.row{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.mute{color:var(--mute)}
+.sm{font-size:12px}
+.go{font-size:13px;font-weight:600;color:var(--navy);text-decoration:none;white-space:nowrap}
+:root[data-theme=dark] .go{color:var(--gold2)}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]) .go{color:var(--gold2)}}
+a.card{display:block;text-decoration:none;color:inherit}
+.hd{font-family:var(--fs);font-weight:700;line-height:1.35;font-size:17px;margin:8px 0 0}
+h1.hd{font-size:23px;margin:4px 0 0}
+.qi{display:flex;gap:10px;align-items:flex-start;font-size:14.5px;line-height:1.5}
+.qi+.qi{margin-top:9px}
+.qi .e{flex:none;width:20px;text-align:center}
+.g2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.tile{background:var(--chip);border-radius:10px;padding:8px 10px}
+.tile .t{font-size:11px;color:var(--mute)}.tile .n{font-size:15.5px;font-weight:700}.tile .s{font-size:11px;color:var(--mute)}
+.big{font-size:28px;font-weight:700;line-height:1.1}
+.up{color:var(--up)}.dn{color:var(--dn)}.wn{color:var(--warn)}
+.seg{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(0,1fr);gap:4px;background:var(--chip);border-radius:12px;padding:4px;position:sticky;top:56px;z-index:20}
+.seg button{min-height:40px;border:0;border-radius:9px;background:transparent;font-size:12.5px;font-weight:600;cursor:pointer;color:var(--ink);padding:0 4px}
+.seg button[aria-selected=true]{background:var(--navy);color:#fff}
+.seg a{display:flex;align-items:center;justify-content:center;min-height:40px;border-radius:9px;font-size:12.5px;font-weight:600;color:var(--ink);text-decoration:none;padding:0 4px}
+.gauge{position:relative;height:10px;border-radius:5px;background:var(--chip);margin-top:6px;overflow:hidden}
+.gauge i{position:absolute;top:0;bottom:0}
+.gauge b{position:absolute;top:-2px;bottom:-2px;left:50%;width:2px;background:var(--mute)}
+.bar{height:6px;border-radius:3px;background:var(--chip);overflow:hidden;margin-top:5px}.bar i{display:block;height:6px;border-radius:3px}
+.li{padding:8px 0;border-top:1px solid var(--line)}.li:first-of-type{border-top:0}
+ul.b{margin:0;padding-left:18px}ul.b li{margin:5px 0;font-size:14px;line-height:1.55}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font-size:12.5px;border:1px solid var(--line);border-radius:999px;padding:6px 10px;background:var(--card);cursor:pointer}
+.chip[aria-pressed=true]{background:var(--navy);color:#fff;border-color:var(--navy)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:44px;padding:0 16px;border-radius:10px;border:1px solid var(--line);background:var(--card);font-weight:600;font-size:14px;cursor:pointer;text-decoration:none;color:var(--ink)}
+.btn.pr{background:var(--navy);border-color:var(--navy);color:#fff}
+.btn.au{background:var(--gold);border-color:var(--gold);color:var(--navy)}
+.acts{display:flex;flex-wrap:wrap;gap:8px}
+.inp{flex:1;min-width:0;height:44px;border:1px solid var(--line);border-radius:10px;padding:0 12px;font:inherit;font-size:14.5px;background:var(--card);color:var(--ink)}
+.dk .inp{border:0;background:#fff;color:#16213A}
+.ask{margin-top:6px;min-height:36px;border:0;background:none;padding:0;font-size:13px;font-weight:600;color:var(--navy);cursor:pointer;text-align:left}
+:root[data-theme=dark] .ask{color:var(--gold2)}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]) .ask{color:var(--gold2)}}
+.tag{font-size:12px;font-weight:700;border-radius:999px;padding:3px 10px;white-space:nowrap}
+.tag.g{background:rgba(30,138,76,.12);color:var(--up)}.tag.r{background:rgba(180,55,43,.12);color:var(--dn)}.tag.n{background:var(--chip);color:var(--mute)}
+details>summary{cursor:pointer;list-style:none;font-weight:600;font-size:14px;min-height:40px;display:flex;align-items:center;justify-content:space-between}
+details>summary::-webkit-details-marker{display:none}
+details>summary::after{content:"▾";color:var(--mute)}details[open]>summary::after{content:"▴"}
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch}
+table.t{border-collapse:collapse;width:100%;font-size:13px}
+table.t th,table.t td{padding:7px 6px;border-bottom:1px solid var(--line);text-align:right;white-space:nowrap}
+table.t th{font-size:11.5px;color:var(--mute);font-weight:600}
+table.t td:first-child,table.t th:first-child{text-align:left}
+.frm{width:100%;border:0;display:block;min-height:70vh;background:transparent;border-radius:12px}
+.foot{font-size:12px;color:var(--mute);line-height:1.6;padding:18px 2px 0;border-top:1px solid var(--line);margin-top:6px}
+.foot b{color:var(--ink)}
+.skel{height:120px;border-radius:14px;background:linear-gradient(90deg,var(--chip),var(--card),var(--chip));background-size:200% 100%;animation:sk 1.2s infinite}
+@keyframes sk{to{background-position:-200% 0}}
+.err{padding:14px;border-radius:12px;background:var(--chip);font-size:14px}
+img.ch{width:100%;border-radius:10px;border:1px solid var(--line);background:#fff;margin-top:10px}
+.split{display:flex;flex-direction:column;gap:12px}
+.rr{display:flex;flex-direction:column;gap:12px}
+#tvnqa-b{display:none!important}
+@media (min-width:1024px){
+  #app{display:grid;grid-template-columns:232px minmax(0,1fr)}
+  #rail{display:flex;flex-direction:column;gap:4px;position:sticky;top:0;height:100vh;background:var(--navy);padding:18px 12px}
+  #rail .brand{display:flex;align-items:center;gap:12px;padding:0 8px 18px;color:#fff}
+  #rail .brand b{font-size:17px}#rail .brand small{display:block;font-size:11px;color:#AEB9CF}
+  #rail .nv{display:flex;align-items:center;gap:12px;min-height:46px;padding:0 14px;border-radius:10px;font-size:14px;text-align:left}
+  #rail .nv[aria-current=page]{background:var(--navy2)}
+  #rail .old{margin-top:auto;font-size:12px;color:#AEB9CF;padding:0 8px}
+  #bnav{display:none}
+  #top .lg{display:none}
+  #main{padding:22px 28px 40px}
+  .split{display:grid;grid-template-columns:minmax(0,1fr) 360px;gap:16px;align-items:start}
+  .split>.l{display:flex;flex-direction:column;gap:12px;min-width:0}
+  .rr{position:sticky;top:120px}
+  .g4{grid-template-columns:repeat(4,minmax(0,1fr))}
+  .seg{top:56px}
+  .rd{max-width:820px}
+}
+.cols2{display:flex;flex-direction:column;gap:12px}
+#back[hidden]{display:none}
+@media (min-width:700px){.cols2{display:block;column-count:2;column-gap:12px}.cols2>*{break-inside:avoid;margin:0 0 12px;width:100%;box-sizing:border-box}.cols2>a.card{display:block}}
+</style>
+</head>
+<body>
+<div id="app">
+  <aside id="rail" aria-label="Mục chính">
+    <div class="brand"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 217" width="56.8" height="44" role="img" aria-label="TVN &amp; Partners"><g transform="translate(0,217) scale(1,-1)" fill="#C8992F"><path d="M144 206 c-22 -16 -25 -20 -28 -31 -2 -7 -3 -171 -1 -172 0 -1 3 -1 6 0 3 0 9 1 13 2 12 2 23 4 25 5 2 1 3 207 1 207 0 0 -7 -5 -16 -11z m-10 -109 c7 -11 7 -12 6 -14 -2 -2 -2 -2 -11 13 -6 10 -8 13 -6 13 3 1 5 0 11 -12z m21 12 c0 -1 -11 -20 -12 -20 -4 0 -2 8 5 18 2 2 5 3 7 2z"/><path d="M204 205 c-31 -22 -28 -12 -29 -111 0 -49 0 -80 1 -80 0 0 7 2 15 5 87 27 116 69 62 86 -9 2 -9 2 -4 -2 12 -9 11 -20 -3 -33 -6 -6 -22 -17 -24 -16 0 0 0 37 0 81 0 45 0 81 -1 81 0 1 -8 -5 -17 -11z m11 -105 c0 -9 0 -11 -4 -7 -4 4 -3 17 1 17 2 -1 3 -1 3 -10z m-15 -1 c16 -14 16 -14 14 -16 -2 -1 -2 -1 -7 3 -23 18 -25 20 -23 22 1 2 4 0 16 -9z m-14 0 c3 -2 3 -17 0 -17 -2 0 -3 1 -3 10 0 9 0 10 3 7z"/><path d="M84 152 c-30 -21 -29 -19 -29 -83 0 -52 2 -47 -12 -42 -23 7 -30 20 -16 35 5 6 2 5 -7 -2 -31 -24 -25 -47 14 -56 16 -3 51 -5 63 -3 l4 0 0 81 c0 52 -1 80 -1 81 -1 0 -8 -5 -16 -11z m-10 -43 c2 0 2 0 1 -3 -2 -3 -12 -3 -13 0 0 3 7 5 12 3z m20 -2 c0 -3 -3 -4 -10 -3 -2 0 -2 -2 -3 -12 0 -9 -1 -10 -3 -10 -2 0 -3 20 -1 23 4 5 16 7 17 2z"/></g></svg><div><b>TVN Insight</b><small>TVN &amp; Partners</small></div></div>
+    <div id="railnav"></div>
+    <a class="old" href="../?cu=1">Giao diện cũ ›</a>
+  </aside>
+  <div id="col">
+    <header id="top">
+      <button id="back" type="button" aria-label="Quay lại" hidden>‹</button>
+      <span class="lg" id="lg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 217" width="41.3" height="32" role="img" aria-label="TVN &amp; Partners"><g transform="translate(0,217) scale(1,-1)" fill="#C8992F"><path d="M144 206 c-22 -16 -25 -20 -28 -31 -2 -7 -3 -171 -1 -172 0 -1 3 -1 6 0 3 0 9 1 13 2 12 2 23 4 25 5 2 1 3 207 1 207 0 0 -7 -5 -16 -11z m-10 -109 c7 -11 7 -12 6 -14 -2 -2 -2 -2 -11 13 -6 10 -8 13 -6 13 3 1 5 0 11 -12z m21 12 c0 -1 -11 -20 -12 -20 -4 0 -2 8 5 18 2 2 5 3 7 2z"/><path d="M204 205 c-31 -22 -28 -12 -29 -111 0 -49 0 -80 1 -80 0 0 7 2 15 5 87 27 116 69 62 86 -9 2 -9 2 -4 -2 12 -9 11 -20 -3 -33 -6 -6 -22 -17 -24 -16 0 0 0 37 0 81 0 45 0 81 -1 81 0 1 -8 -5 -17 -11z m11 -105 c0 -9 0 -11 -4 -7 -4 4 -3 17 1 17 2 -1 3 -1 3 -10z m-15 -1 c16 -14 16 -14 14 -16 -2 -1 -2 -1 -7 3 -23 18 -25 20 -23 22 1 2 4 0 16 -9z m-14 0 c3 -2 3 -17 0 -17 -2 0 -3 1 -3 10 0 9 0 10 3 7z"/><path d="M84 152 c-30 -21 -29 -19 -29 -83 0 -52 2 -47 -12 -42 -23 7 -30 20 -16 35 5 6 2 5 -7 -2 -31 -24 -25 -47 14 -56 16 -3 51 -5 63 -3 l4 0 0 81 c0 52 -1 80 -1 81 -1 0 -8 -5 -16 -11z m-10 -43 c2 0 2 0 1 -3 -2 -3 -12 -3 -13 0 0 3 7 5 12 3z m20 -2 c0 -3 -3 -4 -10 -3 -2 0 -2 -2 -3 -12 0 -9 -1 -10 -3 -10 -2 0 -3 20 -1 23 4 5 16 7 17 2z"/></g></svg></span>
+      <div class="tt"><b id="ttl">Hôm nay</b><small id="sub">TVN Insight</small></div>
+      <span class="pill" id="upd" hidden></span>
+      <button class="ib" id="thm" type="button" aria-label="Đổi giao diện sáng, tối"><svg width="18" height="18" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="8" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M10 2a8 8 0 0 1 0 16z" fill="currentColor"/></svg></button>
+    </header>
+    <div id="tick" aria-label="Chỉ số chính"></div>
+    <main id="main"><div class="skel"></div></main>
+  </div>
+  <nav id="bnav" aria-label="Mục chính"></nav>
+</div>
+<script>
+(function () {
+  "use strict";
+  var NAV = [
+    ["homnay", "Hôm nay", "M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"],
+    ["thitruong", "Thị trường", "M4 19V9M10 19V5M16 19v-7M22 19H2"],
+    ["bantin", "Bản tin", "M5 4h11l3 3v13H5zM8 9h8M8 13h8M8 17h5"],
+    ["hoi", "Hỏi & Phân tích", "M4 5h16v11H9l-5 4zM8 9h8M8 12h5"],
+    ["khuyennghi", "Khuyến nghị", "M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"]
+  ];
+  var ED = { sang: "Bản tin sáng", phien: "Chốt phiên", tuan: "Chốt tuần" };
+  var HUB = "/tvn-hub/";
+  var TGURL = "https://jukytwo.github.io/tvn-hub/thegioi/";   /* trang Thế giới của Vũ max: mở thẳng, không nhúng (thư h-20261028-022754-x8) */
+  var main = document.getElementById("main");
+  var $ = function (id) { return document.getElementById(id); };
+
+  /* ---------- tiện ích ---------- */
+  function esc(s) { return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
+  function rich(s) { return esc(s).replace(/\*\*(.+?)\*\*/g, "<b>$1</b>"); }
+  function plain(s) { return String(s || "").replace(/\*\*/g, "").replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim(); }
+  function num(x, d) { x = +x; if (!isFinite(x)) return "–"; return x.toLocaleString("vi-VN", { minimumFractionDigits: d || 0, maximumFractionDigits: d || 0 }); }
+  function sg(x, d) { x = +x; if (!isFinite(x)) return "–"; return (x > 0 ? "+" : x < 0 ? "−" : "") + num(Math.abs(x), d || 0); }
+  function cls(x) { x = +x; return x > 0 ? "up" : x < 0 ? "dn" : ""; }
+  function dmy(iso) { var p = String(iso || "").slice(0, 10).split("-"); return p.length === 3 ? p[2] + "/" + p[1] : String(iso || ""); }
+  function hm(iso) { return String(iso || "").slice(11, 16); }
+  function zone(v) { return v <= -50 ? "Rất sợ" : v <= -15 ? "Lo ngại" : v < 15 ? "Bình thường" : v < 50 ? "Lạc quan" : "Hưng phấn"; }
+  function zcls(v) { return v <= -15 ? "wn" : v >= 15 ? "up" : ""; }
+  function cap(t) { t = String(t || "").trim(); return t.charAt(0).toUpperCase() + t.slice(1); }
+  function cut(t, n) { t = plain(t); if (t.length <= n) return t; t = t.slice(0, n); return t.replace(/\s+\S*$/, "") + "…"; }
+  function first(t) { return plain(t).split(/(?<=[.!?])\s(?=[A-ZĐÂĂÊÔƠƯÁÀẢÃẠ0-9])/)[0]; }
+  /* kết luận đọc trong một hơi, giữ vế hành động sau "vì vậy/nên" (anh Vũ duyệt 26/10/2026) */
+  function concl(j) {
+    var t = first(j.key || j.headline || "").replace(/^[^:]{0,70}(kết luận|takeaway|conclusion)[^:]{0,70}:\s*/i, "").trim();
+    t = cap(t.replace(/[,;:\s]+$/, "")).replace(/\.?$/, ".");
+    if (t.length <= 150) return t;
+    var m = /[;,]\s*((?:vì vậy|do đó|nên)\s+.+)$/i.exec(t), tail = m && m[1].length <= 90 ? m[1] : "", head = tail ? t.slice(0, m.index) : t, lim = tail ? Math.max(50, 140 - tail.length) : 140;
+    if (head.length > lim) { var best = -1; [", ", " và ", " nhưng ", "; "].forEach(function (sp) { var k = head.lastIndexOf(sp, lim); if (k >= 35 && k > best) best = k; }); head = best > 0 ? head.slice(0, best) : cut(head, lim).replace(/…$/, ""); }
+    head = head.replace(/[,;:\s.]+$/, "");
+    return tail ? head + "; " + tail.replace(/\.?$/, ".") : head + "…";
+  }
+  function clause(t) { t = plain(t); var m = /:(?!\d)/.exec(t), i = m ? m.index : -1; if (i > 8 && i < 90) return cap(t.slice(0, i)) + "."; var sc = t.indexOf(";"); if (sc > 40 && sc <= 140) return cap(t.slice(0, sc)) + "."; return cut(t, 140); }
+  function bust() { return "?t=" + Math.floor(Date.now() / 60000); }
+
+  /* ---------- dữ liệu: tải theo mục, nhớ trong phiên ---------- */
+  var C = {};
+  function J(path) {
+    if (!C[path]) C[path] = fetch((path.charAt(0) === "/" ? path : "../" + path) + bust(), { cache: "no-store" }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }).catch(function () { delete C[path]; return null; });
+    return C[path];
+  }
+  function eds() { return Promise.all([J("sang.json"), J("phien.json"), J("tuan.json")]).then(function (a) { var o = {}; ["sang", "phien", "tuan"].forEach(function (k, i) { if (a[i]) { o[k] = a[i]; a[i]._k = k; } }); return o; }); }
+  function latestEd(o) { var b = null; Object.keys(o).forEach(function (k) { if (!b || String(o[k].updated) > String(b.updated)) b = o[k]; }); return b; }
+  function recoLine(rc, n) { n = n || 4; return rc.slice(0, n).map(function (r) { return r[0] + " " + String(r[1]).toLowerCase(); }).join(", ") + (rc.length > n ? " và " + (rc.length - n) + " mã nữa" : ""); }
+
+  /* ---------- hỏi đáp: một ô duy nhất, dùng trạm hỏi đáp sẵn có ---------- */
+  function askTVN(q) {
+    var tries = 0;
+    (function go() {
+      var b = $("tvnqa-b"), p = $("tvnqa-p");
+      if (!b) { if (tries++ < 40) return setTimeout(go, 150); return; }
+      if (!document.documentElement.classList.contains("tvnqa-open")) b.click();
+      setTimeout(function () {
+        p = $("tvnqa-p"); if (!p || !q) return;
+        var ta = p.querySelector("textarea"), g = p.querySelector(".q-go");
+        if (ta) { ta.value = q; ta.dispatchEvent(new Event("input", { bubbles: true })); }
+        if (g) { g.disabled = false; g.click(); }
+      }, 260);
+    })();
+  }
+  window.tvnAsk = askTVN;
+  document.addEventListener("click", function (e) {
+    var a = e.target.closest("[data-ask]"); if (a) { e.preventDefault(); askTVN(a.getAttribute("data-ask")); }
+  });
+
+  /* ---------- khung ---------- */
+  function navHTML(k) { return NAV.map(function (n) { return '<button type="button" class="nv" data-go="' + n[0] + '"' + (k === n[0] ? ' aria-current="page"' : "") + '><svg viewBox="0 0 24 24" aria-hidden="true"><path d="' + n[2] + '"/></svg><span>' + n[1] + "</span></button>"; }).join(""); }
+  function setFrame(sec, title, sub, back) {
+    $("bnav").innerHTML = navHTML(sec); $("railnav").innerHTML = navHTML(sec);
+    $("ttl").textContent = title; $("sub").textContent = sub || "TVN Insight";
+    $("back").hidden = !back; $("lg").style.display = back ? "none" : "";
+    document.title = title + " · TVN Insight";
+  }
+  document.addEventListener("click", function (e) { var b = e.target.closest("[data-go]"); if (b) { e.preventDefault(); location.hash = "#" + b.getAttribute("data-go"); } });
+  $("back").addEventListener("click", function () { if (history.length > 1) history.back(); else location.hash = "#" + (location.hash.slice(1).split("/")[0] || "homnay"); });
+  $("thm").addEventListener("click", function () {
+    var r = document.documentElement, cur = r.getAttribute("data-theme") || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"), nx = cur === "dark" ? "light" : "dark";
+    r.setAttribute("data-theme", nx); try { localStorage.setItem("tvn-theme", nx); } catch (e) { }
+  });
+  function foot() { return '<div class="foot"><b>TVN &amp; Partners</b> · Kiến tạo giá trị, nâng tầm niềm tin.<br>Hotline 0936 090 649 · 093 800 4541 · tvnpartners.com.vn<br>Thông tin tham khảo, không phải lời mời mua bán chứng khoán.<br><a href="../?cu=1" style="color:inherit">Dùng giao diện cũ</a></div>'; }
+  function tick(L, ed) {
+    var h = [];
+    var LL = L && L.latest, useL = LL && ed && String(LL.updated) > String(ed.updated);
+    var K = useL ? (LL.kpi || []) : ((ed && (ed.strip || ed.kpi)) || []);
+    if (!K.length) K = (LL && LL.kpi) || (ed && (ed.strip || ed.kpi)) || [];
+    K.slice(0, 4).forEach(function (k) { var c = k[3] === "r" ? "r" : k[3] === "g" ? "g" : ""; h.push("<span><i>" + esc(k[0]) + "</i> <b>" + esc(k[1]) + '</b> <span class="' + c + '">' + esc(k[2] || "") + "</span></span>"); });
+    $("tick").innerHTML = h.join("");
+    var u = useL ? LL.updated : ed && ed.updated; if (u) { $("upd").hidden = false; $("upd").textContent = dmy(u) + " · " + hm(u); }
+  }
+  function load(p, fn) {
+    main.innerHTML = '<div class="v"><div class="skel"></div><div class="skel"></div></div>';
+    var tok = {}; load.cur = tok;
+    p.then(function (d) { if (load.cur !== tok) return; main.innerHTML = fn(d) + foot(); after(); })
+      .catch(function (e) { if (load.cur !== tok) return; main.innerHTML = '<div class="err">Chưa tải được số liệu. Kéo xuống để tải lại, hoặc thử lại sau ít phút.</div>' + foot(); });
+  }
+  var afterQ = [];
+  function after() { var q = afterQ; afterQ = []; q.forEach(function (f) { try { f(); } catch (e) { } }); }
+
+  /* ---------- HÔM NAY ---------- */
+  function vHome() {
+    setFrame("homnay", "Hôm nay", "TVN Insight", false);
+    load(Promise.all([eds(), J("live.json"), J("radar.json"), J("la_ban.json"), J(HUB + "data/the_gioi_mobile.json")]), function (d) {
+      var E = d[0], ed = latestEd(E), L = d[1], R = d[2], LB = d[3] && (d[3].latest || d[3].chinh_thuc), TG = d[4];
+      tick(L, ed);
+      var LL = L && L.latest, h = "", q = [];
+      if (ed) q.push(["📌", "Kết luận · " + ED[ed._k].toLowerCase() + " " + esc(ed.date_short || ""), esc(concl(ed))]);
+      if (LL && ed && String(LL.updated) > String(ed.updated)) { var tt = (LL.bot && LL.bot.sections && LL.bot.sections.tom_tat) || []; q.push(["⏱", "Phiên lúc " + hm(LL.updated), esc(tt[0] ? clause(tt[0]) : cut(LL.headline, 140))]); }
+      var rc = ed && ed.snap && ed.snap.reco || []; if (rc.length) q.push(["⭐", "Hành động", esc(recoLine(rc))]);
+      var L1 = '<section class="card hi"><div class="lab" style="margin-bottom:8px">Đọc nhanh</div>' + q.map(function (x) { return '<div class="qi"><span class="e" aria-hidden="true">' + x[0] + "</span><div><b>" + x[1] + ".</b> " + x[2] + "</div></div>"; }).join("") +
+        (ed ? '<div class="acts" style="margin-top:12px"><a class="btn pr" href="#bantin/' + ed._k + '">Đọc bản tin ›</a></div>' : "") + "</section>";
+      var nhip = "";
+      if (LL) nhip = '<a class="card" href="#thitruong/nhip"><div class="row"><span class="lab">Nhịp phiên · ' + esc(LL.slot || hm(LL.updated)) + '</span><span class="go">Chi tiết ›</span></div><div class="hd">' + rich(LL.headline) + '</div><div class="g2 g4" style="margin-top:10px">' +
+        (LL.kpi || []).slice(0, 4).map(function (k) { return '<div class="tile"><div class="t">' + esc(k[0]) + '</div><div class="n ' + (k[3] === "r" ? "dn" : k[3] === "g" ? "up" : "") + '">' + esc(k[1]) + '</div><div class="s">' + esc(k[2] || "") + "</div></div>"; }).join("") + "</div></a>";
+      var tg = "";
+      if (TG && TG.ap_luc) {   /* 28/10/2026 theo thư Vũ max x8, gv: dòng chính là câu móc tong_quan.moc; Xem › mở thẳng trang Thế giới của Vũ max */
+        var hy = (TG.ham_y || [])[0], mo = TG.tong_quan && TG.tong_quan.moc;
+        tg = '<a class="card" href="' + TGURL + (mo ? "" : "#dien-bien") + '"><div class="row"><span class="lab">Thế giới → Việt Nam</span><span class="go">Xem ›</span></div>' +
+          (mo ? '<div class="hd" style="font-size:15.5px;margin-top:6px">' + esc(mo) + '</div><div class="sm mute" style="margin-top:6px">Áp lực bên ngoài <b style="color:var(--goldt)">' + esc(TG.ap_luc.diem) + "</b>/100 · " + esc(String(TG.ap_luc.muc || "").toLowerCase()) + "</div>"
+            : '<div style="display:flex;align-items:baseline;gap:8px;margin-top:6px"><span class="big" style="color:var(--goldt)">' + esc(TG.ap_luc.diem) + '</span><b style="font-size:13.5px">áp lực bên ngoài · ' + esc(String(TG.ap_luc.muc || "").toLowerCase()) + "</b></div>" + (hy ? '<div style="font-size:13.5px;margin-top:4px">' + esc(hy.tin_hieu) + "</div>" : "")) + "</a>";
+      }
+      var bt = ed ? '<a class="card" href="#bantin/' + ed._k + '"><div class="row"><span class="lab">Bản tin mới nhất · ' + esc(ED[ed._k].toLowerCase()) + " " + esc(ed.date_short || "") + '</span><span class="go">Đọc ›</span></div><div class="hd">' + esc(plain(ed.headline)) + "</div></a>" : "";
+      var R0 = R && R.ngay && R.ngay[0], tl = R0 && R0.dong_ho ? +R0.dong_ho.diem : null, xu = LB && LB.da_thi_truong;
+      var nk = '<a class="card" href="#thitruong/nhiet"><div class="row"><span class="lab">Nhiệt kế thị trường</span><span class="go">Xem ›</span></div><div class="g2" style="margin-top:10px;gap:10px">' +
+        (xu ? '<div><div class="sm mute">Xu hướng</div><div class="big ' + (xu.diem < 0 ? "dn" : "up") + '">' + sg(xu.diem) + '</div><div style="font-size:13px;font-weight:600">' + esc(xu.trang_thai) + '</div><div class="sm mute">số đến ' + dmy(LB.du_lieu_den) + "</div></div>" : "") +
+        (tl != null ? '<div><div class="sm mute">Tâm lý</div><div class="big ' + zcls(tl) + '">' + sg(tl) + '</div><div style="font-size:13px;font-weight:600">' + zone(tl) + '</div><div class="sm mute">phiên ' + dmy(R0.den_ngay) + "</div></div>" : "") + "</div></a>";
+      var sc = ed && ed.snap && ed.snap.scen || [];
+      var kb = sc.length ? '<section class="card"><div class="lab" style="margin-bottom:8px">Kịch bản phiên tới</div>' + sc.map(function (s, i) { var c = ["var(--navy)", "var(--up)", "var(--dn)"][i] || "var(--mute)"; return '<div style="margin-top:' + (i ? 10 : 0) + 'px"><div class="row" style="font-size:13.5px"><b>' + esc(s[0]) + "</b><span>" + esc(s[2]) + " · <b>" + esc(s[1]) + '%</b></span></div><div class="bar"><i style="width:' + (+s[1] || 0) + "%;background:" + c + '"></i></div></div>'; }).join("") + "</section>" : "";
+      var wt = LL && LL.watch ? '<section class="card"><div class="lab" style="margin-bottom:6px">Theo dõi tiếp</div><div style="font-size:13.5px;line-height:1.55">' + esc(cut(LL.watch, 260)) + "</div></section>" : "";
+      var ak = '<section class="card dk"><div style="font-weight:700;margin-bottom:8px">Hỏi TVN</div><form class="askf" style="display:flex;gap:8px"><label class="sr" for="hq" style="position:absolute;left:-9999px">Câu hỏi</label><input class="inp" id="hq" placeholder="Fed 29/10 ảnh hưởng gì tới VN-Index?"><button class="btn au" type="submit">Hỏi</button></form></section>';
+      return '<div class="split"><div class="l">' + L1 + nhip + '<div class="cols2">' + tg + bt + "</div></div><div class=\"rr\">" + nk + kb + wt + ak + "</div></div>";
+    });
+  }
+  document.addEventListener("submit", function (e) { var f = e.target.closest(".askf"); if (!f) return; e.preventDefault(); var i = f.querySelector("input,textarea"); var v = i && i.value.trim(); askTVN(v || ""); if (i) i.value = ""; });
+
+  /* ---------- THỊ TRƯỜNG ---------- */
+  var MSEG = [["nhip", "Nhịp phiên"], ["nhiet", "Nhiệt kế"], ["thegioi", "Thế giới"], ["nganh", "Ngành, lọc"]];
+  function segHTML(list, cur, base) { return '<div class="seg" role="tablist">' + list.map(function (s) { return (base === "thitruong" && s[0] === "thegioi") ? '<a role="tab" aria-selected="false" href="' + TGURL + '">' + s[1] + "</a>" : '<button type="button" role="tab" aria-selected="' + (s[0] === cur) + '" data-go="' + base + "/" + s[0] + '">' + s[1] + "</button>"; }).join("") + "</div>"; }
+  function vMarket(sub) {
+    sub = sub || "nhip"; if (!MSEG.some(function (s) { return s[0] === sub; })) sub = "nhip";
+    setFrame("thitruong", "Thị trường", MSEG.filter(function (s) { return s[0] === sub; })[0][1], false);
+    var seg = segHTML(MSEG, sub, "thitruong");
+    if (sub === "nhip") load(Promise.all([J("live.json"), eds()]), function (d) {
+      var L = d[0], LL = L && L.latest; tick(L, latestEd(d[1]));
+      if (!LL) return seg + '<div class="err">Chưa có Nhịp phiên hôm nay.</div>';
+      var S = (LL.bot && LL.bot.sections) || {}, LBL = (LL.bot && LL.bot.labels) || {}, im = (LL.bot && LL.bot.images) || {};
+      var h = '<section class="card"><div class="lab">' + esc(LL.slot || "") + " · cập nhật " + hm(LL.updated) + '</div><div class="hd" style="font-size:19px">' + rich(LL.headline) + '</div><div class="g2 g4" style="margin-top:12px">' +
+        (LL.kpi || []).map(function (k) { return '<div class="tile"><div class="t">' + esc(k[0]) + '</div><div class="n ' + (k[3] === "r" ? "dn" : k[3] === "g" ? "up" : "") + '">' + esc(k[1]) + '</div><div class="s">' + esc(k[2] || "") + "</div></div>"; }).join("") + "</div>" +
+        (im.vnindex ? '<img class="ch" loading="lazy" alt="VN-Index và khối ngoại 20 phiên" src="../' + esc(im.vnindex) + '">' : "") + "</section>";
+      var tt = S.tom_tat || [];
+      if (tt.length) h += '<section class="card"><div class="lab" style="margin-bottom:6px">Tóm tắt</div><ul class="b">' + tt.map(function (x) { return "<li>" + rich(x) + "</li>"; }).join("") + "</ul></section>";
+      var rest = Object.keys(S).filter(function (k) { return k !== "tom_tat" && (S[k] || []).length; });
+      if (rest.length) h += '<section class="card" style="padding:4px 14px">' + rest.map(function (k) { var v = S[k]; return '<details' + (k === "nhan_dinh" ? " open" : "") + "><summary>" + esc(LBL[k] || k) + '</summary><ul class="b" style="margin-bottom:10px">' + (Array.isArray(v) ? v : [v]).map(function (x) { return "<li>" + rich(typeof x === "string" ? x : JSON.stringify(x)) + "</li>"; }).join("") + "</ul></details>"; }).join("") + "</section>";
+      if (LL.watch) h += '<section class="card"><div class="lab" style="margin-bottom:6px">Theo dõi tiếp</div><div style="font-size:14px">' + esc(LL.watch) + "</div></section>";
+      return seg + '<div class="v rd" style="margin-top:12px">' + h + '<button class="ask" type="button" data-ask="Giải thích nhịp phiên ' + esc(LL.slot || "") + ' và nên làm gì?">Hỏi TVN về phiên này ›</button></div>';
+    });
+    if (sub === "nhiet") load(Promise.all([J("radar.json"), J("la_ban.json"), eds(), J("live.json")]), function (d) {
+      var R = d[0], LB = d[1] && (d[1].latest || d[1].chinh_thuc), R0 = R && R.ngay && R.ngay[0]; tick(d[3], latestEd(d[2]));
+      var g = function (name, v, label, c, note) { var x = Math.max(-100, Math.min(100, +v || 0)); return '<div style="margin-bottom:14px"><div class="row" style="font-size:14px"><b>' + name + '</b><b class="' + c + '">' + esc(label) + " · " + sg(x) + '</b></div><div class="gauge"><i style="' + (x < 0 ? "right:50%" : "left:50%") + ";width:" + Math.abs(x) / 2 + "%;background:" + (c === "dn" ? "var(--dn)" : c === "wn" ? "var(--warn)" : c === "up" ? "var(--up)" : "var(--mute)") + '"></i><b></b></div><div class="sm mute" style="margin-top:4px;line-height:1.45">' + note + "</div></div>"; };
+      var h = '<section class="card"><div class="lab" style="margin-bottom:10px">Nhiệt kế</div>';
+      if (LB && LB.da_thi_truong) h += g("Xu hướng", LB.da_thi_truong.diem, LB.da_thi_truong.trang_thai, LB.da_thi_truong.diem < 0 ? "dn" : "up", esc(cut(LB.da_thi_truong.ly_do || "", 180)) + " Số đến " + dmy(LB.du_lieu_den) + ".");
+      if (R0 && R0.dong_ho) h += g("Tâm lý", R0.dong_ho.diem, zone(+R0.dong_ho.diem), zcls(+R0.dong_ho.diem) || "", "Gộp giọng báo chí, diễn đàn và chính sách. Phiên " + dmy(R0.den_ngay) + ".");
+      if (LB && LB.tam_ly) h += '<details><summary>Xem phân tích sâu</summary>' + g("Đám đông (đọc ngược chiều)", LB.tam_ly.diem, LB.tam_ly.muc, "", "Đám đông càng sợ, về sau càng hay tăng; càng hưng phấn, càng hay giảm. Chỉ để tham khảo, không phải tín hiệu mua bán. Số đến " + dmy(LB.du_lieu_den) + ".") + "</details>";
+      h += "</section>";
+      if (LB && LB.ket_luan) { var ty = LB.tin_hieu && LB.tin_hieu.dieu_kien_day; h += '<section class="card"><div class="lab" style="margin-bottom:6px">Đáy hay đỉnh</div><div style="font-size:14.5px;line-height:1.55"><b>' + esc(LB.tin_hieu && LB.tin_hieu.hien_tai ? "Tín hiệu: " + LB.tin_hieu.hien_tai : "Chưa có tín hiệu đáy hay đỉnh.") + "</b> " + esc(LB.ket_luan) + "</div>" + (ty && ty.nguong_vnindex ? '<div class="sm mute" style="margin-top:6px">Mốc đáy: VN-Index đóng cửa tuần trên ' + num(ty.nguong_vnindex, 2) + "</div>" : "") + "</section>"; }
+      if (R0) {
+        var cd = R0.cau_dong_lai || [], ct = R0.chu_de || [];
+        if (cd.length) h += '<section class="card"><div class="lab" style="margin-bottom:6px">Thị trường đang bàn gì · ' + dmy(R0.den_ngay) + '</div><ul class="b">' + cd.map(function (x) { return "<li>" + rich(x) + "</li>"; }).join("") + "</ul></section>";
+        if (ct.length) h += '<section class="card"><div class="lab" style="margin-bottom:8px">Chủ đề nóng</div>' + ct.slice(0, 6).map(function (c) { return '<div class="li row" style="font-size:14px"><span>' + esc(c.ten) + '</span><span class="mute sm">' + esc(c.so_tin) + " tin · " + esc(c.giong || "") + "</span></div>"; }).join("") + "</section>";
+      }
+      return seg + '<div class="v rd" style="margin-top:12px">' + h + '<button class="ask" type="button" data-ask="Nhiệt kế thị trường hôm nay nói gì, nên làm gì?">Hỏi TVN về Nhiệt kế ›</button></div>';
+    });
+    if (sub === "thegioi") { location.replace(TGURL); return; }
+    if (sub === "nganh") {
+      /* Toàn cảnh thị trường (trang của TVN Insight, cùng nền sáng): hiện nguyên trang trong khung, không rút gọn (28/10/2026) */
+      main.innerHTML = seg + '<div class="v" style="margin-top:12px"><iframe class="frm" title="Toàn cảnh thị trường" src="../toancanh/?embed=1"></iframe><button class="ask" type="button" data-ask="Dòng tiền và ngành hôm nay nói gì, nên làm gì?">Hỏi TVN về Toàn cảnh ›</button></div>' + foot();
+      fit(main.querySelector("iframe"), ".wrap>header.top,#tvnqa-b,#tvnqa-p,#tvnqa-sh,.tvn-back{display:none!important}html,body{background:transparent!important}body{padding-bottom:0!important}.wrap{padding-top:0!important}");
+      Promise.all([J("live.json"), eds()]).then(function (d) { tick(d[0], latestEd(d[1])); });
+      return;
+    }
+  }
+  var QN = { ma: "Mã", nganh: "Ngành", gia: "Giá", pct: "%", kl: "KL", kl_so_bq5: "So TB5", gt: "GT (tỷ)", kl20: "KL TB20", kl_x: "Gấp TB20", rong_ty: "Ròng (tỷ)", dinh_cu: "Đỉnh cũ", ngay_dinh_cu: "Ngày đỉnh", ngay_vuot: "Ngày vượt", con_tren: "Còn trên", day_cu: "Đáy cũ", ngay_day_cu: "Ngày đáy", ngay_thung: "Ngày thủng", con_duoi: "Còn dưới", dinh: "Đỉnh 1 năm", ngay_dinh: "Ngày đỉnh", cach_pct: "Cách", day: "Đáy 1 năm", ngay_day: "Ngày đáy", so_phien: "Số phiên", bien_pct: "Biên", vi_tri: "Vị trí", loi_suat: "Lợi suất", hon_vni: "Hơn VNI" };
+  function qf(c, v) {
+    if (v == null || v === "") return "–";
+    if ({ gia: 1, dinh_cu: 1, day_cu: 1, dinh: 1, day: 1 }[c]) return num(v / 1000, 2);
+    if (c === "pct" || c === "loi_suat" || c === "hon_vni") return '<span class="' + cls(v) + '">' + sg(v, c === "pct" ? 2 : 1) + "%</span>";
+    if (c === "rong_ty") return '<span class="' + cls(v) + '">' + sg(v, 1) + "</span>";
+    if (c === "kl" || c === "kl20") return num(v);
+    if (c === "kl_so_bq5") return num(v) + "%";
+    if (c === "kl_x") return num(v, 1) + " lần";
+    if (c === "gt") return num(v, 1);
+    if (c === "cach_pct" || c === "bien_pct") return num(v, 1) + "%";
+    if (c === "con_tren" || c === "con_duoi") return v ? "Có" : "Không";
+    if (/^ngay/.test(c)) return esc(dmy(v));
+    if (c === "ma") return "<b>" + esc(v) + "</b>";
+    return esc(v);
+  }
+
+  /* ---------- BẢN TIN ---------- */
+  function vNews() {
+    setFrame("bantin", "Bản tin", "TVN Insight", false);
+    load(Promise.all([eds(), J("archive.json"), J("live.json")]), function (d) {
+      var E = d[0], A = (d[1] && d[1].items) || [], list = Object.keys(E).map(function (k) { return E[k]; }).sort(function (a, b) { return String(b.updated).localeCompare(String(a.updated)); });
+      tick(d[2], latestEd(E));
+      var h = list.map(function (j) { var f = j.files || {}; return '<a class="card" href="#bantin/' + j._k + '"><div class="row"><span class="lab">' + ED[j._k] + " · " + esc(j.date_short || "") + '</span><span class="sm mute">' + hm(j.updated) + '</span></div><div class="hd">' + esc(plain(j.headline)) + '</div><div class="sm mute" style="margin-top:8px">' + ["Đọc", f.nghe ? "Nghe" : "", f.clip ? "Clip" : "", f.full ? "PDF" : ""].filter(Boolean).join(" · ") + "</div></a>"; }).join("");
+      var cur = {}; list.forEach(function (j) { cur[String(j.updated).slice(0, 10) + j._k] = 1; });
+      var old = A.filter(function (x) { return !cur[String(x.iso) + x.ed]; });
+      h += '<section class="card"><div class="row"><span class="lab">Số cũ</span><span class="sm mute">' + old.length + ' số</span></div><input class="inp" id="as" placeholder="Tìm theo mã hoặc ngày, ví dụ HPG, 23/10" style="margin:10px 0 4px;width:100%"><div id="al">' + old.map(function (x) { return '<a class="li" style="display:block;text-decoration:none" href="#bantin/' + esc(x.id) + '" data-s="' + esc((x.headline + " " + (x.key || "") + " " + x.date + " " + ED[x.ed]).toLowerCase()) + '"><div class="sm mute">' + esc(ED[x.ed] || x.ed) + " · " + esc(x.date || "") + '</div><div style="font-weight:600;font-size:14px;line-height:1.4">' + esc(plain(x.headline)) + "</div></a>"; }).join("") + "</div></section>";
+      afterQ.push(function () { var s = $("as"); if (s) s.addEventListener("input", function () { var v = s.value.trim().toLowerCase(); [].forEach.call($("al").children, function (a) { a.style.display = !v || a.getAttribute("data-s").indexOf(v) >= 0 ? "" : "none"; }); }); });
+      return '<div class="v rd">' + h + "</div>";
+    });
+  }
+  function vReader(id) {
+    setFrame("bantin", "Bản tin", "Đang mở", true);
+    load(Promise.all([eds(), J("archive.json"), J("live.json")]), function (d) {
+      var E = d[0], j = E[id], A = (d[1] && d[1].items) || [];
+      if (!j) { j = A.filter(function (x) { return x.id === id; })[0]; if (j) j._k = j.ed; }
+      tick(d[2], latestEd(E));
+      if (!j) return '<div class="err">Không tìm thấy số bản tin này.</div>';
+      var name = ED[j._k] || "Bản tin", f = j.files || {};
+      setFrame("bantin", name + " " + (j.date_short || dmy(j.iso || j.updated)), "Bản tin", true);
+      var h = '<div class="lab">' + esc(name) + " · " + esc(j.date || "") + '</div><h1 class="hd">' + esc(plain(j.headline)) + "</h1>";
+      if (j.key) h += '<section class="card dk"><div class="lab" style="margin-bottom:6px">Kết luận</div><div style="font-size:15px;line-height:1.6">' + esc(plain(j.key).replace(/^[^:]{0,70}(kết luận)[^:]{0,70}:\s*/i, "")) + "</div></section>";
+      var acts = [];
+      if (f.nghe) acts.push('<button class="btn" type="button" data-media="audio" data-src="../' + esc(f.nghe) + '">🎧 Nghe</button>');
+      if (f.clip) acts.push('<button class="btn" type="button" data-media="video" data-src="../' + esc(f.clip) + '">▶ Clip</button>');
+      if (f.full) acts.push('<a class="btn" href="../' + esc(f.full) + '" target="_blank" rel="noopener">PDF</a>');
+      if (f.tomtat) acts.push('<a class="btn" href="../' + esc(f.tomtat) + '" target="_blank" rel="noopener">Tóm tắt</a>');
+      if (f.tomgon) acts.push('<a class="btn" href="../' + esc(f.tomgon) + '" target="_blank" rel="noopener">Ảnh tóm gọn</a>');
+      if (acts.length) h += '<div class="acts">' + acts.join("") + '</div><div id="media"></div>';
+      var sc = j.snap && j.snap.scen || [], rc = j.snap && j.snap.reco || [];
+      if (sc.length) h += '<section class="card"><div class="lab" style="margin-bottom:8px">Kịch bản</div>' + sc.map(function (s, i) { var c = ["var(--navy)", "var(--up)", "var(--dn)"][i] || "var(--mute)"; return '<div style="margin-top:' + (i ? 10 : 0) + 'px"><div class="row" style="font-size:13.5px"><b>' + esc(s[0]) + "</b><span>" + esc(s[2]) + " · <b>" + esc(s[1]) + '%</b></span></div><div class="bar"><i style="width:' + (+s[1] || 0) + "%;background:" + c + '"></i></div></div>'; }).join("") + "</section>";
+      if (rc.length) h += '<section class="card"><div class="lab" style="margin-bottom:6px">Khuyến nghị trong số này</div>' + rc.map(function (r) { return '<div class="li"><div class="row"><b>' + esc(r[0]) + '</b><span class="tag ' + (r[2] === "g" ? "g" : r[2] === "r" ? "r" : "n") + '">' + esc(r[1]) + '</span></div><div class="sm" style="margin-top:3px">' + esc(r[3] || "") + (r[4] && r[4] !== "—" ? ' <span class="mute">· mục tiêu ' + esc(r[4]) + " · cắt lỗ " + esc(r[5] || "") + "</span>" : "") + "</div></div>"; }).join("") + "</section>";
+      if (f.dashboard) h += '<button class="btn pr" type="button" id="full" data-src="../' + esc(f.dashboard) + '" style="width:100%">Đọc toàn bài ▾</button><div id="fullw"></div>';
+      h += '<button class="ask" type="button" data-ask="Tóm tắt và giải thích ' + esc(name.toLowerCase()) + " " + esc(j.date_short || "") + ': điều quan trọng nhất là gì, nên làm gì?">Hỏi TVN về bản tin này ›</button>';
+      afterQ.push(function () {
+        main.addEventListener("click", function m(e) {
+          var b = e.target.closest("[data-media]"); if (b) { var t = b.getAttribute("data-media"); $("media").innerHTML = t === "audio" ? '<audio controls autoplay style="width:100%;margin-top:6px" src="' + b.getAttribute("data-src") + '"></audio>' : '<video controls autoplay playsinline style="width:100%;border-radius:12px;margin-top:6px" src="' + b.getAttribute("data-src") + '"></video>'; }
+          var fb = e.target.closest("#full"); if (fb) { fb.remove(); var fr = document.createElement("iframe"); fr.className = "frm"; fr.title = "Toàn bài"; fr.src = fb.getAttribute("data-src"); $("fullw").appendChild(fr); fit(fr, ".mast,#tvnqa-b,#tvnqa-p,#tvnqa-sh,#tvnrn,.tvn-back,#tvg-b{display:none!important}body{background:transparent!important}"); }
+        });
+      });
+      return '<div class="v rd">' + h + "</div>";
+    });
+  }
+  /* khung con cùng nguồn (jukytwo.github.io): ẩn đầu trang, thanh mục, nút hỏi riêng của trang con; cao theo nội dung, không cuộn lồng */
+  function fit(fr, css) {
+    fr.addEventListener("load", function () {
+      try {
+        var dd = fr.contentDocument; if (!dd) return;
+        var st = dd.createElement("style"); st.textContent = css || ""; dd.head.appendChild(st);
+        dd.documentElement.classList.add("tvn-khung");
+        // chiều cao theo đáy nội dung thật (co được khi trang ngắn lại); trang có tvn-khung.js gửi số đo qua tin nhắn {tvn:"h"} thì dùng số đó
+        var last = 0, dat = function (hh) { hh = Math.min(40000, Math.max(120, Math.ceil(hh))); if (Math.abs(hh - last) > 4) { last = hh; fr.style.minHeight = "0"; fr.style.height = hh + "px"; } };
+        var set = function () { if (fr.__tvnH) return; var b = dd.body; if (!b) return; dat(b.getBoundingClientRect().bottom + (fr.contentWindow.scrollY || 0) + 2); };
+        if (!fr.__tvnNghe) { fr.__tvnNghe = 1; window.addEventListener("message", function (ev) { if (ev.source === fr.contentWindow && ev.data && ev.data.tvn === "h" && ev.data.h > 0) { fr.__tvnH = 1; dat(ev.data.h); } }); }
+        set(); if (window.ResizeObserver) new ResizeObserver(set).observe(dd.body); setTimeout(set, 1500); setTimeout(set, 4000);
+        dd.addEventListener("click", function (e) { var a = e.target.closest && e.target.closest("a[href]"); if (!a) return; var href = a.getAttribute("href") || ""; if (/^(\.\.\/)*(index\.html)?(#|$)/.test(href) && /TVN Insight/.test(a.textContent)) { e.preventDefault(); location.hash = "#homnay"; } });
+      } catch (e) { fr.style.height = "calc(100vh - 160px)"; }
+    });
+  }
+
+  /* ---------- HỎI & PHÂN TÍCH ---------- */
+  var SUBS = {
+    hamy: ["Hàm ý & chính sách", HUB + "?embed=1&khoi=hamy,cs"],
+    baocao: ["Báo cáo đã làm", HUB + "?embed=1&khoi=bc"],
+    caotin: ["Cào tin & phân tích", HUB + "?embed=1&khoi=run"],
+    vimo: ["Vĩ mô", "/vimo/?embed=1"]
+  };
+  var SUBCSS = "#tvnF-dau,#tvnF-day,.qa-fab,#vmBackF,#tvnqa-b,#tvnqa-p,.tvnF-dau{display:none!important}html,body{background:transparent!important}body{padding-bottom:0!important}";
+  function vAsk(sub, qs) {
+    if (sub && SUBS[sub]) {
+      setFrame("hoi", SUBS[sub][0], "Hỏi & Phân tích", true);
+      var th = document.documentElement.getAttribute("data-theme") || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+      var u = SUBS[sub][1] + (SUBS[sub][1].indexOf("?") >= 0 ? "&" : "?") + "theme=" + th;
+      var m = /(?:^|&)ma=([^&]+)/.exec(qs || ""); if (sub === "caotin" && m) u += "&the=dn&ma=" + m[1];
+      main.innerHTML = '<div class="v"><iframe class="frm" title="' + esc(SUBS[sub][0]) + '" src="' + esc(u) + '"></iframe></div>' + foot();
+      fit(main.querySelector("iframe"), SUBCSS);
+      return;
+    }
+    setFrame("hoi", "Hỏi & Phân tích", "TVN Insight", false);
+    load(Promise.all([J(HUB + "data/bc/index.json"), eds(), J("live.json")]), function (d) {
+      var BC = d[0] && d[0].bao_cao && d[0].bao_cao[0]; tick(d[2], latestEd(d[1]));
+      var h = '<section class="card dk"><div style="font-size:17px;font-weight:700">Hỏi TVN</div><div class="sm" style="color:#AEB9CF;margin:2px 0 12px">Một chỗ hỏi cho thị trường, mã cổ phiếu, vĩ mô.</div><form class="askf" style="display:flex;gap:8px"><label for="aq" style="position:absolute;left:-9999px">Câu hỏi</label><input class="inp" id="aq" placeholder="Ví dụ: Fed 29/10 ảnh hưởng gì?"><button class="btn au" type="submit">Hỏi</button></form><div class="chips" style="margin-top:10px">' +
+        ["Hôm nay nên làm gì?", "Vì sao khối ngoại bán?", "HPG còn mua được không?"].map(function (c) { return '<button type="button" class="chip" style="background:transparent;color:#E7ECF5;border-color:#3A4E73" data-ask="' + esc(c) + '">' + esc(c) + "</button>"; }).join("") + "</div></section>";
+      h += '<section class="card"><div class="row"><b style="font-size:15px">Cào tin &amp; phân tích</b><span class="sm mute">báo cáo sau 10–70 phút</span></div><form id="ctf" style="display:flex;gap:8px;margin-top:10px"><label for="ctm" style="position:absolute;left:-9999px">Mã, ngành hoặc câu hỏi</label><input class="inp" id="ctm" placeholder="Mã hoặc ngành, ví dụ HPG"><button class="btn pr" type="submit">Thực thi</button></form></section>';
+      var T = [["hamy", "Hàm ý & chính sách", BC ? cut(BC.tieu_de, 170) : "Tin tức, Chính phủ, doanh nghiệp đang ngầm nói gì; xác nhận nếu, bác bỏ nếu."], ["vimo", "Vĩ mô", "Báo cáo vĩ mô Việt Nam: GDP, lạm phát, dự báo, người dân."], ["baocao", "Báo cáo đã làm", "Các báo cáo cào tin theo yêu cầu, kèm PDF và ảnh 1 trang."]];
+      h += '<div class="cols2">' + T.map(function (t) { return '<a class="card" href="#hoi/' + t[0] + '"><div class="row"><b style="font-size:15px">' + t[1] + '</b><span class="go">›</span></div><div class="sm mute" style="margin-top:4px;font-size:13px;line-height:1.5">' + esc(t[2]) + "</div></a>"; }).join("") + "</div>";
+      afterQ.push(function () { $("ctf").addEventListener("submit", function (e) { e.preventDefault(); var v = $("ctm").value.trim().toUpperCase(); location.hash = "#hoi/caotin" + (v ? "?ma=" + encodeURIComponent(v) : ""); }); });
+      return '<div class="v rd">' + h + "</div>";
+    });
+  }
+
+  /* ---------- KHUYẾN NGHỊ ---------- */
+  function vReco() {
+    setFrame("khuyennghi", "Khuyến nghị", "TVN Insight", false);
+    load(Promise.all([J("dm.json"), eds(), J("live.json")]), function (d) {
+      var D = d[0]; tick(d[2], latestEd(d[1]));
+      if (!D) return '<div class="err">Chưa tải được danh mục khuyến nghị.</div>';
+      var k = D.kpi || {}, P = D.positions || [];
+      var h = '<section class="card hi"><div class="lab" style="margin-bottom:8px">Đọc nhanh</div><div class="qi"><span class="e">📌</span><div><b>' + num(k.open) + " mã đang theo dõi:</b> " + num(k.open_long) + " nắm giữ hoặc mua, " + num(k.open_avoid) + ' tránh.</div></div>' +
+        (k.long_now != null ? '<div class="qi"><span class="e">📈</span><div><b>Kết quả:</b> mua, nắm giữ bình quân đến nay ' + sg(k.long_now, 2) + "%, " + (k.long_alpha >= 0 ? "hơn" : "kém") + " VN-Index " + num(Math.abs(k.long_alpha), 1) + " điểm %.</div></div>" : "") +
+        (k.ok_t2 ? '<div class="qi"><span class="e">✅</span><div><b>Đúng hướng sau T+2:</b> ' + k.ok_t2[0] + "/" + k.ok_t2[1] + " vị thế.</div></div>" : "") + '<div class="sm mute" style="margin-top:8px">Giá đóng cửa tới ' + esc(dmy(D.updated_px || D.updated)) + "</div></section>";
+      var open = P.filter(function (p) { return !p.closed; }), done = P.filter(function (p) { return p.closed; });
+      var px = function (v) { return v == null || v === "" ? "–" : typeof v === "number" ? num(v * 1000) : esc(v); };
+      h += '<div class="cols2">' + open.map(function (p) {
+        var c = p.cur || {}, tone = /tránh|giảm|bán/i.test(c.a || "") ? "r" : /mua|tăng/i.test(c.a || "") ? "g" : "n";
+        return '<section class="card"><div class="row"><b style="font-size:18px">' + esc(p.tk) + '</b><span class="tag ' + tone + '">' + esc(c.a || "") + '</span></div><div style="font-size:13.5px;margin-top:6px">' + esc(c.zone || "") + '</div><div class="sm mute" style="margin-top:3px">Mục tiêu ' + px(c.tgt) + " · cắt lỗ " + px(c.sl) + '</div><div class="g2" style="margin-top:8px;grid-template-columns:repeat(3,minmax(0,1fr))"><div class="tile"><div class="t">T+2</div><div class="n ' + cls(p.t2) + '">' + (p.t2 == null ? "–" : sg(p.t2, 1) + "%") + '</div></div><div class="tile"><div class="t">Đến nay</div><div class="n ' + cls(p.now) + '">' + (p.now == null ? "–" : sg(p.now, 1) + "%") + '</div></div><div class="tile"><div class="t">So VN-Index</div><div class="n ' + cls(p.alpha) + '">' + (p.alpha == null ? "–" : sg(p.alpha, 1)) + '</div></div></div><div class="sm mute" style="margin-top:6px">Từ ' + esc(dmy((p.start || [])[0])) + " · " + num(p.n_calls) + ' lần khuyến nghị</div><button class="ask" type="button" data-ask="Phân tích ' + esc(p.tk) + ': còn nên ' + esc(String(c.a || "").toLowerCase()) + ' không, vùng giá cần quan sát?">Hỏi TVN về ' + esc(p.tk) + " ›</button></section>";
+      }).join("") + "</div>";
+      if (done.length) h += '<section class="card" style="padding:4px 14px"><details><summary>Đã kết thúc · ' + done.length + ' vị thế</summary><div class="tw"><table class="t" style="margin-bottom:10px"><thead><tr><th>Mã</th><th>T+2</th><th>Đến lúc đóng</th><th>So VNI</th></tr></thead><tbody>' + done.map(function (p) { return "<tr><td><b>" + esc(p.tk) + '</b></td><td class="' + cls(p.t2) + '">' + (p.t2 == null ? "–" : sg(p.t2, 1) + "%") + '</td><td class="' + cls(p.now) + '">' + (p.now == null ? "–" : sg(p.now, 1) + "%") + '</td><td class="' + cls(p.alpha) + '">' + (p.alpha == null ? "–" : sg(p.alpha, 1)) + "</td></tr>"; }).join("") + "</tbody></table></div></details></section>";
+      return '<div class="v">' + h + "</div>";
+    });
+  }
+
+  /* ---------- điều hướng bằng #: nút Back của máy quay lại màn trước ---------- */
+  function route() {
+    var raw = (location.hash || "#homnay").slice(1), qi = raw.indexOf("?"), qs = qi >= 0 ? raw.slice(qi + 1) : "", parts = (qi >= 0 ? raw.slice(0, qi) : raw).split("/"), sec = parts[0] || "homnay", sub = parts[1] || "";
+    var prev = route.sec; route.sec = sec + "/" + sub;
+    document.documentElement.classList.remove("tvnqa-open");
+    if (prev !== route.sec) window.scrollTo(0, 0);
+    if (sec === "thitruong") return vMarket(sub);
+    if (sec === "bantin") return sub ? vReader(sub) : vNews();
+    if (sec === "hoi") return vAsk(sub, qs);
+    if (sec === "khuyennghi") return vReco();
+    return vHome();
+  }
+  window.addEventListener("hashchange", route);
+  route();
+})();
+</script>
+<script defer src="../qa/qa.js"></script>
+<!--tvn-brand--><!--tvn-qa--><script defer src="../qa/qa.js"></script></body>
+</html>

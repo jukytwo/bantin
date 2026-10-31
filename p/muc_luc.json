@@ -1,0 +1,94 @@
+{
+ "tep": {
+  "kn": {
+   "duong": "kn.enc.json",
+   "sha256": "86455f810c9871e6ee844cc7788f9ec7e862285a846270c16570ba7221f33228"
+  },
+  "danh_muc": {
+   "duong": "danh_muc.enc.json",
+   "sha256": "19d7a837103f363e615f74d8790ca88bf5061320737e5bd97481220a5bb42adb"
+  },
+  "radar": {
+   "duong": "radar.enc.json",
+   "sha256": "be906511f0e9e61b1e8c3a82b169d7d5722ba17917cb67aa5787489bc247d93e"
+  },
+  "la_ban_insight": {
+   "duong": "la_ban_insight.enc.json",
+   "sha256": "e6ec321d88344ba4753baadf81e748ca0d2549a36e076b1ca3b04478c2245f9d"
+  },
+  "luu_tru": {
+   "duong": "luu_tru.enc.json",
+   "sha256": "bbac71b088507d37ee996f5894f1429fb05106b673f2429e6e702322bd9ea996"
+  },
+  "gbq": {
+   "duong": "gbq.enc.json",
+   "sha256": "43f8e8c57a0260b5905f8daf759fccd432edb9790d176c081a527f12f994c0ad"
+  },
+  "luu_tru/20261031-tuan": {
+   "duong": "luu_tru/20261031-tuan.enc.json",
+   "sha256": "0ad5a9f0b5498913cb9a263f26ab51ad8e39f70f488fe4252b97f75c6c7bfc63"
+  },
+  "luu_tru/20261029-phien": {
+   "duong": "luu_tru/20261029-phien.enc.json",
+   "sha256": "2dd98edcef20a8ad05c6ea8f18045803c1b80ed325322fa8a78995e89992b6a7"
+  },
+  "luu_tru/20261028-phien": {
+   "duong": "luu_tru/20261028-phien.enc.json",
+   "sha256": "a01d91285c1ae1048ba97c855046dfca2fd09e23a4876a676c1b50b754b5e1a9"
+  },
+  "luu_tru/20261027-phien": {
+   "duong": "luu_tru/20261027-phien.enc.json",
+   "sha256": "bde241cfc0bd2a49ef2e4151b4d2538388433c8fbb0fead066c981ced6c58e87"
+  },
+  "luu_tru/20261026-phien": {
+   "duong": "luu_tru/20261026-phien.enc.json",
+   "sha256": "c8edc12d363247b18680eeab6db9d27c9a32293a6c4e89d7797f57043635fbae"
+  },
+  "luu_tru/20261024-tuan": {
+   "duong": "luu_tru/20261024-tuan.enc.json",
+   "sha256": "690a262063d9838ff883769c9ab4e0584a59f902154cad4f298d62889884632b"
+  },
+  "luu_tru/20261023-phien": {
+   "duong": "luu_tru/20261023-phien.enc.json",
+   "sha256": "1b6bdd5696c1fb0c2c8ca47b9dcd761f9ea28c4b27d15404049fb28d8b99067f"
+  },
+  "luu_tru/20261022-phien": {
+   "duong": "luu_tru/20261022-phien.enc.json",
+   "sha256": "94662adf92a2eb4aa0e5d8f78b947aa6275d779538494a4c9503b15fd4366316"
+  },
+  "luu_tru/20261021-phien": {
+   "duong": "luu_tru/20261021-phien.enc.json",
+   "sha256": "cebf54bf487fe7f5e00b080084d66da5e58b90988c687cf3a73d6251e43fcacb"
+  },
+  "luu_tru/20261020-phien": {
+   "duong": "luu_tru/20261020-phien.enc.json",
+   "sha256": "4abe2ea6f9e7dbf7aef59920c563039f9dac057ffc6817f60e7d01269d772f17"
+  },
+  "luu_tru/20261019-phien": {
+   "duong": "luu_tru/20261019-phien.enc.json",
+   "sha256": "dae0676cf20479faa1d455d56f1962afcf37670e284a4f5ddf7139d2e2d674a2"
+  },
+  "luu_tru/20261017-tuan": {
+   "duong": "luu_tru/20261017-tuan.enc.json",
+   "sha256": "4cc0cffb6f398e9578f8626558641be80cf83ab23f60bc104e28c4cd21d547de"
+  },
+  "luu_tru/20261016-phien": {
+   "duong": "luu_tru/20261016-phien.enc.json",
+   "sha256": "76ecbb8d2f5c335aa36e129cb14e84191badc42c05311d6df9870aaff4c06e52"
+  },
+  "luu_tru/20261015-phien": {
+   "duong": "luu_tru/20261015-phien.enc.json",
+   "sha256": "62c19c45d78fd57a75d80353c1860ba59fda6ee81c5a9f702cfd0fa2c04faad6"
+  },
+  "luu_tru/20261014-phien": {
+   "duong": "luu_tru/20261014-phien.enc.json",
+   "sha256": "7baa05a34e47482b4973ae1ac51627aac6eebae7068b8e295a187ff0a43967f0"
+  },
+  "luu_tru/20261013-phien": {
+   "duong": "luu_tru/20261013-phien.enc.json",
+   "sha256": "23260f9e678d2182ade113ea9ff192a9aefb1fd37abe43aad4c724af1393e37d"
+  }
+ },
+ "cap_nhat": "2026-10-31T09:42:24+00:00",
+ "kid": "7b0ce0116ff9d72d"
+}
