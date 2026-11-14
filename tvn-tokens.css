@@ -1,0 +1,19 @@
+/* TVN Insight · bộ biến màu, chữ dùng chung với Hub và Vĩ mô (chốt 12/11/2026, thư i-20261112-c5ss, m-20261112-t33u, i-20261112-7tkq; màu GDP sáng/tối theo m-20261112-wro5).
+   Nguồn duy nhất: screens/tvn-tokens.css.txt trong bộ dựng; trang công khai https://jukytwo.github.io/bantin/tvn-tokens.css.
+   Đổi tên hay bỏ biến: gửi thư báo Vũ max trước một lượt. Chỉ khai báo biến, không đặt kiểu cho phần tử nào. */
+:root{
+--bg:#F6F7FA;--surface:#FFFFFF;--ink:#16213A;--mute:#5B6579;--line:#DCE2EC;--navy:#1F3864;--gold:#C8992F;--chip:#EEF2F8;
+--up:#1E7A46;--dn:#B23A3A;
+--l0:#2E8B57;--l1:#C8992F;--l2:#D9822B;--l3:#C0392B;
+--c-c:#F59E0B;--c-g:#14B8A6;--c-i:#2F6FED;--c-nx:#F04E6E;--c-r:#A3B1C6;
+--chart-grid:#E3E8F0;--chart-axis:#9AA6BC;--note:#EDF1F7;
+--f:"Be Vietnam Pro",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+--r-card:14px;--r-tile:12px;--r-chip:16px}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+--bg:#0E1524;--surface:#16203A;--ink:#E7ECF5;--mute:#9AA6BC;--line:#2A3757;--navy:#8FB0E8;--gold:#E2BE6A;--chip:#1D2A47;--up:#4CC38A;--dn:#F07070;
+--c-c:#FBBF24;--c-g:#2DD4BF;--c-i:#6E9BFF;--c-nx:#FB7190;--c-r:#64748B;
+--chart-grid:#1C2D50;--chart-axis:#3A4E78;--note:#192841;color-scheme:dark}}
+:root[data-theme="dark"]{
+--bg:#0E1524;--surface:#16203A;--ink:#E7ECF5;--mute:#9AA6BC;--line:#2A3757;--navy:#8FB0E8;--gold:#E2BE6A;--chip:#1D2A47;--up:#4CC38A;--dn:#F07070;
+--c-c:#FBBF24;--c-g:#2DD4BF;--c-i:#6E9BFF;--c-nx:#FB7190;--c-r:#64748B;
+--chart-grid:#1C2D50;--chart-axis:#3A4E78;--note:#192841;color-scheme:dark}

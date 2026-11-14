@@ -1,0 +1,36 @@
+# Chuyen tep nang cua so cu sang GitHub Releases (Vu max, 13/11/2026, thu i-20261113-r7gh, anh Vu duyet).
+# Dung GITHUB_TOKEN cua lan chay; lan day bang GITHUB_TOKEN khong kich hoat lai quy trinh nay (khong lap).
+name: Releases tep nang
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      giu:
+        description: "So so chot phien gan nhat giu tep nang tren trang"
+        default: "5"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bantin-releases
+  cancel-in-progress: false
+
+jobs:
+  chuyen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+      - name: Chuyen tep nang sang Releases
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GIU: ${{ inputs.giu || '5' }}
+        run: |
+          if [ ! -f .github/releases_bantin.py ]; then echo "thieu .github/releases_bantin.py"; exit 1; fi
+          python3 .github/releases_bantin.py

@@ -1,0 +1,402 @@
+{
+ "phien_ban": 1,
+ "cap_nhat": "2026-11-14T16:36:04+07:00",
+ "giu_so_phien": 5,
+ "moc_iso": "2026-11-09",
+ "tep": {
+  "a/20261108-phien/anh1.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261108-phien/20261108-phien_anh1.png",
+  "a/20261107-tuan/anh1.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261107-tuan/20261107-tuan_anh1.png",
+  "a/20261107-tuan/anh2.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261107-tuan/20261107-tuan_anh2.png",
+  "a/20261107-tuan/anh3.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261107-tuan/20261107-tuan_anh3.png",
+  "a/20261107-tuan/chiase.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261107-tuan/20261107-tuan_chiase.png",
+  "a/20261106-phien/anh1.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261106-phien/20261106-phien_anh1.png",
+  "a/20261106-phien/anh2.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261106-phien/20261106-phien_anh2.png",
+  "a/20261106-phien/anh3.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261106-phien/20261106-phien_anh3.png",
+  "a/20261106-phien/chiase.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261106-phien/20261106-phien_chiase.png",
+  "a/20261106-phien/clip.mp4": "https://github.com/jukytwo/bantin/releases/download/luutru-20261106-phien/20261106-phien_clip.mp4",
+  "a/20261106-phien/nghe.mp3": "https://github.com/jukytwo/bantin/releases/download/luutru-20261106-phien/20261106-phien_nghe.mp3",
+  "a/20261105-phien/anh1.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261105-phien/20261105-phien_anh1.png",
+  "a/20261105-phien/anh2.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261105-phien/20261105-phien_anh2.png",
+  "a/20261105-phien/anh3.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261105-phien/20261105-phien_anh3.png",
+  "a/20261105-phien/chiase.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261105-phien/20261105-phien_chiase.png",
+  "a/20261105-phien/clip.mp4": "https://github.com/jukytwo/bantin/releases/download/luutru-20261105-phien/20261105-phien_clip.mp4",
+  "a/20261105-phien/nghe.mp3": "https://github.com/jukytwo/bantin/releases/download/luutru-20261105-phien/20261105-phien_nghe.mp3",
+  "a/20261104-phien/anh1.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261104-phien/20261104-phien_anh1.png",
+  "a/20261104-phien/anh2.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261104-phien/20261104-phien_anh2.png",
+  "a/20261104-phien/anh3.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261104-phien/20261104-phien_anh3.png",
+  "a/20261104-phien/chiase.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261104-phien/20261104-phien_chiase.png",
+  "a/20261104-phien/clip.mp4": "https://github.com/jukytwo/bantin/releases/download/luutru-20261104-phien/20261104-phien_clip.mp4",
+  "a/20261104-phien/nghe.mp3": "https://github.com/jukytwo/bantin/releases/download/luutru-20261104-phien/20261104-phien_nghe.mp3",
+  "a/20261103-phien/anh1.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261103-phien/20261103-phien_anh1.png",
+  "a/20261103-phien/anh2.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261103-phien/20261103-phien_anh2.png",
+  "a/20261103-phien/anh3.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261103-phien/20261103-phien_anh3.png",
+  "a/20261103-phien/chiase.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261103-phien/20261103-phien_chiase.png",
+  "a/20261103-phien/clip.mp4": "https://github.com/jukytwo/bantin/releases/download/luutru-20261103-phien/20261103-phien_clip.mp4",
+  "a/20261103-phien/nghe.mp3": "https://github.com/jukytwo/bantin/releases/download/luutru-20261103-phien/20261103-phien_nghe.mp3",
+  "a/20261102-phien/anh1.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261102-phien/20261102-phien_anh1.png",
+  "a/20261102-phien/anh2.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261102-phien/20261102-phien_anh2.png",
+  "a/20261102-phien/anh3.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261102-phien/20261102-phien_anh3.png",
+  "a/20261102-phien/chiase.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261102-phien/20261102-phien_chiase.png",
+  "a/20261102-phien/clip.mp4": "https://github.com/jukytwo/bantin/releases/download/luutru-20261102-phien/20261102-phien_clip.mp4",
+  "a/20261102-phien/nghe.mp3": "https://github.com/jukytwo/bantin/releases/download/luutru-20261102-phien/20261102-phien_nghe.mp3",
+  "a/20261102-phien/nghe_en.mp3": "https://github.com/jukytwo/bantin/releases/download/luutru-20261102-phien/20261102-phien_nghe_en.mp3",
+  "a/20261031-tuan/anh1.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261031-tuan/20261031-tuan_anh1.png",
+  "a/20261031-tuan/anh2.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261031-tuan/20261031-tuan_anh2.png",
+  "a/20261031-tuan/anh3.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261031-tuan/20261031-tuan_anh3.png",
+  "a/20261031-tuan/chiase.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261031-tuan/20261031-tuan_chiase.png",
+  "a/20261029-phien/anh1.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261029-phien/20261029-phien_anh1.png",
+  "a/20261029-phien/anh2.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261029-phien/20261029-phien_anh2.png",
+  "a/20261029-phien/anh3.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261029-phien/20261029-phien_anh3.png",
+  "a/20261029-phien/chiase.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261029-phien/20261029-phien_chiase.png",
+  "a/20261028-phien/anh1.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261028-phien/20261028-phien_anh1.png",
+  "a/20261028-phien/anh2.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261028-phien/20261028-phien_anh2.png",
+  "a/20261028-phien/anh3.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261028-phien/20261028-phien_anh3.png",
+  "a/20261028-phien/chiase.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261028-phien/20261028-phien_chiase.png",
+  "a/20261027-phien/anh1.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261027-phien/20261027-phien_anh1.png",
+  "a/20261027-phien/anh2.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261027-phien/20261027-phien_anh2.png",
+  "a/20261027-phien/anh3.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261027-phien/20261027-phien_anh3.png",
+  "a/20261027-phien/chiase.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261027-phien/20261027-phien_chiase.png",
+  "a/20261027-phien/clip.mp4": "https://github.com/jukytwo/bantin/releases/download/luutru-20261027-phien/20261027-phien_clip.mp4",
+  "a/20261027-phien/nghe.mp3": "https://github.com/jukytwo/bantin/releases/download/luutru-20261027-phien/20261027-phien_nghe.mp3",
+  "a/20261026-phien/anh1.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261026-phien/20261026-phien_anh1.png",
+  "a/20261026-phien/anh2.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261026-phien/20261026-phien_anh2.png",
+  "a/20261026-phien/anh3.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261026-phien/20261026-phien_anh3.png",
+  "a/20261026-phien/chiase.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261026-phien/20261026-phien_chiase.png",
+  "a/20261024-tuan/anh1.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261024-tuan/20261024-tuan_anh1.png",
+  "a/20261024-tuan/anh2.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261024-tuan/20261024-tuan_anh2.png",
+  "a/20261024-tuan/anh3.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261024-tuan/20261024-tuan_anh3.png",
+  "a/20261024-tuan/chiase.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261024-tuan/20261024-tuan_chiase.png",
+  "a/20261024-tuan/clip.mp4": "https://github.com/jukytwo/bantin/releases/download/luutru-20261024-tuan/20261024-tuan_clip.mp4",
+  "a/20261024-tuan/nghe.mp3": "https://github.com/jukytwo/bantin/releases/download/luutru-20261024-tuan/20261024-tuan_nghe.mp3",
+  "a/20261024-tuan/nghe_en.mp3": "https://github.com/jukytwo/bantin/releases/download/luutru-20261024-tuan/20261024-tuan_nghe_en.mp3",
+  "a/20261023-phien/anh1.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261023-phien/20261023-phien_anh1.png",
+  "a/20261023-phien/anh2.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261023-phien/20261023-phien_anh2.png",
+  "a/20261023-phien/anh3.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261023-phien/20261023-phien_anh3.png",
+  "a/20261023-phien/chiase.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261023-phien/20261023-phien_chiase.png",
+  "a/20261023-phien/clip.mp4": "https://github.com/jukytwo/bantin/releases/download/luutru-20261023-phien/20261023-phien_clip.mp4",
+  "a/20261023-phien/nghe.mp3": "https://github.com/jukytwo/bantin/releases/download/luutru-20261023-phien/20261023-phien_nghe.mp3",
+  "a/20261022-phien/anh1.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261022-phien/20261022-phien_anh1.png",
+  "a/20261022-phien/anh2.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261022-phien/20261022-phien_anh2.png",
+  "a/20261022-phien/anh3.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261022-phien/20261022-phien_anh3.png",
+  "a/20261022-phien/chiase.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261022-phien/20261022-phien_chiase.png",
+  "a/20261022-phien/clip.mp4": "https://github.com/jukytwo/bantin/releases/download/luutru-20261022-phien/20261022-phien_clip.mp4",
+  "a/20261022-phien/nghe.mp3": "https://github.com/jukytwo/bantin/releases/download/luutru-20261022-phien/20261022-phien_nghe.mp3",
+  "a/20261022-phien/nghe_en.mp3": "https://github.com/jukytwo/bantin/releases/download/luutru-20261022-phien/20261022-phien_nghe_en.mp3",
+  "a/20261021-phien/anh1.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261021-phien/20261021-phien_anh1.png",
+  "a/20261021-phien/anh2.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261021-phien/20261021-phien_anh2.png",
+  "a/20261021-phien/anh3.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261021-phien/20261021-phien_anh3.png",
+  "a/20261021-phien/chiase.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261021-phien/20261021-phien_chiase.png",
+  "a/20261021-phien/clip.mp4": "https://github.com/jukytwo/bantin/releases/download/luutru-20261021-phien/20261021-phien_clip.mp4",
+  "a/20261021-phien/nghe.mp3": "https://github.com/jukytwo/bantin/releases/download/luutru-20261021-phien/20261021-phien_nghe.mp3",
+  "a/20261021-phien/nghe_en.mp3": "https://github.com/jukytwo/bantin/releases/download/luutru-20261021-phien/20261021-phien_nghe_en.mp3",
+  "a/20261020-phien/anh1.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261020-phien/20261020-phien_anh1.png",
+  "a/20261020-phien/anh2.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261020-phien/20261020-phien_anh2.png",
+  "a/20261020-phien/anh3.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261020-phien/20261020-phien_anh3.png",
+  "a/20261020-phien/chiase.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261020-phien/20261020-phien_chiase.png",
+  "a/20261020-phien/clip.mp4": "https://github.com/jukytwo/bantin/releases/download/luutru-20261020-phien/20261020-phien_clip.mp4",
+  "a/20261020-phien/nghe.mp3": "https://github.com/jukytwo/bantin/releases/download/luutru-20261020-phien/20261020-phien_nghe.mp3",
+  "a/20261020-phien/nghe_en.mp3": "https://github.com/jukytwo/bantin/releases/download/luutru-20261020-phien/20261020-phien_nghe_en.mp3",
+  "a/20261019-phien/anh1.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261019-phien/20261019-phien_anh1.png",
+  "a/20261019-phien/anh2.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261019-phien/20261019-phien_anh2.png",
+  "a/20261019-phien/anh3.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261019-phien/20261019-phien_anh3.png",
+  "a/20261019-phien/chiase.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261019-phien/20261019-phien_chiase.png",
+  "a/20261019-phien/clip.mp4": "https://github.com/jukytwo/bantin/releases/download/luutru-20261019-phien/20261019-phien_clip.mp4",
+  "a/20261019-phien/nghe.mp3": "https://github.com/jukytwo/bantin/releases/download/luutru-20261019-phien/20261019-phien_nghe.mp3",
+  "a/20261019-phien/nghe_en.mp3": "https://github.com/jukytwo/bantin/releases/download/luutru-20261019-phien/20261019-phien_nghe_en.mp3",
+  "a/20261016-phien/anh1.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261016-phien/20261016-phien_anh1.png",
+  "a/20261016-phien/anh2.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261016-phien/20261016-phien_anh2.png",
+  "a/20261016-phien/anh3.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261016-phien/20261016-phien_anh3.png",
+  "a/20261016-phien/chiase.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261016-phien/20261016-phien_chiase.png",
+  "a/20261016-phien/clip.mp4": "https://github.com/jukytwo/bantin/releases/download/luutru-20261016-phien/20261016-phien_clip.mp4",
+  "a/20261016-phien/nghe.mp3": "https://github.com/jukytwo/bantin/releases/download/luutru-20261016-phien/20261016-phien_nghe.mp3",
+  "a/20261016-phien/nghe_en.mp3": "https://github.com/jukytwo/bantin/releases/download/luutru-20261016-phien/20261016-phien_nghe_en.mp3",
+  "a/20261015-phien/anh1.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261015-phien/20261015-phien_anh1.png",
+  "a/20261015-phien/anh2.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261015-phien/20261015-phien_anh2.png",
+  "a/20261015-phien/anh3.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261015-phien/20261015-phien_anh3.png",
+  "a/20261015-phien/chiase.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261015-phien/20261015-phien_chiase.png",
+  "a/20261015-phien/clip.mp4": "https://github.com/jukytwo/bantin/releases/download/luutru-20261015-phien/20261015-phien_clip.mp4",
+  "a/20261015-phien/nghe.mp3": "https://github.com/jukytwo/bantin/releases/download/luutru-20261015-phien/20261015-phien_nghe.mp3",
+  "a/20261014-phien/anh1.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261014-phien/20261014-phien_anh1.png",
+  "a/20261014-phien/anh2.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261014-phien/20261014-phien_anh2.png",
+  "a/20261014-phien/anh3.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261014-phien/20261014-phien_anh3.png",
+  "a/20261014-phien/chiase.png": "https://github.com/jukytwo/bantin/releases/download/luutru-20261014-phien/20261014-phien_chiase.png",
+  "a/20261014-phien/clip.mp4": "https://github.com/jukytwo/bantin/releases/download/luutru-20261014-phien/20261014-phien_clip.mp4",
+  "a/20261014-phien/nghe.mp3": "https://github.com/jukytwo/bantin/releases/download/luutru-20261014-phien/20261014-phien_nghe.mp3",
+  "a/20261014-phien/nghe_en.mp3": "https://github.com/jukytwo/bantin/releases/download/luutru-20261014-phien/20261014-phien_nghe_en.mp3",
+  "a/20261013-phien/nghe_en.mp3": "https://github.com/jukytwo/bantin/releases/download/luutru-20261013-phien/20261013-phien_nghe_en.mp3"
+ },
+ "so": {
+  "20261108-phien": {
+   "tag": "luutru-20261108-phien",
+   "rel": {
+    "anh": [
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261108-phien/20261108-phien_anh1.png"
+    ]
+   }
+  },
+  "20261107-tuan": {
+   "tag": "luutru-20261107-tuan",
+   "rel": {
+    "anh": [
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261107-tuan/20261107-tuan_anh1.png",
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261107-tuan/20261107-tuan_anh2.png",
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261107-tuan/20261107-tuan_anh3.png"
+    ],
+    "chiase": "https://github.com/jukytwo/bantin/releases/download/luutru-20261107-tuan/20261107-tuan_chiase.png"
+   }
+  },
+  "20261106-phien": {
+   "tag": "luutru-20261106-phien",
+   "rel": {
+    "anh": [
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261106-phien/20261106-phien_anh1.png",
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261106-phien/20261106-phien_anh2.png",
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261106-phien/20261106-phien_anh3.png"
+    ],
+    "chiase": "https://github.com/jukytwo/bantin/releases/download/luutru-20261106-phien/20261106-phien_chiase.png",
+    "clip": "https://github.com/jukytwo/bantin/releases/download/luutru-20261106-phien/20261106-phien_clip.mp4",
+    "nghe": "https://github.com/jukytwo/bantin/releases/download/luutru-20261106-phien/20261106-phien_nghe.mp3"
+   }
+  },
+  "20261105-phien": {
+   "tag": "luutru-20261105-phien",
+   "rel": {
+    "anh": [
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261105-phien/20261105-phien_anh1.png",
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261105-phien/20261105-phien_anh2.png",
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261105-phien/20261105-phien_anh3.png"
+    ],
+    "chiase": "https://github.com/jukytwo/bantin/releases/download/luutru-20261105-phien/20261105-phien_chiase.png",
+    "clip": "https://github.com/jukytwo/bantin/releases/download/luutru-20261105-phien/20261105-phien_clip.mp4",
+    "nghe": "https://github.com/jukytwo/bantin/releases/download/luutru-20261105-phien/20261105-phien_nghe.mp3"
+   }
+  },
+  "20261104-phien": {
+   "tag": "luutru-20261104-phien",
+   "rel": {
+    "anh": [
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261104-phien/20261104-phien_anh1.png",
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261104-phien/20261104-phien_anh2.png",
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261104-phien/20261104-phien_anh3.png"
+    ],
+    "chiase": "https://github.com/jukytwo/bantin/releases/download/luutru-20261104-phien/20261104-phien_chiase.png",
+    "clip": "https://github.com/jukytwo/bantin/releases/download/luutru-20261104-phien/20261104-phien_clip.mp4",
+    "nghe": "https://github.com/jukytwo/bantin/releases/download/luutru-20261104-phien/20261104-phien_nghe.mp3"
+   }
+  },
+  "20261103-phien": {
+   "tag": "luutru-20261103-phien",
+   "rel": {
+    "anh": [
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261103-phien/20261103-phien_anh1.png",
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261103-phien/20261103-phien_anh2.png",
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261103-phien/20261103-phien_anh3.png"
+    ],
+    "chiase": "https://github.com/jukytwo/bantin/releases/download/luutru-20261103-phien/20261103-phien_chiase.png",
+    "clip": "https://github.com/jukytwo/bantin/releases/download/luutru-20261103-phien/20261103-phien_clip.mp4",
+    "nghe": "https://github.com/jukytwo/bantin/releases/download/luutru-20261103-phien/20261103-phien_nghe.mp3"
+   }
+  },
+  "20261102-phien": {
+   "tag": "luutru-20261102-phien",
+   "rel": {
+    "anh": [
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261102-phien/20261102-phien_anh1.png",
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261102-phien/20261102-phien_anh2.png",
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261102-phien/20261102-phien_anh3.png"
+    ],
+    "chiase": "https://github.com/jukytwo/bantin/releases/download/luutru-20261102-phien/20261102-phien_chiase.png",
+    "clip": "https://github.com/jukytwo/bantin/releases/download/luutru-20261102-phien/20261102-phien_clip.mp4",
+    "nghe": "https://github.com/jukytwo/bantin/releases/download/luutru-20261102-phien/20261102-phien_nghe.mp3",
+    "nghe_en": "https://github.com/jukytwo/bantin/releases/download/luutru-20261102-phien/20261102-phien_nghe_en.mp3"
+   }
+  },
+  "20261031-tuan": {
+   "tag": "luutru-20261031-tuan",
+   "rel": {
+    "anh": [
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261031-tuan/20261031-tuan_anh1.png",
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261031-tuan/20261031-tuan_anh2.png",
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261031-tuan/20261031-tuan_anh3.png"
+    ],
+    "chiase": "https://github.com/jukytwo/bantin/releases/download/luutru-20261031-tuan/20261031-tuan_chiase.png"
+   }
+  },
+  "20261029-phien": {
+   "tag": "luutru-20261029-phien",
+   "rel": {
+    "anh": [
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261029-phien/20261029-phien_anh1.png",
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261029-phien/20261029-phien_anh2.png",
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261029-phien/20261029-phien_anh3.png"
+    ],
+    "chiase": "https://github.com/jukytwo/bantin/releases/download/luutru-20261029-phien/20261029-phien_chiase.png"
+   }
+  },
+  "20261028-phien": {
+   "tag": "luutru-20261028-phien",
+   "rel": {
+    "anh": [
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261028-phien/20261028-phien_anh1.png",
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261028-phien/20261028-phien_anh2.png",
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261028-phien/20261028-phien_anh3.png"
+    ],
+    "chiase": "https://github.com/jukytwo/bantin/releases/download/luutru-20261028-phien/20261028-phien_chiase.png"
+   }
+  },
+  "20261027-phien": {
+   "tag": "luutru-20261027-phien",
+   "rel": {
+    "anh": [
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261027-phien/20261027-phien_anh1.png",
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261027-phien/20261027-phien_anh2.png",
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261027-phien/20261027-phien_anh3.png"
+    ],
+    "chiase": "https://github.com/jukytwo/bantin/releases/download/luutru-20261027-phien/20261027-phien_chiase.png",
+    "clip": "https://github.com/jukytwo/bantin/releases/download/luutru-20261027-phien/20261027-phien_clip.mp4",
+    "nghe": "https://github.com/jukytwo/bantin/releases/download/luutru-20261027-phien/20261027-phien_nghe.mp3"
+   }
+  },
+  "20261026-phien": {
+   "tag": "luutru-20261026-phien",
+   "rel": {
+    "anh": [
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261026-phien/20261026-phien_anh1.png",
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261026-phien/20261026-phien_anh2.png",
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261026-phien/20261026-phien_anh3.png"
+    ],
+    "chiase": "https://github.com/jukytwo/bantin/releases/download/luutru-20261026-phien/20261026-phien_chiase.png"
+   }
+  },
+  "20261024-tuan": {
+   "tag": "luutru-20261024-tuan",
+   "rel": {
+    "anh": [
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261024-tuan/20261024-tuan_anh1.png",
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261024-tuan/20261024-tuan_anh2.png",
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261024-tuan/20261024-tuan_anh3.png"
+    ],
+    "chiase": "https://github.com/jukytwo/bantin/releases/download/luutru-20261024-tuan/20261024-tuan_chiase.png",
+    "clip": "https://github.com/jukytwo/bantin/releases/download/luutru-20261024-tuan/20261024-tuan_clip.mp4",
+    "nghe": "https://github.com/jukytwo/bantin/releases/download/luutru-20261024-tuan/20261024-tuan_nghe.mp3",
+    "nghe_en": "https://github.com/jukytwo/bantin/releases/download/luutru-20261024-tuan/20261024-tuan_nghe_en.mp3"
+   }
+  },
+  "20261023-phien": {
+   "tag": "luutru-20261023-phien",
+   "rel": {
+    "anh": [
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261023-phien/20261023-phien_anh1.png",
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261023-phien/20261023-phien_anh2.png",
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261023-phien/20261023-phien_anh3.png"
+    ],
+    "chiase": "https://github.com/jukytwo/bantin/releases/download/luutru-20261023-phien/20261023-phien_chiase.png",
+    "clip": "https://github.com/jukytwo/bantin/releases/download/luutru-20261023-phien/20261023-phien_clip.mp4",
+    "nghe": "https://github.com/jukytwo/bantin/releases/download/luutru-20261023-phien/20261023-phien_nghe.mp3"
+   }
+  },
+  "20261022-phien": {
+   "tag": "luutru-20261022-phien",
+   "rel": {
+    "anh": [
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261022-phien/20261022-phien_anh1.png",
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261022-phien/20261022-phien_anh2.png",
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261022-phien/20261022-phien_anh3.png"
+    ],
+    "chiase": "https://github.com/jukytwo/bantin/releases/download/luutru-20261022-phien/20261022-phien_chiase.png",
+    "clip": "https://github.com/jukytwo/bantin/releases/download/luutru-20261022-phien/20261022-phien_clip.mp4",
+    "nghe": "https://github.com/jukytwo/bantin/releases/download/luutru-20261022-phien/20261022-phien_nghe.mp3",
+    "nghe_en": "https://github.com/jukytwo/bantin/releases/download/luutru-20261022-phien/20261022-phien_nghe_en.mp3"
+   }
+  },
+  "20261021-phien": {
+   "tag": "luutru-20261021-phien",
+   "rel": {
+    "anh": [
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261021-phien/20261021-phien_anh1.png",
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261021-phien/20261021-phien_anh2.png",
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261021-phien/20261021-phien_anh3.png"
+    ],
+    "chiase": "https://github.com/jukytwo/bantin/releases/download/luutru-20261021-phien/20261021-phien_chiase.png",
+    "clip": "https://github.com/jukytwo/bantin/releases/download/luutru-20261021-phien/20261021-phien_clip.mp4",
+    "nghe": "https://github.com/jukytwo/bantin/releases/download/luutru-20261021-phien/20261021-phien_nghe.mp3",
+    "nghe_en": "https://github.com/jukytwo/bantin/releases/download/luutru-20261021-phien/20261021-phien_nghe_en.mp3"
+   }
+  },
+  "20261020-phien": {
+   "tag": "luutru-20261020-phien",
+   "rel": {
+    "anh": [
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261020-phien/20261020-phien_anh1.png",
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261020-phien/20261020-phien_anh2.png",
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261020-phien/20261020-phien_anh3.png"
+    ],
+    "chiase": "https://github.com/jukytwo/bantin/releases/download/luutru-20261020-phien/20261020-phien_chiase.png",
+    "clip": "https://github.com/jukytwo/bantin/releases/download/luutru-20261020-phien/20261020-phien_clip.mp4",
+    "nghe": "https://github.com/jukytwo/bantin/releases/download/luutru-20261020-phien/20261020-phien_nghe.mp3",
+    "nghe_en": "https://github.com/jukytwo/bantin/releases/download/luutru-20261020-phien/20261020-phien_nghe_en.mp3"
+   }
+  },
+  "20261019-phien": {
+   "tag": "luutru-20261019-phien",
+   "rel": {
+    "anh": [
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261019-phien/20261019-phien_anh1.png",
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261019-phien/20261019-phien_anh2.png",
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261019-phien/20261019-phien_anh3.png"
+    ],
+    "chiase": "https://github.com/jukytwo/bantin/releases/download/luutru-20261019-phien/20261019-phien_chiase.png",
+    "clip": "https://github.com/jukytwo/bantin/releases/download/luutru-20261019-phien/20261019-phien_clip.mp4",
+    "nghe": "https://github.com/jukytwo/bantin/releases/download/luutru-20261019-phien/20261019-phien_nghe.mp3",
+    "nghe_en": "https://github.com/jukytwo/bantin/releases/download/luutru-20261019-phien/20261019-phien_nghe_en.mp3"
+   }
+  },
+  "20261016-phien": {
+   "tag": "luutru-20261016-phien",
+   "rel": {
+    "anh": [
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261016-phien/20261016-phien_anh1.png",
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261016-phien/20261016-phien_anh2.png",
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261016-phien/20261016-phien_anh3.png"
+    ],
+    "chiase": "https://github.com/jukytwo/bantin/releases/download/luutru-20261016-phien/20261016-phien_chiase.png",
+    "clip": "https://github.com/jukytwo/bantin/releases/download/luutru-20261016-phien/20261016-phien_clip.mp4",
+    "nghe": "https://github.com/jukytwo/bantin/releases/download/luutru-20261016-phien/20261016-phien_nghe.mp3",
+    "nghe_en": "https://github.com/jukytwo/bantin/releases/download/luutru-20261016-phien/20261016-phien_nghe_en.mp3"
+   }
+  },
+  "20261015-phien": {
+   "tag": "luutru-20261015-phien",
+   "rel": {
+    "anh": [
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261015-phien/20261015-phien_anh1.png",
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261015-phien/20261015-phien_anh2.png",
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261015-phien/20261015-phien_anh3.png"
+    ],
+    "chiase": "https://github.com/jukytwo/bantin/releases/download/luutru-20261015-phien/20261015-phien_chiase.png",
+    "clip": "https://github.com/jukytwo/bantin/releases/download/luutru-20261015-phien/20261015-phien_clip.mp4",
+    "nghe": "https://github.com/jukytwo/bantin/releases/download/luutru-20261015-phien/20261015-phien_nghe.mp3"
+   }
+  },
+  "20261014-phien": {
+   "tag": "luutru-20261014-phien",
+   "rel": {
+    "anh": [
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261014-phien/20261014-phien_anh1.png",
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261014-phien/20261014-phien_anh2.png",
+     "https://github.com/jukytwo/bantin/releases/download/luutru-20261014-phien/20261014-phien_anh3.png"
+    ],
+    "chiase": "https://github.com/jukytwo/bantin/releases/download/luutru-20261014-phien/20261014-phien_chiase.png",
+    "clip": "https://github.com/jukytwo/bantin/releases/download/luutru-20261014-phien/20261014-phien_clip.mp4",
+    "nghe": "https://github.com/jukytwo/bantin/releases/download/luutru-20261014-phien/20261014-phien_nghe.mp3",
+    "nghe_en": "https://github.com/jukytwo/bantin/releases/download/luutru-20261014-phien/20261014-phien_nghe_en.mp3"
+   }
+  },
+  "20261013-phien": {
+   "tag": "luutru-20261013-phien",
+   "rel": {
+    "nghe_en": "https://github.com/jukytwo/bantin/releases/download/luutru-20261013-phien/20261013-phien_nghe_en.mp3"
+   }
+  }
+ }
+}
