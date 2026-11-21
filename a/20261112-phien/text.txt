@@ -1,0 +1,456 @@
+CHỐT PHIÊN VÀ CHÍNH SÁCH
+Thứ Năm 12/11/2026
+Khối ngoại bán ròng 876,5 tỷ đồng, riêng FPT chiếm 449,4 tỷ. Một cú sốc từ Nvidia hay một đợt rút vốn khỏi Việt Nam?
+Kết luận: cả hai, nhưng phần rút vốn diện rộng chưa xác nhận; giữ tỷ trọng cổ phiếu ở cận dưới 50%, không bắt đáy FPT, hạ về 40-45% nếu VN-Index đóng cửa dưới 1.730 điểm, nâng lên 60% khi đóng cửa trên 1.756 điểm với khớp lệnh HOSE trên 13.000 tỷ đồng. VN-Index giảm 12,15 điểm (-0,70%) về 1.734,75 điểm, VN30 giảm 0,85%. Khối ngoại bán ròng 876,5 tỷ đồng trên HOSE, mạnh nhất kể từ phiên 26/10; FPT chiếm 51% với 449,4 tỷ đồng, đúng đêm cổ phiếu Nvidia mất 8,6% ngoài giờ vì tin hội đồng quản trị bàn về vị trí CEO. Bỏ FPT ra vẫn còn khoảng 427 tỷ đồng bán ròng, nên không chỉ là chuyện một mã. Dấu hiệu đáng lo hơn điểm số: chỉ 28,4% giá trị khớp nằm ở mã đóng cửa trên giá bình quân, từ 66,6% phiên 11/11, tức bên bán chủ động về cuối phiên, nhất là ở VN30 (7/30 mã). Điểm đỡ: tự doanh quay sang mua ròng 324,8 tỷ đồng sau phiên bán 557,0 tỷ. Về tiền tệ, Ngân hàng Nhà nước chưa mua được USD vì tỷ giá liên ngân hàng 25.680-25.685 cao hơn giá mua 25.500, nên kênh bơm tiền đồng mới chưa chảy.
+Ngoại bán theo chủ đề
+FPT chiếm 449,4/876,5 tỷ đồng bán ròng, trùng cú sốc Nvidia.
+Bán đè cuối phiên
+Chỉ 28,4% giá trị khớp ở mã trên giá bình quân, VN30 còn 14,4%.
+Vòi USD chưa chảy
+Liên ngân hàng 25.680, cao hơn giá mua 25.500 của NHNN.
+Tóm tắt
+Kết luận: phiên 12/11 xấu hơn điểm số cho thấy; giữ tỷ trọng cổ phiếu ở cận dưới 50%, không bắt đáy FPT và trụ VN30, hạ về 40-45% nếu VN-Index đóng cửa dưới 1.730 điểm, nâng lên 60% khi đóng cửa trên 1.756 điểm với khớp lệnh HOSE trên 13.000 tỷ đồng.
+Điểm chính của phiên
+Độ rộng HOSE
+102/203
+mã tăng/giảm
+VN-Index giảm 12,15 điểm về 1.734,75 điểm, VN30 giảm 15,84 điểm (-0,85%) còn 1.839,43 điểm; HOSE có 102 mã tăng, 203 mã giảm, 65 mã đứng giá. VIC lấy đi 3,60 điểm, VPB 0,84, GAS 0,61; dầu khí là ngành duy nhất tăng rõ (+1,14%). Chỉ số rơi vừa phải nhưng độ rộng nghiêng hẳn về bên bán, khoảng hai mã giảm cho mỗi mã tăng.
+VN30 -0,85%
+Khối ngoại HOSE
+-876,5
+tỷ đồng, FPT -449,4
+Khối ngoại bán ròng 876,5 tỷ đồng trên HOSE, mạnh nhất kể từ phiên 26/10 (-890,9 tỷ); FPT bị bán ròng 449,4 tỷ đồng và giảm 2,65% về 49.550 đồng, công nghệ thông tin là ngành giảm sâu nhất (-2,33%). Cùng đêm, cổ phiếu Nvidia mất 8,6% ngoài giờ vì tin hội đồng quản trị bàn về vị trí CEO; FPT là mã Việt Nam gắn nhiều nhất với chủ đề AI. Bỏ FPT, khối ngoại vẫn bán ròng khoảng 427 tỷ đồng, tập trung ở KDH, STB, SHB.
+mạnh nhất từ 26/10
+Giá trị ở mã trên giá BQ
+28,4%
+từ 66,6%
+Chỉ 28,4% giá trị khớp lệnh nằm ở mã đóng cửa trên giá bình quân, từ 66,6% phiên 11/11; riêng VN30 chỉ 7/30 mã trên giá bình quân và 14,4% giá trị. Nghĩa là người mua trong phiên phần lớn đang lỗ ở giá đóng cửa, bên bán đè về cuối phiên ở nhóm vốn hóa lớn, trong khi nhóm vốn hóa nhỏ vẫn giữ 61,9%.
+VN30 7/30 mã
+Tự doanh HOSE
++324,8
+tỷ đồng mua ròng
+Tự doanh công ty chứng khoán quay sang mua ròng 324,8 tỷ đồng trên HOSE, riêng VN30 mua ròng 114,1 tỷ, sau phiên bán ròng 557,0 tỷ; mua mạnh GMD 79,0 tỷ, REE 49,6 tỷ, NLG 32,6 tỷ đồng. Hai khối tổ chức đi ngược chiều ở trụ là lý do VN-Index không mất sâu hơn.
+VN30 +114,1 tỷ
+Liên ngân hàng USD
+trên giá mua 25.500
+Ngân hàng Nhà nước chưa mua được USD giao ngay vì tỷ giá liên ngân hàng 25.680-25.685 đồng/USD cao hơn giá mua 25.500 (Thanh Niên, 12/11); tỷ giá trung tâm tăng 12 đồng lên 25.623, chỉ số USD quanh 102,9 điểm, cao nhất 19 tháng. Kênh bơm tiền đồng mới từ 11/11 vì thế chưa chảy.
+NHNN chưa mua được
+Chốt phiên ngày 12/11
+HOSE, HNX, UPCoM
+Thị trường trong nước phiên 12/11
+Thị trường trong nước phiên 12/11
+HOSE
+HNX
+Chỉ số
+1.734,75
+256,62
+Thay đổi
+-0,70%
++0,35%
+GTGD, tỷ đồng
+GTGD so phiên trước
++9,3%
++13,8%
+Khối ngoại ròng, tỷ
+-876,5
+-23,0
+Tự doanh ròng, tỷ
++324,8
+chưa có số
+Nguồn: HOSE, HNX qua FireAnt; đối chiếu Tuổi Trẻ, CafeF, VnExpress, Bnews 12/11. Giá trị HOSE gồm khớp lệnh 10.347 tỷ và thỏa thuận 4.791 tỷ đồng; HNX khớp lệnh 620 tỷ. UPCoM-Index 121,25 điểm (-0,26%) theo Tuổi Trẻ. Khối ngoại HOSE gồm khớp lệnh và thỏa thuận; CafeF ghi khoảng -876 tỷ, ba sàn khoảng -905 tỷ.
+Tỷ giá, vàng, lãi suất
+Mua vào
+Bán ra
+Tỷ giá trung tâm
++12 đồng
+USD Vietcombank
+USD tự do
+Vàng giao ngay, USD/oz
+3.983,20
+-1,21%
+Tỷ giá trung tâm, Vietcombank, tự do sáng 12/11 (VOV); vàng giao ngay chiều 11/11 giờ New York (Kitco); giá chốt hợp đồng tương lai tháng 12 phiên 11/11, vàng SJC và lãi suất tiết kiệm 12 tháng Vietcombank ngày 12/11 chưa tra được.
+VN-Index mở cửa 1.746,70 điểm, dao động 1.735-1.740 điểm từ cuối phiên sáng, có lúc thủng 1.730 trong đợt khớp lệnh đóng cửa, đóng cửa 1.734,75 điểm (-12,15 điểm, -0,70%), thấp nhất phiên 1.731,91. VN30 giảm 15,84 điểm (-0,85%) còn 1.839,43 điểm; HNX-Index tăng 0,35% lên 256,62 điểm; UPCoM-Index giảm 0,26% còn 121,25 điểm. HOSE có 102 mã tăng (8 mã trần), 203 mã giảm (4 mã sàn), 65 mã đứng giá. Giá trị giao dịch HOSE 15.138 tỷ đồng (+9,3%), trong đó khớp lệnh 10.347 tỷ (+4,0%), bằng 0,82 lần bình quân khớp lệnh 20 phiên, và thỏa thuận 4.791 tỷ đồng. Kéo lùi: VIC 3,60 điểm (-0,90%, 243.000 đồng), VPB 0,84, GAS 0,61, BID 0,57, FPT 0,54, HPG 0,53, VCB 0,53 điểm; đỡ chỉ số: BSR 0,21, PLX 0,20, REE 0,16, STB 0,16 điểm (TVN tính từ FireAnt; Tuổi Trẻ ghi VIC -3,55). Dầu khí tăng 1,14%, hàng cá nhân +0,37%, xây dựng vật liệu +0,28% với DPG +6,46%, CTD +3,52%; công nghệ thông tin -2,33%, bảo hiểm -1,65%, dịch vụ tài chính -1,41% với VND -2,68%, VIX -1,88%, SSI -1,46%. Giá khớp so với giá bình quân: 185/370 mã trên (50,0%), 153 mã dưới, 32 mã bằng; nhưng chỉ 28,4% giá trị khớp nằm ở mã trên giá bình quân, từ 66,6% phiên 11/11 (tính lại theo số chốt FireAnt).
+margin-top:12px
+Chỉ tiêu
+Giá trị
+VN-Index
+1.734,75 (-0,70%)
+HNX-Index
+256,62 (+0,35%)
+Thanh khoản HOSE
+15.138 tỷ đồng
+Ngành giảm sâu nhất
+Công nghệ -2,33%
+Ngành tăng tốt nhất
+Dầu khí +1,14%
+Khối ngoại HOSE
+bán ròng 876,5 tỷ
+margin-top:0
+margin-top:12px
+Cổ phiếu tác động VN-Index phiên 12/11, điểm
+Khối ngoại theo mã phiên 12/11, tỷ đồng
+margin-top:16px
+Khối ngoại bán ròng 876,5 tỷ đồng trên HOSE (mua 1.415,7 tỷ, bán 2.292,2 tỷ; FireAnt, gồm khớp lệnh và thỏa thuận), bán ròng 23,0 tỷ trên HNX và khoảng 6 tỷ trên UPCoM; ba sàn khoảng 905 tỷ đồng (CafeF), chấm dứt hai phiên mua ròng. Bán ròng mạnh nhất FPT 449,4 tỷ, KDH 111,4 tỷ, STB 99,0 tỷ, SHB 56,1 tỷ, VIC 35,9 tỷ; mua ròng HDB 60,3 tỷ, MSN 41,0 tỷ, CTD 28,2 tỷ, VHM 23,7 tỷ, ACB 23,1 tỷ đồng. Riêng rổ VN30 bị bán ròng 624,5 tỷ đồng. Tự doanh công ty chứng khoán mua ròng 324,8 tỷ đồng trên HOSE (khớp lệnh 313,6 tỷ), VN30 mua ròng 114,1 tỷ; mua mạnh GMD 79,0 tỷ, REE 49,6 tỷ, NLG 32,6 tỷ, FPT 29,0 tỷ, TCB 26,0 tỷ. Thỏa thuận HOSE 4.791 tỷ đồng; chưa tra được mã thỏa thuận lớn nhất.
+HDB
+60,3
+MSN
+41,0
+CTD
+28,2
+VHM
+23,7
+FPT
+449,4
+KDH
+111,4
+STB
+99,0
+SHB
+56,1
+Tự doanh
+Giá trị
+Tự doanh ròng HOSE phiên 12/11
++324,8 tỷ đồng
+Trong đó rổ VN30
++114,1 tỷ đồng
+margin-top:12px
+Kết luận: phiên này xấu hơn điểm số cho thấy, nên giữ tỷ trọng ở cận dưới 50%, không bắt đáy FPT và trụ VN30; kết luận chuyển sang phòng thủ 40-45% nếu VN-Index đóng cửa dưới 1.730 điểm, chuyển tích cực nếu lấy lại 1.756 điểm với khớp lệnh trên 13.000 tỷ đồng. Chỉ số chỉ mất 0,70%, nhưng giá trị khớp ở mã đóng trên giá bình quân rơi từ 66,6% xuống 28,4%; giá bình quân giống mức giá trung bình mọi người đã mua trong ngày, nên đóng cửa dưới mức đó nghĩa là phần lớn người mua hôm nay đang lỗ và bên bán chủ động ép giá về cuối phiên. Lực ép nằm ở nhóm vốn hóa lớn: VN30 chỉ 7/30 mã trên giá bình quân, trong khi nhóm vốn hóa nhỏ vẫn 61,9%; đây là bán ở trụ, không phải bán tháo cả thị trường. Khối ngoại bán ròng 876,5 tỷ đồng, trong đó FPT 449,4 tỷ. Tự doanh làm ngược lại, mua ròng 324,8 tỷ đồng, nên VN-Index không mất sâu hơn. Điều thị trường có thể chưa thấy: khớp lệnh chỉ tăng 4,0% lên 10.347 tỷ, vẫn chỉ bằng 0,82 lần bình quân 20 phiên, tức người bán chưa hoảng, người mua chưa quay lại. Phiên 13/11 cần xem VN-Index có giữ 1.730 điểm và khối ngoại có giảm bán FPT. Câu đọng lại: điểm số giảm nhẹ, nhưng người mua trong phiên đã thua.
+Giá khớp so với giá bình quân
+phiên 12/11
+Kết luận: xấu cho trụ, trung tính cho nhóm vốn hóa nhỏ; giữ tỷ trọng ở cận dưới 50%, không mua đuổi VN30; kết luận đổi khi tỷ lệ giá trị ở mã trên giá bình quân hồi trên 50%. 185/370 mã đóng cửa trên giá bình quân (50,0%), 153 mã dưới, 32 mã bằng, nhưng tính theo giá trị chỉ 28,4%. So với phiên sáng 12/11, tỷ lệ mã trên giá bình quân tốt hơn (50,0% so với 43,4%, +6,6 điểm %), còn tỷ lệ theo giá trị thấp hơn (28,4% so với 41,1%): mã nhỏ được mua lên trong phiên chiều, mã lớn bị bán đè. So với phiên 11/11, tỷ lệ mã xấu hơn 6,8 điểm % (56,8%) và tỷ lệ theo giá trị rơi từ 66,6%. Theo nhóm vốn hóa: VN30 7/30, VNMidcap 33/70, VNSmallcap 108/192; chính VN30 kéo tỷ lệ chung xuống. Ngành cao nhất là dầu khí 3/4 và hàng cá nhân 17/24; thấp nhất là dịch vụ tài chính 4/21 và ngân hàng 9/23.
+Dự báo phiên kế tiếp và khuyến nghị cổ phiếu
+phiên 13/11
+Cơ sở
+1.720 - 1.745 điểm
+Tích lũy dưới 1.746, khối ngoại tiếp tục bán nhưng nhỏ hơn, tự doanh đỡ trụ; khớp lệnh HOSE 9.500-12.000 tỷ đồng. Dầu khí, xây dựng giữ nhịp; công nghệ, chứng khoán còn yếu.
+Tích cực
+1.745 - 1.760 điểm
+Nvidia ổn định sau tin quản trị, PPI Mỹ 13/11 không vượt dự báo; khối ngoại giảm bán FPT, ngân hàng và bất động sản hồi, khớp lệnh trên 13.000 tỷ đồng.
+Tiêu cực
+1.705 - 1.720 điểm
+Đóng cửa dưới 1.730 điểm, khối ngoại bán ròng trên 800 tỷ đồng phiên thứ hai, tỷ giá trung tâm vượt 25.650; công nghệ, chứng khoán, ngân hàng tư nhân kéo lùi.
+Mốc xác nhận: đóng cửa trên 1.746 điểm, mức tham chiếu phiên 12/11, với khớp lệnh trên 13.000 tỷ đồng nghiêng về Tích cực; đóng cửa dưới 1.730 điểm nghiêng về Tiêu cực; giữa hai mốc là Cơ sở.
+Kết luận: giữ tỷ trọng cổ phiếu ở cận dưới 50%, không bắt đáy FPT và trụ VN30 khi khối ngoại còn bán, chỉ thăm dò rất nhỏ ở NLG có tin MSCI và tự doanh mua. Hạ về 40-45% nếu VN-Index đóng cửa dưới 1.730 điểm; nâng lên 60% khi đóng cửa trên 1.756 điểm với khớp lệnh HOSE trên 13.000 tỷ đồng. Lý do chưa bán mạnh: khớp lệnh chỉ 0,82 lần bình quân, nhóm vốn hóa nhỏ vẫn có 61,9% giá trị ở mã trên giá bình quân, và tự doanh đang mua. Lý do chưa mua: Ngân hàng Nhà nước chưa bơm được tiền qua kênh USD, còn Fed gần như chắc tăng lãi suất tháng 12.
+Chiến lược
+Mã
+Hành động
+Vùng giá
+Mục tiêu
+Cắt lỗ
+Thời gian
+Luận điểm
+Rủi ro
+NLG
+Mua mới
+thăm dò 1/3 ở 23.800-24.300 (đóng 24.300)
+1-3 tháng
+Được MSCI đưa vào rổ Frontier Markets kỳ tháng 11 (theo Bnews 12/11), tăng 1,67%; tự doanh mua ròng 32,6 tỷ đồng, khối ngoại mua ròng 9,4 tỷ trong phiên thị trường giảm.
+Bất động sản giảm 0,72% và lãi suất cho vay khó giảm khi Fed tăng tháng 12; đóng cửa dưới 22.900 thì cắt.
+POW
+Nắm giữ
+giữ phần thăm dò 12.400-12.700 (đóng 12.600)
+1-3 tháng
+Brent tăng lên 92,76 USD nhưng dầu khí là ngành tăng tốt nhất HOSE (+1,14%); điện khí giữ được nhịp khi thị trường giảm.
+Khối ngoại đã chuyển sang bán ròng nhẹ 1,0 tỷ đồng; đóng cửa dưới 11.900 thì cắt.
+SSI
+Nắm giữ
+giữ phần thăm dò, không mua thêm (đóng 20.250)
+1-3 tháng
+Doanh thu môi giới hưởng lợi khi thanh khoản phục hồi; khớp lệnh HOSE tăng 4,0% lên 10.347 tỷ đồng.
+Dịch vụ tài chính giảm 1,41%, chỉ 4/21 mã trên giá bình quân; khối ngoại bán ròng 31,5 tỷ đồng. Đóng cửa dưới 19.200 thì cắt.
+CTG
+Nắm giữ
+giữ, mua thêm 31.000-31.500 (đóng 31.550)
+1-3 tháng
+Ngân hàng quốc doanh hưởng lợi khi Ngân hàng Nhà nước bơm tiền đồng; khối ngoại vẫn mua ròng 8,9 tỷ đồng khi ngành ngân hàng giảm 0,70%.
+Kênh mua USD chưa chảy vì liên ngân hàng 25.680 trên giá mua 25.500; áp lực giảm lãi suất cho vay làm hẹp biên lãi.
+VPB
+Nắm giữ
+giữ phần thăm dò, không mua thêm (đóng 21.900)
+1-3 tháng
+Tự doanh mua ròng 17,6 tỷ đồng; giá còn cách ngưỡng cắt lỗ 3,2%.
+Giảm 1,79%, kéo lùi 0,84 điểm và bị khối ngoại bán ròng 23,6 tỷ đồng; đóng cửa dưới 21.200 thì cắt.
+VHM
+Nắm giữ
+giữ, không mua đuổi (đóng 62.200)
+1-3 tháng
+Khối ngoại mua ròng 23,7 tỷ đồng dù cổ phiếu giảm 0,48%; tự doanh mua ròng 6,0 tỷ đồng.
+Lãi suất cho vay bất động sản khó giảm nhanh khi Fed tăng tháng 12; đóng cửa dưới 58.800 thì cắt.
+VIC
+Giảm tỷ trọng
+bán ở 243.000-248.000 (đóng 243.000)
+không áp dụng
+không áp dụng
+1-3 tháng
+VIC lấy đi 3,60 điểm, gần 30% mức giảm của VN-Index, và bị khối ngoại bán ròng 35,9 tỷ đồng sau phiên mua ròng 138,9 tỷ.
+Khối ngoại quay lại mua mạnh đẩy giá vượt 250.000 đồng.
+FPT
+Đứng ngoài
+chưa mua (đóng 49.550)
+không áp dụng
+không áp dụng
+1-3 tháng
+Khối ngoại bán ròng 449,4 tỷ đồng, hơn 9 triệu cổ phiếu; theo Tuổi Trẻ đã bán ròng 8/9 phiên từ đầu tháng 11, tổng hơn 807 tỷ đồng; tin quản trị ở Nvidia làm chủ đề AI bị bán.
+Đổi sang Mua khi khối ngoại ngừng bán ròng hai phiên liền và giá giữ trên 49.450, đáy phiên 12/11.
+6%
+11%
+11%
+10%
+10%
+8%
+21%
+Đây là quan điểm phân tích của TVN & Partners tại thời điểm phát hành, không phải lời mời mua bán, nhà đầu tư tự chịu trách nhiệm quyết định.
+Khuyến nghị có hiệu lực cho phiên 13/11/2026, giá đóng cửa phiên 12/11 làm mốc. VIC, FPT để trống mục tiêu và cắt lỗ vì khuyến nghị là giảm tỷ trọng và đứng ngoài; HPG, MSN giữ nguyên quan điểm Nắm giữ của số 11/11.
+Nhà đầu tư đang giữ cổ phiếu: giữ vị thế trong ngưỡng cắt lỗ, tiếp tục hạ VIC ở vùng 243.000-248.000; không bình quân giá FPT.
+Nhà đầu tư đang cầm tiền: chỉ thăm dò 1/3 vị thế ở NLG; chờ khối ngoại ngừng bán ròng và khớp lệnh trên 13.000 tỷ đồng mới giải ngân thêm.
+Nhà đầu tư dùng ký quỹ: không tăng ký quỹ; giảm bớt nếu VN-Index đóng cửa dưới 1.730 điểm.
+Kết luận: tư thế cho phiên 13/11 là giữ ở cận dưới 50%, không bắt đáy, thăm dò rất chọn lọc. Phiên 12/11 xấu hơn điểm số vì bên bán chủ động ở trụ và khối ngoại bán mạnh nhất kể từ 26/10, nhưng thanh khoản chưa bùng lên nên chưa phải bán tháo. Mốc đổi tư thế: dưới 1.730 điểm hạ về 40-45%; trên 1.756 điểm với khớp lệnh trên 13.000 tỷ đồng nâng lên 60%.
+Tổng hợp
+Lịch sự kiện doanh nghiệp mười phiên tới
+12/11 – 25/11/2026
+Ngày GDKHQ
+Mã · sàn
+Sự kiện
+Tỷ lệ, giá trị
+Thanh toán, ghi chú
+12/11
+GDA · HOSE
+Giao dịch đầu tiên
+149,1 triệu cp, tham chiếu 12.000 đồng
+chuyển từ UPCoM, biên độ 20% phiên đầu
+12/11
+LBM · HOSE
+Cổ tức tiền mặt
+18%, 1.800 đồng/cp
+thanh toán 15/12
+12/11
+VEA · UPCoM
+Cổ tức tiền mặt
+50,24%, 5.024 đồng/cp
+tỷ lệ cao; sàn theo cotuc.vn
+13/11
+VSH · HOSE
+Cổ tức tiền mặt
+10%, 1.000 đồng/cp
+thanh toán 30/11
+13/11
+TBC · HOSE
+Cổ tức tiền mặt
+10%, 1.000 đồng/cp
+thanh toán 30/11
+17/11
+NSC · HOSE
+Cổ tức tiền mặt
+20%, 2.000 đồng/cp
+sàn chưa xác minh lại
+19/11
+MQN · UPCoM
+Cổ tức bằng cổ phiếu
+sàn chưa xác minh lại
+20/11
+TIX · UPCoM
+Cổ tức tiền mặt
+43%
+sàn chưa xác minh lại
+10%
+12%
+22%
+26%
+Mã khác trong mười phiên (sàn chưa xác minh): 13/11 MTV 7%; 16/11 MCM 10%, SJD 16%; 18/11 PVB 10%, SFC 18%; 19/11 MH3 16%. cotuc.vn ghi không có sự kiện cổ tức từ 21/11 tới 29/11; ngày 23/11 và đại hội cổ đông bất thường trong kỳ: chưa tra được. Danh sách MSCI Frontier kỳ tháng 11 (PNJ, NLG vào; FTS, DIG, PC1 ra) theo Bnews, chưa đối chiếu thông cáo gốc của MSCI; NLG trong bảng khuyến nghị.
+Nguồn: cotuc.vn theo ngày giao dịch không hưởng quyền; danh sách chép từ các bản chốt phiên trước, bỏ các mã đã qua ngày, bổ sung tra cứu ngày 25/11.
+Tiền tệ, tỷ giá và thị trường mở
+Tỷ giá trung tâm 12/11, tăng 12 đồng
+25.680-25.685
+USD liên ngân hàng 12/11, trên giá mua của NHNN
+25.440-25.850
+USD Vietcombank sáng 12/11
+Ngân hàng Nhà nước chưa mua được USD giao ngay ở giá 25.500 đồng/USD vì tỷ giá liên ngân hàng ngày 12/11 ở 25.680-25.685, cao hơn giá mua 180-185 đồng (Thanh Niên, 12/11); lịch mua là thứ Hai và thứ Tư, đối tượng là tổ chức tín dụng có trạng thái ngoại tệ dương. Tỷ giá trung tâm sáng 12/11 tăng 12 đồng lên 25.623 đồng/USD, phiên tăng thứ hai liên tiếp; Vietcombank niêm yết 25.440-25.850, thị trường tự do 25.830-25.870 (VOV). Chỉ số USD lên quanh 102,9 điểm, cao nhất 19 tháng. Lãi suất USD liên ngân hàng giảm nhẹ 0,01-0,07 điểm %, qua đêm 3,85%, một tuần 3,9%. Theo VietnamPlus, mỗi 1 tỷ USD mua vào ở 25.500 đồng bơm 25.500 tỷ đồng; hoán đổi USD/VND 182 ngày công bố 06/11 có quy mô tối đa 2 tỷ USD. Số liệu thị trường mở và lãi suất VND liên ngân hàng phiên 12/11: chưa có số.
+Kênh
+Số liệu
+Ghi chú
+Mua USD giao ngay 11/11 và 12/11
+chưa mua được
+liên ngân hàng 25.680-25.685 trên giá mua 25.500
+Dư nợ OMO (cầm cố)
+chưa có số phiên 12/11
+lãi suất 4,5%
+Tín phiếu
+chưa có số phiên 12/11
+Lãi suất qua đêm VND liên ngân hàng
+chưa có số phiên 12/11
+4,6% ngày 09/11
+Hoán đổi USD/VND 182 ngày (06/11)
+tối đa 2 tỷ USD
+gần 48.800 tỷ đồng nếu dùng hết
+30%
+38%
+margin-top:12px
+Kết luận: trung tính nghiêng xấu cho cổ phiếu trong vài tuần: kênh bơm tiền đồng bằng mua USD chưa chảy, tỷ giá tăng phiên thứ hai; giữ tỷ trọng, không tăng ký quỹ; kết luận chuyển sang hỗ trợ khi Ngân hàng Nhà nước công bố mua được USD hoặc liên ngân hàng về dưới 25.550. Cơ chế: Ngân hàng Nhà nước chỉ mua được khi ngân hàng chịu bán USD ở 25.500; nhưng trên thị trường liên ngân hàng USD đang được trả 25.680, giống như đặt mua một món hàng thấp hơn giá chợ 180 đồng thì không ai bán. Lý do giá thị trường cao: CPI Mỹ nóng làm thị trường đặt 87,1% khả năng Fed tăng 0,25 điểm % tháng 12, chỉ số USD lên đỉnh 19 tháng. Điều thị trường có thể chưa thấy: nhiều kỳ vọng "nới bằng lượng tiền" từ 11/11 đang được định giá trước khi có đồng nào được bơm. Mốc theo dõi: phiên mua 16/11 và tỷ giá trung tâm có vượt 25.650. Câu đọng lại: vòi bơm đã mở, nhưng nước chưa chảy vì giá thị trường cao hơn giá mua.
+Chính sách trong 72 giờ
+văn bản, dự thảo và phát ngôn
+Ngân hàng Nhà nước chưa mua được USD giao ngay vì tỷ giá thị trường cao hơn giá mua
+Nguồn: Thanh Niên 12/11/2026; VietnamPlus 12/11/2026
+Bước mới trong 24 giờ: sau phiên mở đầu 11/11, tới 12/11 cơ quan điều hành vẫn chưa mua được ngoại tệ giao ngay vì tỷ giá liên ngân hàng 25.680-25.685 cao hơn giá mua 25.500. Phó Thống đốc Phạm Thanh Hà nêu mục tiêu "bảo đảm thị trường ngoại tệ hoạt động thông suốt"; Ngân hàng Nhà nước chưa bán ngoại tệ can thiệp từ năm 2025 tới nay (VietnamPlus).
+Thủ tướng Lê Minh Hưng trả lời chất vấn: tăng trưởng 2026 trên 10%, CPI 10 tháng 4,57%
+Nguồn: Cổng Thông tin Chính phủ (xaydungchinhsach.chinhphu.vn), Dân trí 12/11/2026
+Báo cáo giải trình tại phiên chất vấn Kỳ họp thứ 2, Quốc hội khóa XVI: phấn đấu tăng trưởng cả năm 2026 trên 10%; CPI 10 tháng 4,57%, mục tiêu khoảng 4,5%; thu ngân sách 10 tháng khoảng 2,44 triệu tỷ đồng, bằng 96,4% dự toán; FDI đăng ký 54,85 tỷ USD (+74%); thuế bảo vệ môi trường xăng dầu 0% từ 01/11/2026 tới 31/03/2027, giảm giá điện 2% từ 01/11/2026; năm 2027 dự kiến huy động khoảng 950 nghìn tỷ đồng qua thị trường chứng khoán.
+Bộ trưởng Tài chính Ngô Văn Tuấn: giải ngân đầu tư công 10 tháng 74,1% kế hoạch
+Nguồn: Tin nhanh chứng khoán 12/11/2026
+Hết tháng 10 giải ngân hơn 708.500 tỷ đồng, bằng 74,1% kế hoạch, tăng 217.500 tỷ đồng so với cùng kỳ; Bộ trưởng nói "khâu còn yếu nhất hiện nay là tổ chức thực hiện, đặc biệt là công tác chuẩn bị dự án"; Chính phủ phải giao vốn năm sau trước 30/11.
+Kênh mua USD của Ngân hàng Nhà nước: hai phiên chưa mua được · Thông báo 10/11/2026, áp dụng từ 11/11/2026, thứ Hai và thứ Tư hằng tuần
+Giá mua 25.500 đồng/USD thấp hơn liên ngân hàng 180-185 đồng nên tới 12/11 chưa mua được USD. Tỷ giá trung tâm tăng 12 đồng lên 25.623, chỉ số USD quanh 102,9 điểm. Kênh bơm tiền đồng không kỳ hạn vì thế chưa chảy.
+Mức 25.500 là sàn tỷ giá rõ ràng: doanh nghiệp xuất khẩu yên tâm hơn khi bán USD.
+Khi USD hạ nhiệt, mỗi 1 tỷ USD mua vào bơm 25.500 tỷ đồng, hỗ trợ ngân hàng và chứng khoán.
+Ngân hàng Nhà nước chưa phải bán dự trữ ngoại hối để can thiệp từ năm 2025.
+Thanh khoản tiền đồng cuối năm vẫn phải dựa vào thị trường mở và hoán đổi có kỳ hạn.
+Kỳ vọng "nới bằng lượng" bị đẩy lùi, nhóm ngân hàng và chứng khoán mất một chất xúc tác.
+Tỷ giá tăng hai phiên liền làm doanh nghiệp vay USD chịu thêm chi phí.
+Nguồn: Thanh Niên, VietnamPlus, VOV (12/11/2026).
+Kết luận: trung tính nghiêng xấu cho ngân hàng và chứng khoán trong vài tuần; giữ CTG, SSI phần đã có, không mua thêm vì tin mua USD; kết luận đổi khi có phiên công bố mua được USD. Mức giá 25.500 cho thấy cơ quan điều hành ưu tiên một sàn tỷ giá hợp lý hơn là bơm tiền bằng mọi giá.
+margin-top:16px
+Kết luận: chính sách hôm nay trung tính cho cổ phiếu; giữ tỷ trọng, ưu tiên xây dựng, vật liệu hưởng lợi từ đầu tư công hơn ngân hàng. Hàm ý số trước "kênh mua USD bơm ít trong ngắn hạn" nay đã được xác nhận vì sau hai ngày Ngân hàng Nhà nước chưa mua được USD. Thông điệp từ phiên chất vấn là tài khóa gánh tăng trưởng: thuế xăng 0%, giá điện giảm 2%, giải ngân phải đạt 100%, trong khi CPI 10 tháng 4,57% đã vượt mục tiêu nên tiền tệ khó nới. Mốc đổi kết luận: phiên mua USD 16/11.
+Tài sản số và kim loại quý
+Bitcoin quanh 73.354 USD (-0,85%) lúc 6:37 sáng 11/11 giờ New York theo CoinDesk; giá đúng mốc 16:00 New York chưa tra được. Ethereum 2.042 USD (-0,78%), Solana 82,97 USD (-1,01%), XRP 1,05 USD (-0,85%); thị phần Bitcoin 60,5%. Quỹ ETF Bitcoin giao ngay tại Mỹ bị rút ròng 95 triệu USD ngày 10/11, phiên thứ tư liên tiếp (SoSoValue qua CoinDesk). Vàng giao ngay giảm 1,21% về 3.983,20 USD/oz chiều 11/11 giờ New York, thủng mốc 4.000; bạc giao ngay 51,56 USD (+0,29%) (Kitco). Giá chốt hợp đồng tương lai vàng tháng 12 phiên 11/11, bạch kim, palladium, vốn hóa toàn thị trường tiền số và vàng SJC ngày 12/11: chưa tra được.
+Pháp lý thế giới
+Nguồn: rà soát CoinDesk, Al Jazeera 11-12/11/2026
+Không có văn bản pháp lý mới về tài sản số được kiểm chứng từ nguồn gốc trong 24 giờ qua.
+Pháp lý Việt Nam
+Nguồn: các số trước (Nghị định 284)
+Không có văn bản mới trong 72 giờ qua. Nghị định 284/2026/NĐ-CP xử phạt trong lĩnh vực tài sản mã hóa đang có hiệu lực từ 01/09/2026.
+Thị trường tiền số, 24 giờ
+Tài sản
+Giá
+Thay đổi
+Bitcoin (16:00 New York 11/11)
+chưa tra được
+Bitcoin (6:37 New York 11/11, CoinDesk)
+73.354 USD
+-0,85%
+Ethereum (CoinDesk)
+2.042 USD
+-0,78%
+Solana (CoinDesk)
+82,97 USD
+-1,01%
+XRP (CoinDesk)
+1,05 USD
+-0,85%
+Kim loại quý: chốt phiên Mỹ 11/11; giá trong nước ngày 12/11
+Kim loại
+Giá
+Thay đổi
+Vàng (tương lai) HĐ tháng 12
+chưa tra được
+Vàng giao ngay
+3.983,20 USD/oz
+-1,21%
+Bạc giao ngay
+51,56 USD/oz
++0,29%
+Bạch kim
+chưa tra được
+Palladium
+chưa tra được
+Vàng SJC, triệu đồng/lượng
+chưa tra được
+Vàng (tương lai) HĐ tháng 12: mốc chính, chốt phiên Mỹ 11/11; Vàng giao ngay: chiều 11/11 giờ New York, Kitco; Bạc giao ngay: Kitco 11/11; Bạch kim: phiên 11/11; Palladium: phiên 11/11; Vàng SJC, triệu đồng/lượng: ngày 12/11.
+margin-top:18px
+Kết luận: xấu cho vàng trong ngắn hạn, trung tính cho cổ phiếu; không bắt đáy vàng khi chỉ số USD ở đỉnh 19 tháng, chờ vàng giao ngay lấy lại 4.020 USD/oz, ngưỡng kháng cự Kitco nêu. Cơ chế: vàng và Bitcoin không trả lãi, nên khi thị trường đặt 87,1% khả năng Fed tăng lãi suất tháng 12 thì giữ USD có lợi hơn; vàng mất mốc 4.000 trong khi bạc gần như đứng yên. Bitcoin không bật theo chứng khoán Mỹ dù Nasdaq tăng 1,60%, vì quỹ ETF bị rút ròng bốn phiên liền; nghĩa là dòng tiền tổ chức vào tiền số đang rút, không chỉ là biến động giá. Với Việt Nam, USD mạnh làm tỷ giá trung tâm tăng 12 đồng, cùng một lực đang ép vàng. Câu đọng lại: khi USD sinh lời hơn, tài sản không trả lãi chịu đòn trước.
+Tác động quốc tế tới Việt Nam
+tổng hợp từ nguồn gốc ngoài Việt Nam
+Biến động gần nhất, %
+Nvidia -8,6% ngoài giờ, tin quản trị (Al Jazeera)
+Dòng vốn danh mục
+Số thật: FPT bị khối ngoại bán ròng 449,4 tỷ đồng, giảm 2,65%; công nghệ thông tin HOSE -2,33%. Liên hệ giữa hai sự kiện là giả thuyết của TVN, chưa có bằng chứng lệnh bán đến từ cùng quỹ. Được lợi: chưa rõ. Chịu thiệt: FPT, CMG.
+Cao
+Ngay lập tức
+chưa rõ
+FPT, CMG
+Fed tháng 12: 87,1% tăng 0,25 điểm % (Kitco)
+Tỷ giá
+Số thật: tỷ giá trung tâm 12/11 tăng 12 đồng lên 25.623; liên ngân hàng 25.680-25.685 khiến Ngân hàng Nhà nước chưa mua được USD ở 25.500. Được lợi: xuất khẩu. Chịu thiệt: doanh nghiệp vay USD, ngân hàng chờ thanh khoản.
+Cao
+Ngay lập tức
+xuất khẩu
+doanh nghiệp vay USD
+Nasdaq +1,60%, tiền dồn vào AI Mỹ (Yahoo Finance)
+Dòng vốn danh mục
+Số thật: VN30 bị khối ngoại bán ròng 624,5 tỷ đồng phiên 12/11. Ước tính: chừng nào Mỹ còn trả lợi suất 10 năm gần 5,0% và AI Mỹ còn hút tiền, dòng vốn ngoại vào Việt Nam khó đảo chiều trước 10/12. Chịu thiệt: trụ VN30.
+Trung bình
+Vài tuần
+chưa rõ
+trụ VN30
+Brent 92,76 USD, Hormuz bất định (Kitco)
+Giá hàng hóa đầu vào
+Số thật: dầu khí là ngành tăng tốt nhất HOSE (+1,14%), BSR +0,79%, PLX +2,28%; hàng không HVN -2,22%. Được lợi: BSR, PLX. Chịu thiệt: hàng không, CPI trong nước.
+Trung bình
+Ngay lập tức
+BSR, PLX
+hàng không
+MSCI Frontier: NLG, PNJ vào (Bnews)
+Dòng vốn danh mục
+Số thật: NLG +1,67%, PNJ +2,75% phiên 12/11. Ước tính: quy mô quỹ theo chỉ số cận biên nhỏ, tác động chủ yếu quanh ngày hiệu lực. Được lợi: NLG, PNJ. Chịu thiệt: FTS, DIG, PC1.
+Thấp
+Vài tuần
+NLG, PNJ
+FTS, DIG, PC1
+Nguồn gốc: Al Jazeera dẫn New York Times, Wall Street Journal, Financial Times (Nvidia); Kitco (vàng, dầu, CME FedWatch, chỉ số USD); Yahoo Finance (chỉ số Mỹ, CoreWeave); CoinDesk (tiền số), 11-12/11/2026. Mục MSCI theo Bnews, chưa xác minh từ thông cáo gốc.
+Kết luận: kênh dòng vốn danh mục gánh phần lớn tác động hôm nay, xấu cho trụ VN30 và công nghệ trong vài tuần; không bắt đáy FPT, giữ tỷ trọng; kết luận đổi nếu khối ngoại ngừng bán ròng hai phiên liền hoặc Nvidia ổn định quanh kết quả kinh doanh 17/11 giờ Mỹ. Cơ chế: quỹ ngoại nắm FPT phần lớn vì câu chuyện AI; khi chủ đề AI bị rung bởi tin quản trị ở Nvidia, họ giảm rủi ro ở mã có câu chuyện tương tự, giống như bán cả rổ khi một quả hỏng. Đây là giả thuyết của TVN, chưa có bằng chứng lệnh bán đến từ cùng quỹ. Chỗ thị trường Việt Nam có thể đang định giá sai: VN-Index chỉ -0,70% nhưng VN30 bị bán ròng 624,5 tỷ đồng và chỉ 7/30 mã đóng trên giá bình quân; chỉ số được tự doanh đỡ nên che bớt mức độ rút vốn. Câu đọng lại: một tin ở California đã có giá ở sàn HOSE trong vòng một phiên.
+Lịch theo dõi
+giờ Việt Nam
+Thời điểm
+Sự kiện
+Dự báo, kỳ trước
+Mức độ
+12/11, 20:30
+Số đơn xin trợ cấp thất nghiệp Mỹ
+chưa có dự báo đồng thuận đã kiểm chứng
+Trung bình
+13/11
+Quốc hội biểu quyết Luật Chứng khoán sửa đổi (dự kiến)
+ngày hiệu lực chưa công bố
+Cao
+13/11, 20:30
+PPI tháng 10 của Mỹ
+kỳ trước +1,3% tháng, 6,3% năm
+Trung bình
+16/11
+Ngân hàng Nhà nước mua USD phiên thứ ba
+giá 25.500 đồng/USD; liên ngân hàng 12/11 ở 25.680
+Cao
+16/11
+Thông tư 145/2026/TT-BTC về đăng ký, lưu ký, bù trừ chứng khoán có hiệu lực
+cho vay chứng khoán bảo đảm từ 110%
+Trung bình
+18/11, sáng
+Nvidia công bố kết quả kinh doanh (17/11 giờ Mỹ)
+cổ phiếu mất 8,6% ngoài giờ 11/11
+Cao
+19/11
+Đáo hạn hợp đồng tương lai VN30 tháng 11 (dự kiến)
+thứ Năm tuần thứ ba
+Trung bình
+29/11
+Hạn điều tra Mục 301 của Mỹ với Việt Nam
+rủi ro thuế từ 12,5% lên 20%
+Cao
+01/12
+Kết quả rà soát MSCI tháng 11 có hiệu lực (dự kiến)
+NLG, PNJ vào rổ Frontier
+Trung bình
+10/12, 02:00
+Fed công bố quyết định lãi suất (họp 08-09/12 giờ Mỹ)
+87,1% khả năng tăng 0,25 điểm %, 12,9% khả năng tăng 0,5 điểm % (Kitco, 11/11)
+Cao
+31/12
+Hạn liên kết tài khoản chứng khoán với VNeID mức 2 (Nghị định 320/2026/NĐ-CP)
+còn 49 ngày
+Cao
+16%
+40%
+11%
+Phiên 13/11: VN-Index có giữ 1.730 điểm và khối ngoại có giảm bán FPT dưới 100 tỷ đồng.
+Tỷ giá liên ngân hàng có về sát 25.500 để Ngân hàng Nhà nước mua được USD phiên 16/11.
+Tỷ lệ giá trị khớp ở mã trên giá bình quân có hồi trên 50%, nhất là ở VN30.
+Nvidia: diễn biến quản trị và kết quả kinh doanh 17/11 giờ Mỹ.
+Nguồn: HOSE, HNX qua FireAnt; Tuổi Trẻ, VnExpress, CafeF, Bnews, Thanh Niên, VOV, VietnamPlus, Báo Chính phủ, Tin nhanh chứng khoán (12/11/2026); Al Jazeera, Kitco, Yahoo Finance, Stocktitan dẫn CNBC, CoinDesk (11-12/11/2026).

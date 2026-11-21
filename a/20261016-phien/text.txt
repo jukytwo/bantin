@@ -1,0 +1,476 @@
+CHỐT PHIÊN VÀ CHÍNH SÁCH
+Thứ Sáu 16/10/2026
+VN-Index hồi 7,56 điểm trong phiên ít tiền nhất từ cuối tháng 8: khối ngoại bán ròng 535 tỷ, tự doanh mua ròng 534 tỷ
+VN-Index tăng 7,56 điểm lên 1.705,91, chấm dứt chuỗi bảy phiên giảm, nhưng là nhịp hồi được đỡ chứ chưa được mua: giá trị HOSE chỉ 10.996,3 tỷ đồng, bằng 0,68 lần bình quân 20 phiên, còn khối ngoại bán ròng 535,13 tỷ đồng gần như được tự doanh mua lại đúng bằng 534,06 tỷ đồng. Về chính sách, Kết luận 106-KL/TW đặt GDP 2027 từ 10%, CPI khoảng 4,5% và hạ lãi suất cho vay là ưu tiên đầu tiên.
+Hồi được đỡ, chưa được mua
+Giá trị HOSE 10.996,3 tỷ đồng, 0,68 lần bình quân 20 phiên.
+Tự doanh đối ứng khối ngoại
+Bán ròng 535,13 tỷ đồng, tự doanh mua ròng 534,06 tỷ đồng.
+Tăng trưởng có kỷ luật
+Kết luận 106-KL/TW: GDP 2027 từ 10%, CPI khoảng 4,5%.
+Chốt phiên ngày 16/10
+HOSE, HNX, UPCoM
+Thị trường trong nước phiên 16/10
+Thị trường trong nước phiên 16/10
+HOSE
+HNX
+Chỉ số
+1.705,91
+259,13
+Thay đổi
++7,56 (+0,45%)
+-0,16 (-0,06%)
+GTGD, tỷ đồng
+10.996,3
+chưa có số
+Khớp lệnh, tỷ đồng
+508,3
+Thỏa thuận, tỷ đồng
+1.078,2
+13,1
+Khối ngoại ròng, tỷ
+-535,13
+-17,2
+Tự doanh ròng, tỷ
++534,06
+chưa có số
+Tăng/giảm/đứng
+174/120/69
+70/50/chưa có số
+Nguồn: HOSE, HNX qua Index.vn, Tin nhanh chứng khoán, Tuổi Trẻ; khớp lệnh, tự doanh HOSE theo FireAnt; khối ngoại HNX theo dữ liệu FireAnt của bot TVN.
+Tỷ giá, vàng, lãi suất
+Mua vào
+Bán ra
+USD VCB lúc 9:00
+USD tự do
+Tỷ giá trung tâm
+đi ngang
+SJC, triệu/lượng
+140,3
+143,3
+Vàng thế giới, USD/oz
+4.175,85
++0,48%
+Tiết kiệm 12T VCB
+6,8%/năm
+ngày 14/10
+Vietcombank và tỷ giá trung tâm sáng 16/10 theo Thị trường Tài chính Tiền tệ; USD tự do theo Người Quan Sát; SJC lúc 8:30 16/10 theo CafeF; vàng giao ngay lúc 10:03 UTC theo FXEmpire.
+margin-top:4px
+Số liệu thị trường trong nước là phiên 16/10/2026, so với phiên 15/10; vàng thế giới dùng giá giao ngay 4.175,85 USD/oz lúc 10:03 UTC ngày 16/10 (FXEmpire), thống nhất toàn báo cáo.
+VN-Index đóng cửa 1.705,91 điểm, tăng 7,56 điểm tương đương 0,45%, chấm dứt chuỗi bảy phiên giảm và lấy lại mốc 1.700. Chỉ số mở cửa 1.702,37, lên cao nhất 1.713,57 rồi hạ độ cao trong phiên chiều, thấp nhất 1.696,71 nhưng không thủng đáy 1.694,77 của phiên 15/10. VN30 tăng 11,7 điểm lên 1.855,41; HNX-Index giảm 0,16 điểm còn 259,13; UPCoM-Index tăng 0,72 điểm tương đương 0,58% lên 124,87. Giá trị giao dịch HOSE 10.996,3 tỷ đồng gồm 1.078,2 tỷ đồng thỏa thuận, khớp lệnh khoảng 9.918 tỷ đồng; so với phiên trước giá trị giảm 26,9% và chỉ bằng 0,68 lần bình quân 20 phiên 16.095 tỷ đồng. Toàn thị trường khoảng 11.873 tỷ đồng, giảm 22,38%. Độ rộng nghiêng về bên tăng: HOSE 174 mã tăng, 120 mã giảm, 69 mã đứng giá; toàn thị trường 368 mã tăng với 37 mã trần, 243 mã giảm với 20 mã sàn. Kéo chỉ số lên mạnh nhất là VHM +3,57 điểm, CTG +1,28, BID +1,21, VPL +0,74, VCB +0,69; kéo xuống là VIC -4,81 điểm, VCK -0,15, PLX -0,13, MBB -0,10. Ngân hàng dẫn dắt với CTG +2,68%, SHB +2,4%, BID +2,26%, LPB +2,15%, TPB +2,13%; bất động sản phân hóa khi VHM +3,57% lên 61.000 đồng, KDH +3,66% nhưng VIC -1,38%, VPI -2,63%. Khối ngoại bán ròng 535,13 tỷ đồng trên HOSE, phiên thứ 18 liên tiếp, dồn vào HDB 182,93 tỷ đồng, VIC 68,8 tỷ, FRT 63,05 tỷ, VIX 47,03 tỷ, MSB 45,1 tỷ; mua ròng FPT 47,96 tỷ, CTG 41 tỷ, MBB 32,51 tỷ, SSI 30,57 tỷ, TCB 26,84 tỷ. Tự doanh mua ròng 534,06 tỷ đồng trên HOSE, gồm 398,29 tỷ khớp lệnh và 135,77 tỷ thỏa thuận, mạnh nhất ở VPB 218,31 tỷ, FRT 70,41 tỷ, HPG 64,53 tỷ; bán ròng TCB 37,34 tỷ. Thỏa thuận lớn nhất là VPB 300,68 tỷ đồng, MWG 88,67 tỷ, FRT 84,47 tỷ, MSB 74,91 tỷ.
+margin-top:12px
+Chỉ tiêu
+Giá trị
+Kéo tăng chỉ số
+VHM +3,57; CTG +1,28; BID +1,21 điểm
+Kéo giảm chỉ số
+VIC -4,81; VCK -0,15; PLX -0,13 điểm
+Đáy, đỉnh trong phiên
+1.696,71 · 1.713,57
+Bình quân 20 phiên HOSE
+16.095 tỷ đồng
+Tự doanh ròng HOSE
++534,06 tỷ đồng
+Thỏa thuận lớn nhất
+VPB 300,68 tỷ đồng
+Chuỗi bán ròng khối ngoại
+18 phiên, khoảng 23.884 tỷ đồng
+margin-top:0
+margin-top:12px
+FPT
+47,96
+CTG
+MBB
+32,51
+SSI
+30,57
+HDB
+182,93
+VIC
+68,8
+FRT
+63,05
+VIX
+47,03
+Khối ngoại HOSE phiên 16/10, tỷ đồng. Nguồn: Tuổi Trẻ, FireAnt.
+Cổ phiếu tăng đáng chú ý phiên 16/10
+DCL
++6,84%
+KDH
++3,66%
+VHM
++3,57%
+PNJ
++3,3%
+Giá đóng cửa và mức tăng phiên 16/10. Nguồn: HOSE qua FireAnt.
+Tự doanh mua ròng, tỷ đồng
+Mã
+Tỷ đồng
+VPB
+218,31
+FRT
+70,41
+HPG
+64,53
+VNM
+32,46
+Tự doanh bán ròng, tỷ đồng
+Mã
+Tỷ đồng
+TCB
+37,34
+NT2
+13,89
+TPB
+2,98
+CTG
+2,8
+margin-top:12px
+Tự doanh HOSE phiên 16/10 theo FireAnt.
+Kết luận quan trọng nhất hôm nay: VN-Index hồi 7,56 điểm nhưng đây là nhịp hồi được đỡ chứ chưa phải được mua, vì giá trị HOSE chỉ 10.996,3 tỷ đồng, bằng 0,68 lần bình quân 20 phiên và thấp nhất trong chuỗi số liệu của chúng tôi từ cuối tháng 8. Phát hiện đáng chú ý nhất là hai con số gần như trùng nhau: khối ngoại bán ròng 535,13 tỷ đồng, tự doanh mua ròng 534,06 tỷ đồng, nghĩa là lượng hàng khối ngoại xả ra đã có bàn tay tổ chức trong nước đỡ lại, chủ yếu ở VPB qua kênh thỏa thuận. Cách hiểu đơn giản: giá giữ được không phải vì người mua tranh nhau, mà vì người bán gặp đúng một người mua lớn, giống một phiên chợ vắng mà giá vẫn đứng nhờ một mối buôn ôm hàng. Cấu trúc điểm số cũng mỏng: VHM, CTG, BID góp 6,06 điểm, bằng khoảng 80% mức tăng, trong khi riêng VIC lấy đi 4,81 điểm. Điều thị trường dễ hiểu sai là đọc phiên này như tín hiệu đảo chiều; muốn xác nhận cần đóng cửa trên 1.722,65 điểm, đỉnh phiên 14/10, kèm giá trị HOSE trở lại trên 13.000 tỷ đồng. Về chính sách, ý lớn nhất nằm ở mục Chính sách và thông điệp mới bên dưới: Kết luận 106-KL/TW đặt hạ lãi suất cho vay là ưu tiên đầu tiên của 2027 nhưng vẫn neo CPI khoảng 4,5%. Câu đọng lại: chỉ số xanh nhờ được đỡ, còn tiền thật vẫn đứng ngoài.
+Giá khớp so với giá bình quân
+phiên 16/10
+182 trên 365 mã HOSE có khớp lệnh, tức 49,9%, đóng cửa trên giá bình quân, và tính theo giá trị chỉ 46,8% tiền khớp nằm ở các mã này. So với phiên sáng tỷ lệ này tốt hơn 10,1 điểm %, từ 39,8% lên 49,9%, nghĩa là lực mua mạnh dần trong phiên chiều thay vì bị bán đè về cuối phiên; nhưng so với phiên 15/10 lại xấu hơn 7,9 điểm %, từ 57,7% xuống, nên độ rộng thực của dòng tiền đang co lại dù chỉ số xanh. Cao nhất là Du lịch và giải trí 6/8 mã và Bảo hiểm 3/4 mã, Hàng tiêu dùng cá nhân 14/21; thấp nhất là Dầu khí 1/4 mã và Dịch vụ tài chính 7/21 mã. Theo nhóm vốn hóa, VN30 có 15/30 mã trên giá bình quân và 56,2% giá trị, trong khi VNMidcap rơi từ 44/70 mã phiên trước xuống 25/70 mã: tiền rút khỏi cổ phiếu vừa để dồn về trụ, ngược hẳn bức tranh bắt đáy cổ phiếu vừa và nhỏ của phiên 15/10. Thẻ chu kỳ của chúng tôi ở bậc Theo dõi khả năng tạo đáy, mới bật 1/6 dấu hiệu là tâm lý trượt về sợ hãi; từ 10/2022 sau trạng thái này VN-Index 20 phiên sau bình quân tăng 1,4% nhưng một nửa số lần còn một đáy thấp hơn trong 10 phiên. Đọc chéo với hàm ý chính sách, đáy chỉ số chưa có xúc tác: tiền chỉ quay lại hai nhóm Tài nguyên cơ bản và Xây dựng vật liệu, đúng hai nhóm hưởng lợi từ giải ngân đầu tư công, còn Dịch vụ tài chính và Dầu khí bị bán.
+La bàn chu kỳ TVN
+chính thức tuần 16/10
+La bàn chu kỳ TVN bản chính thức tuần kết thúc 16/10: điểm đà -63, trạng thái Đà xuống, thấp hơn mức -54 của tuần trước; điểm tâm lý -26, mức Sợ hãi, đọc ngược chiều nên chưa phải vùng hoảng loạn -50. Chưa có tín hiệu đáy; điều kiện cần là VN-Index đóng cửa tuần trên trung bình 10 tuần, khoảng 1.775,71 điểm, cao hơn mức hiện tại khoảng 4,1%. La bàn đã kiểm chứng 2020–2026, khoảng 3 chu kỳ; dùng để theo dõi, không phải khuyến nghị mua bán.
+Dự báo phiên kế tiếp 19/10
+ba kịch bản cho VN-Index
+Cơ sở
+1.695 - 1.723 điểm
+Giằng co quanh 1.700 sau phiên hồi thiếu tiền; ngân hàng quốc doanh và nhóm đầu tư công giữ nhịp, VIC và dầu khí tiếp tục là lực cản; thanh khoản HOSE quanh 10.000 - 13.000 tỷ đồng.
+Tích cực
+1.723 - 1.755 điểm
+Đóng cửa trên 1.722,65 kèm giá trị HOSE trên 13.000 tỷ đồng và khối ngoại giảm bán dưới 300 tỷ đồng; ngân hàng và thép dẫn dắt, mục tiêu kế tiếp là MA20 1.754,09.
+Tiêu cực
+1.668 - 1.695 điểm
+Thủng đáy 1.694,77 khi khối ngoại tiếp tục bán ở HDB, VIC và tự doanh ngừng đỡ; vùng đến kế tiếp là đáy đóng cửa 60 phiên 1.668,53.
+Mốc xác nhận: trên 1.722,65 điểm kèm giá trị HOSE trên 13.000 tỷ đồng là Tích cực; dưới 1.694,77 điểm là Tiêu cực; còn lại là Cơ sở.
+Giữ tỷ trọng cổ phiếu khoảng 30-40%, không mua đuổi nhịp hồi thiếu tiền; chỉ giải ngân thêm khi VN-Index đóng cửa trên 1.722,65 điểm kèm giá trị HOSE trên 13.000 tỷ đồng. Ưu tiên nhóm vừa có khối ngoại quay lại mua vừa có neo chính sách: ngân hàng quốc doanh như CTG theo định hướng tín dụng cho sản xuất, và HPG theo giải ngân đầu tư công. Đứng ngoài VIC, VHM và dầu khí cho tới khi khối ngoại ngừng bán và tỷ lệ mã trên giá bình quân của ngành trở lại trên 50%. Nếu chỉ số thủng 1.694,77 điểm thì hạ tỷ trọng về 20-30% và giữ tiền chờ FOMC 28/10.
+Chiến lược
+Khuyến nghị cổ phiếu và hành động
+Mã
+Hành động
+Vùng giá
+Mục tiêu
+Cắt lỗ
+Thời gian
+Luận điểm
+Rủi ro
+CTG
+Mua mới
+30.000-30.700
+1-3 tháng
+Đóng cửa 30.600 đồng (+2,68%), góp 1,28 điểm; khối ngoại mua ròng 41 tỷ đồng sau khi bán ròng phiên trước; Kết luận 106-KL/TW ưu tiên tín dụng cho sản xuất, lợi cho ngân hàng quốc doanh.
+Thanh khoản toàn sàn chỉ 0,68 lần bình quân 20 phiên; ngân hàng chỉ 11/23 mã trên giá bình quân.
+FPT
+Nắm giữ
+56.500-58.500
+1-3 tháng
+Đóng cửa 58.200 đồng; khối ngoại mua ròng 47,96 tỷ đồng, mạnh nhất sàn, phiên mua ròng thứ hai liên tiếp; doanh nghiệp ít chịu cú sập chip châu Á.
+Nhóm Công nghệ thông tin chỉ 3/8 mã trên giá bình quân; vốn hóa AI toàn cầu còn biến động.
+MBB
+Nắm giữ
+mua thêm 19.300-19.700
+1-3 tháng
+Đóng cửa 19.850 đồng (-0,25%); khối ngoại vẫn mua ròng 32,51 tỷ đồng, tăng 4,2% trong 5 phiên.
+Kéo chỉ số 0,10 điểm hôm nay; mất 19.300 đồng thì xu hướng ngắn hạn hỏng.
+HPG
+Nắm giữ
+mua thêm 20.300-20.900
+1-3 tháng
+Đóng cửa 20.900 đồng (+0,72%); tự doanh mua ròng 64,53 tỷ đồng; Tài nguyên cơ bản là ngành có giá trị 5 phiên cao nhất, 121% bình quân, neo vào giải ngân đầu tư công còn khoảng 37% kế hoạch.
+Khối ngoại bán ròng 23,93 tỷ đồng; giải ngân 10 tháng thấp hơn 70% kế hoạch thì luận điểm yếu đi.
+VPB
+Nắm giữ
+24.000-24.800
+1-3 tháng
+Đóng cửa 24.500 đồng; tự doanh mua ròng 218,31 tỷ đồng, thỏa thuận 300,68 tỷ đồng lớn nhất sàn.
+Khối ngoại bán ròng 25,79 tỷ đồng; giao dịch thỏa thuận lớn chưa rõ đối tác, không phải lực mua khớp lệnh.
+VHM
+Đứng ngoài
+chờ hai phiên giữ trên 61.000
+không áp dụng
+không áp dụng
+chờ tín hiệu
+Tăng 3,57% lên 61.000 đồng, góp 3,57 điểm nhưng vẫn mất 7,58% trong 5 phiên; khối ngoại chỉ mua ròng 5,61 tỷ đồng.
+Bỏ lỡ nhịp hồi nếu khối ngoại quay lại mua ròng mạnh.
+VIC
+Giảm tỷ trọng
+bán khi hồi 220.000-226.000
+không áp dụng
+không áp dụng
+1-4 tuần
+Giảm 1,38% về 215.000 đồng, lấy đi 4,81 điểm, lớn nhất sàn; khối ngoại bán ròng 68,8 tỷ đồng.
+Hồi mạnh theo VHM nếu nhóm Vingroup có tin hỗ trợ.
+CII
+Đứng ngoài
+chờ về 12.200-12.500
+không áp dụng
+không áp dụng
+chờ tín hiệu
+Giảm 1,16% về 12.800 đồng sau khi tăng 7,11% trong 5 phiên; hưởng lợi đầu tư công nhưng giá đã đi trước.
+Không có vị thế nếu giải ngân bứt tốc và giá không điều chỉnh.
+BSR
+Bỏ khỏi danh mục
+không áp dụng
+Đã bán theo kỷ luật cắt lỗ phiên 15/10; Dầu khí là ngành yếu nhất về giá bình quân với 1/4 mã, BSR mất 8,7% trong 5 phiên dù Brent trên 100 USD.
+TVN đưa trở lại khi BSR đóng cửa trên 29.500 đồng và ngành Dầu khí có từ 2/4 mã trên giá bình quân.
+6%
+11%
+11%
+9%
+8%
+9%
+22%
+Đây là quan điểm phân tích của TVN & Partners tại thời điểm phát hành, không phải lời mời mua bán, nhà đầu tư tự chịu trách nhiệm quyết định.
+Khuyến nghị có hiệu lực cho phiên 19/10/2026, giá đóng cửa phiên 16/10 làm mốc. VHM, VIC, CII để trống mục tiêu và cắt lỗ vì là quan điểm đứng ngoài hoặc giảm tỷ trọng.
+Nhà đầu tư cá nhân.
+Giữ tỷ trọng 30-40%, chỉ giải ngân thêm khi VN-Index đóng cửa trên 1.722,65 điểm kèm giá trị HOSE trên 13.000 tỷ đồng.
+Doanh nghiệp niêm yết có kế hoạch huy động vốn.
+Chưa nên chào bán khi thanh khoản HOSE chỉ 0,68 lần bình quân 20 phiên; chuẩn bị hồ sơ để mở cửa sổ sau FOMC 28/10.
+Công ty chứng khoán.
+Theo dõi rủi ro tập trung khi tự doanh mua ròng 534,06 tỷ đồng trong một phiên, phần lớn ở một mã; rà lại hạn mức ký quỹ nhóm bất động sản Vingroup.
+Doanh nghiệp có cổ đông nước ngoài lớn.
+Chủ động công bố cơ cấu sở hữu và tỷ lệ tự do chuyển nhượng; chuẩn MSCI áp với Indonesia cho thấy minh bạch sở hữu là điều kiện giữ vốn.
+Nhắc lại ngắn gọn: VN-Index hồi 7,56 điểm lên 1.705,91 trong phiên ít tiền nhất từ cuối tháng 8, khối ngoại bán ròng 535,13 tỷ đồng được tự doanh mua lại 534,06 tỷ đồng. Chiến lược cho phiên 19/10 là giữ tỷ trọng 30-40%, mua mới CTG có kiểm soát, giữ FPT, MBB, HPG, VPB, giảm VIC khi hồi và đứng ngoài VHM, CII. Mốc cần nhớ là 1.722,65 điểm phía trên và 1.694,77 điểm phía dưới.
+Tổng hợp
+Lịch sự kiện doanh nghiệp mười phiên tới
+16/10 – 29/10
+Ngày GDKHQ
+Mã · sàn
+Sự kiện
+Tỷ lệ, giá trị
+Thanh toán, ghi chú
+16/10
+CNG · HOSE
+Cổ tức tiền mặt
+1.000 đồng/cp
+thanh toán 10/11
+16/10
+SBA · HOSE
+Cổ phiếu thưởng
+tỷ lệ 20:1
+ngày chốt 19/10
+16/10
+VTH · HNX
+Cổ tức bằng cổ phiếu
+100:1,1125
+ngày chốt 19/10
+16/10
+BED · HNX
+Cổ tức tiền mặt
+4.000 đồng/cp, tạm ứng 2026
+thanh toán 30/10
+19/10
+SSC · HOSE
+Cổ tức tiền mặt
+1.000 đồng/cp
+thanh toán 10/11
+19/10
+TLD · HOSE
+Cổ tức bằng cổ phiếu
+ngày chốt 20/10
+20/10
+TCT · HOSE
+Cổ tức tiền mặt
+500 đồng/cp
+thanh toán 20/11
+20/10
+CTP · HNX
+Cổ phiếu thưởng
+tỷ lệ 5:1
+ngày chốt 21/10
+21/10
+PNJ · HOSE
+Đại hội đồng cổ đông bất thường
+điều chỉnh kế hoạch 2026
+họp tại TP HCM; tài liệu dự kiến lỗ sau thuế 6.270,55 tỷ đồng
+21/10
+SBH · UPCoM
+Cổ tức tiền mặt
+1.500 đồng/cp, đợt 2 năm 2025
+chưa tra được ngày thanh toán
+22/10
+MCP · HOSE
+Cổ tức tiền mặt
+chưa tra được tỷ lệ
+theo Vietstock
+23/10
+NTC · HOSE
+Cổ tức tiền mặt
+6.000 đồng/cp (60%)
+thanh toán 20/11
+10%
+12%
+22%
+26%
+Phạm vi mười phiên từ 16/10 tới 29/10/2026; cotuc.vn chưa ghi nhận ngày giao dịch không hưởng quyền nào trong các ngày 22/10 và 26-29/10 ngoài bảng trên. PNJ nằm trong lịch vì đại hội bất thường 21/10 bàn điều chỉnh kế hoạch lỗ; EVF dự kiến phát hành riêng lẻ, chưa có ngày chốt.
+Nguồn: cotuc.vn, thông báo doanh nghiệp tổng hợp trong số Chốt phiên 15/10 của TVN, Vietstock, VnEconomy.
+Chính sách và thông điệp mới trong 72 giờ
+Kết luận 106-KL/TW, Công điện 70, Quyết định 1989
+Kết luận 106-KL/TW ngày 15/10/2026 của Hội nghị Trung ương 4 khóa XIV, do Tổng Bí thư, Chủ tịch nước Tô Lâm ký, được công bố chiều 16/10. Văn bản đặt mục tiêu GDP 2027 tăng từ 10% trở lên, lạm phát bình quân khoảng 4,5%, thu ngân sách tăng khoảng 9,1%; ưu tiên đầu tiên là hạ lãi suất cho vay, dẫn tín dụng vào sản xuất và kiểm soát chặt cho vay rủi ro cao, điều hành lãi suất và tỷ giá linh hoạt, giải ngân 100% vốn đầu tư công năm 2026, tiếp tục cổ phần hóa và thoái vốn doanh nghiệp nhà nước. Tại hội nghị toàn quốc cùng ngày, Phó Thủ tướng Thường trực Phạm Gia Túc báo cáo GDP chín tháng tăng 9,01%, CPI chín tháng 4,52%, giải ngân đầu tư công đạt 62,9% kế hoạch, bội chi khoảng 4,1% GDP, nợ công 33-34% GDP; quý IV phấn đấu tăng 12,5%. Kế hoạch 2027 dự kiến thu ngân sách khoảng 3,33 triệu tỷ đồng, chi 4,07 triệu tỷ đồng, trong đó 1,76 triệu tỷ đồng cho đầu tư phát triển; tổng vốn đầu tư toàn xã hội 36-38% GDP. Hai văn bản điều hành cùng ngày 15/10 làm nền: Công điện 70/CĐ-TTg về điều hành giá cuối năm yêu cầu tránh dồn điều chỉnh giá vào cuối năm và yêu cầu Ngân hàng Nhà nước theo dõi tỷ giá, xử lý găm giữ ngoại tệ; Quyết định 1989/QĐ-TTg sửa Chiến lược nợ công, giữ trần nợ công 60% GDP, nợ Chính phủ 50% GDP và phấn đấu xếp hạng tín nhiệm mức Đầu tư. Kỳ họp thứ hai Quốc hội khóa XVI khai mạc sáng 17/10, kéo dài tới 21/11, dự kiến xem xét 43 dự án luật, nghị quyết, trong đó có sửa Luật Đất đai, Luật Kinh doanh bất động sản, Luật Nhà ở và Luật Ngân sách nhà nước hợp nhất.
+Điểm cần đọc giữa các dòng là thứ tự ưu tiên: tăng trưởng 10% được đặt cạnh CPI khoảng 4,5%, không nới trần lạm phát, nên hạ lãi suất cho vay phải đến từ giảm chi phí vốn và phân bổ tín dụng chứ khó đến từ hạ lãi suất điều hành. Cơ chế giống một gia đình muốn tiêu nhiều hơn mà không vay thêm: phải cắt khoản kém hiệu quả để dồn cho khoản sinh lời, ở đây là chuyển vốn đầu tư công từ dự án chậm sang dự án nhanh và đòi cải thiện hệ số ICOR. Kênh tới thị trường là ngân hàng quốc doanh, xây dựng, vật liệu và hạ tầng; dữ liệu 5 phiên đã đồng pha khi Tài nguyên cơ bản và Xây dựng vật liệu là hai ngành duy nhất có giá trị giao dịch trên bình quân. Điều thị trường chưa thấy là áp lực của mục tiêu quý IV 12,5%: còn khoảng 37% kế hoạch giải ngân dồn vào một quý, dễ đẩy nhu cầu vốn và lãi suất huy động lên trước khi lãi vay kịp giảm. Theo dõi số giải ngân 10 tháng của Bộ Tài chính đầu tháng 11 và lãi suất huy động 12 tháng của nhóm ngân hàng tư nhân. Câu đọng lại: Chính phủ chọn tăng trưởng nhanh nhưng không trả bằng lạm phát.
+Điều hành tiền tệ, tỷ giá và vĩ mô
+Tỷ giá trung tâm 16/10, đi ngang
+-847 tỷ
+hút ròng qua cầm cố phiên 15/10
+3,5%
+lãi suất qua đêm liên ngân hàng 14/10
+Phiên thị trường mở gần nhất đã công bố là 15/10: Ngân hàng Nhà nước chỉ chào 125 tỷ đồng kỳ hạn 91 ngày qua kênh cầm cố, trúng thầu toàn bộ ở lãi suất 4,5%, trong khi 972 tỷ đồng đáo hạn, hút ròng khoảng 847 tỷ đồng; số dư kênh cầm cố còn 110.074 tỷ đồng và không phát hành tín phiếu. Phiên 14/10 chào 1.000 tỷ đồng mỗi kỳ hạn 7, 14, 35 và 91 ngày ở 4,5%, trúng 564,85 tỷ đồng, đáo hạn 1.329,76 tỷ đồng, hút ròng 764,91 tỷ đồng. Kết quả phiên 16/10 chưa có số tại giờ phát hành. Lãi suất liên ngân hàng VND phiên 14/10: qua đêm 3,5%, một tuần 4,7%, hai tuần 5,5%, một tháng 5,3%; USD qua đêm 3,85%. Tỷ giá trung tâm sáng 16/10 ở 25.642 đồng/USD, đi ngang so với phiên trước theo Thị trường Tài chính Tiền tệ (Người Quan Sát ghi 25.637, giảm 5 đồng); Vietcombank niêm yết 25.670-26.060 đồng lúc 9:00, giảm 20 đồng; USD tự do khoảng 26.000-26.050 đồng. Lợi suất trái phiếu Chính phủ 10 năm trên thị trường thứ cấp 4,47%; lãi suất tiết kiệm 12 tháng cao nhất thuộc Sacombank 7,5% và LPBank 7,2%. Vàng miếng SJC đứng 140,3-143,3 triệu đồng/lượng ba phiên liên tiếp.
+Thanh khoản hệ thống đang dư nhẹ chứ không thiếu: Ngân hàng Nhà nước hút ròng hai phiên liên tiếp với quy mô dưới 1.000 tỷ đồng và để lãi suất qua đêm lùi về 3,5%, tức đang rút bớt phần thừa chứ không siết. Đi cùng Kết luận 106-KL/TW, điều này cho thấy lựa chọn là giữ lãi suất điều hành 4,5% và để tỷ giá trung tâm đứng yên quanh 25.642 thay vì bơm tiền kích cầu. Hàm ý cho cổ phiếu: chi phí ký quỹ không tăng thêm, nhưng cũng chưa có dòng tiền rẻ mới để kéo thanh khoản lên trên 13.000 tỷ đồng mỗi phiên.
+Tài sản số và kim loại quý
+Pháp lý thế giới
+Nguồn: CoinDesk; Ủy ban Chứng khoán và Giao dịch Mỹ
+Trong 72 giờ qua chưa ghi nhận văn bản pháp lý mới đáng kể về tài sản số từ Ủy ban Chứng khoán và Giao dịch Mỹ hay Liên minh châu Âu theo các nguồn đã kiểm tra. Theo CoinDesk, một tòa án Mỹ bác kháng cáo của sàn Gemini đòi hủy khoản dàn xếp 5 triệu USD dù Ủy ban Giao dịch Hàng hóa Tương lai ủng hộ; chi tiết vụ việc chưa xác minh được từ bản án gốc.
+Pháp lý Việt Nam
+Nguồn: Nghị quyết 05/2025/NQ-CP, Nghị định 284/2026/NĐ-CP
+Trong nước không có văn bản mới trong 72 giờ. Khung đang áp dụng là Nghị quyết 05/2025/NQ-CP thí điểm thị trường tài sản mã hóa và Nghị định 284/2026/NĐ-CP xử phạt vi phạm trong lĩnh vực này, hiệu lực từ 01/09/2026, mức phạt tối đa 200 triệu đồng với tổ chức.
+Thị trường tiền số, 24 giờ
+Tài sản
+Giá
+Thay đổi
+Bitcoin
+81.973 USD
++0,95%
+Ethereum
+2.448,59 USD
++3,17%
+Solana
+106,27 USD
++3,08%
+XRP
+1,34 USD
++1,53%
+BNB
+chưa tra được
+chưa tra được
+Vốn hóa tiền số
+chưa tra được
+chưa tra được
+Kim loại quý
+Kim loại
+Giá
+Thay đổi
+Vàng giao ngay
+4.175,85 USD/oz
++0,48%
+Vàng tương lai tháng 12
+chưa tra được
+chưa tra được
+Bạc
+56,78 USD/oz
++1,95%
+Bạch kim
+1.617,94 USD/oz
++0,85%
+Palladium
+1.132,82 USD/oz
++3,11%
+Vàng miếng SJC
+140,3 - 143,3 triệu/lượng
+đứng giá
+Vàng giao ngay: mốc 10:03 UTC 16/10, dùng thống nhất; kháng cự gần 4.217,40 USD, hỗ trợ 4.141,97 USD; Vàng tương lai tháng 12: kháng cự 4.242,30 USD, hỗ trợ 4.166,80 USD theo FXEmpire; Bạc: phiên 15/10 theo Metalcharts; Bạch kim: phiên 15/10 theo Metalcharts; Palladium: phiên 15/10 theo Metalcharts; Vàng miếng SJC: 8:30 16/10 theo CafeF.
+margin-top:18px
+Bitcoin có lúc thủng 80.000 USD trong phiên 15/10 rồi được mua lại lên quanh 82.500 USD trong hai giờ; sáng 16/10 giờ châu Á giao dịch quanh 81.973 USD, tăng 0,95%, sau ba lần bên mua bảo vệ vùng 80.400 USD trong tuần (CoinDesk). Ethereum tăng 3,17% lên 2.448,59 USD, Solana tăng 3,08% lên 106,27 USD, XRP tăng 1,53% lên 1,34 USD; giá BNB và vốn hóa toàn thị trường chưa tra được. Vàng giao ngay 4.175,85 USD/oz lúc 10:03 UTC, tăng 0,48%, sau khi giới giao dịch hạ xác suất Fed tăng lãi suất tháng 10 (FXEmpire); mức tuần chưa tra được; kháng cự gần nhất 4.217,40 USD.
+Vàng và tiền số cùng hồi nhưng vì cùng một lý do ngắn hạn: xác suất Fed tăng lãi suất ngày 28/10 lùi sau khi Chủ tịch Warsh không phát tín hiệu. Khác biệt nằm ở trong nước: giá vàng thế giới tăng mà SJC đứng yên 140,3-143,3 triệu đồng/lượng ba phiên, nghĩa là cầu vàng trong nước đang nguội, phù hợp với tỷ giá trung tâm đi ngang và lãi suất qua đêm thấp. Với dòng vốn, tiền số không phải đối thủ của cổ phiếu Việt Nam lúc này; đối thủ thật là lãi suất tiết kiệm 7-7,5% cho kỳ hạn 12 tháng.
+Tác động quốc tế tới Việt Nam
+tổng hợp từ nguồn gốc ngoài Việt Nam
+Warsh không phát tín hiệu, xác suất tăng 28/10 lùi về 15-30% (Reuters, CME FedWatch)
+Chênh lệch lãi suất
+Lợi suất 10 năm Mỹ quanh 5,09% so với trái phiếu Chính phủ Việt Nam 10 năm 4,47%, chênh lệch âm khoảng 0,6 điểm %, là ước tính của TVN với giả định lợi suất Mỹ giữ trên 5%. Áp lực bán ròng của khối ngoại chưa có lý do dừng trước 28/10. Được lợi: doanh nghiệp xuất khẩu thu USD. Chịu thiệt: doanh nghiệp nợ USD, ngân hàng huy động vốn ngoại.
+Cao
+Vài tuần
+doanh nghiệp xuất khẩu thu USD
+doanh nghiệp nợ USD
+MSCI tham vấn hạ Indonesia xuống thị trường độc lập (MSCI)
+Chuẩn pháp lý
+Chuẩn minh bạch sở hữu và tỷ lệ tự do chuyển nhượng trở thành điều kiện giữ vốn ngoại; Việt Nam đang trong lộ trình FTSE với bước tăng tỷ trọng lên 30% vào tháng 3/2027. Quy mô vốn có thể dịch chuyển chưa định lượng được. Được lợi: doanh nghiệp tỷ lệ tự do chuyển nhượng cao, minh bạch. Chịu thiệt: doanh nghiệp sở hữu cô đặc.
+Trung bình
+Vài quý
+doanh nghiệp minh bạch sở hữu
+doanh nghiệp sở hữu cô đặc
+Brent 105,92 USD, WTI +3,03% (ICE, NYMEX)
+Giá hàng hóa đầu vào
+Giá dầu trên 100 USD giữ chi phí nhiên liệu cao, nhưng cổ phiếu dầu khí Việt Nam lại yếu nhất sàn: ngành chỉ 1/4 mã trên giá bình quân và mất 4,49% trong 5 phiên. Được lợi: vận tải dầu như PVT. Chịu thiệt: hàng không, nhựa, phân bón dùng khí.
+Trung bình
+Ngay lập tức
+PVT, vận tải dầu
+hàng không, nhựa, phân bón
+Kospi hồi gần 3% sau cú sập chip (CoinDesk, Yonhap)
+Dòng vốn danh mục
+Việt Nam gần như không có cổ phiếu chip nên ít chịu sốc; FPT được khối ngoại mua ròng 47,96 tỷ đồng, phiên thứ hai liên tiếp. Được lợi: công nghệ, xuất khẩu điện tử. Chịu thiệt: không đáng kể.
+Thấp
+Ngay lập tức
+FPT, xuất khẩu điện tử
+Nguồn gốc của mục này: Reuters, Euronews, CME FedWatch, FXEmpire, MSCI, ICE, NYMEX, CoinDesk, Yonhap; báo trong nước chỉ dùng đối chiếu số liệu Việt Nam.
+Kênh gánh phần lớn tác động vẫn là chênh lệch lãi suất: chừng nào lợi suất 10 năm Mỹ còn trên 5% và xác suất Fed tăng tháng 12 quanh 90%, khối ngoại còn lý do bán ròng dù xác suất tháng 10 đã lùi. Chỗ thị trường Việt Nam chưa phản ánh là tín hiệu từ MSCI: cách MSCI xử lý Indonesia cho thấy sau nâng hạng, chất lượng sở hữu mới quyết định vốn có ở lại hay không, nên doanh nghiệp minh bạch đáng được định giá cao hơn nhóm sở hữu cô đặc.
+Bảng điểm vĩ mô
+thang từ -2 tới +2 mỗi trục
+Chính sách tiền tệ toàn cầu
+Fed 3,75-4,00%, xác suất tăng tháng 12 khoảng 90%; Warsh không phát tín hiệu
+Hàng hóa, năng lượng
+Brent 105,92 USD, trên 100 USD
+Tỷ giá, dòng vốn
+Khối ngoại bán ròng 18 phiên, khoảng 23.884 tỷ đồng
+Chính sách trong nước
+Kết luận 106-KL/TW: hạ lãi suất cho vay, giải ngân 100%
+Nội tại thị trường VN
+Giá trị HOSE 0,68 lần bình quân 20 phiên; 49,9% mã trên giá bình quân
+Trên thang từ âm 10 tới cộng 10; nghiêng về thận trọng, giữ nguyên so với hôm qua.
+Tổng điểm âm 4, bằng hôm qua: chính sách trong nước được cộng một điểm nhờ Kết luận 106-KL/TW, nhưng dòng vốn ngoại vẫn ở mức âm 2 vì chuỗi bán ròng chưa dứt. Điểm chỉ cải thiện khi khối ngoại ngừng bán hoặc thanh khoản quay lại trên bình quân 20 phiên.
+Chính sách đang nói gì
+12/10–16/10
+Chính sách đang nói: tăng trưởng hai con số nhưng không trả bằng lạm phát (Suy luận, tin cậy trung bình). Phiên hôm nay đồng pha một phần khi tiền 5 phiên chỉ dồn vào Tài nguyên cơ bản và Xây dựng vật liệu, hai nhóm hưởng lợi từ giải ngân.
+Đồng hồ tâm lý TVN
+Tâm lý thị trường: Lo ngại · đang tốt lên so với phiên 15/10
+Kim đứng ở -15, vùng Lo ngại vì giọng tin và diễn đàn còn âm 22 điểm, chỉ được phần chính sách cộng 7 điểm kéo lên. So với phiên 15/10 tâm lý tốt hơn 9 điểm, từ -24 lên -15, nhưng chưa ra khỏi vùng lo ngại. Đồng hồ tâm lý TVN ở -15, mức Lo ngại, độ tin cậy vừa. So với phiên 15/10 điểm tăng từ -24 lên -15, chủ yếu nhờ giọng tin và diễn đàn cải thiện 25 điểm, trong khi phần chính sách thấp hơn 22 điểm vì Công điện 70/CĐ-TTg nghiêng về kiểm soát giá. Hành vi đám đông và chính sách không vênh nhau nhiều, cả hai đều thận trọng. Góc nhìn ngược chiều: la bàn -26 ở vùng Lo ngại; theo thống kê 71 tuần cùng vùng từ 2020, VN-Index 26 tuần sau bình quân tăng 10,4% và 86% số lần dương, đây là thống kê lịch sử chứ không phải dự báo. Mốc cần theo dõi là khối ngoại ngừng bán ròng.
+Thị trường đang quan tâm gì
+phiên 16/10
+Báo chí dồn vào ngân hàng với lợi nhuận và giao dịch vốn (34 tin), mục tiêu tăng trưởng 2027 (33 tin) và bất động sản, hạ tầng (28 tin); chủ đề MSCI và Indonesia nổi lên với 8 tin so với khoảng 3 tin bình thường, còn tin khối ngoại bán ròng hạ nhiệt dù chuỗi bán chưa dứt. Diễn đàn thận trọng nhưng săn câu chuyện riêng ở ngân hàng, thép, dầu khí, đồng pha với việc tiền phiên này chỉ dồn vào vài trụ ngân hàng.
+Lịch theo dõi
+giờ Việt Nam
+Thời điểm
+Sự kiện
+Ghi chú
+Mức độ
+17/10, sáng
+Khai mạc Kỳ họp thứ hai Quốc hội khóa XVI, tới 21/11
+43 dự án luật, nghị quyết
+Cao
+17/10
+Fed vào giai đoạn im lặng trước FOMC
+không còn phát biểu chính sách
+Trung bình
+19/10
+GDP quý 3 Trung Quốc
+chưa tra được dự báo đồng thuận
+Trung bình
+19/10
+Phiên giao dịch kế tiếp, kiểm định 1.694,77 - 1.722,65 điểm
+kết quả thị trường mở 16/10
+Cao
+21/10
+PNJ họp đại hội cổ đông bất thường
+dự kiến lỗ sau thuế 6.270,55 tỷ đồng
+Trung bình
+29/10, 01:00
+Fed công bố quyết định lãi suất (họp 27-28/10 giờ Mỹ)
+xác suất tăng khoảng 15-30%
+Cao
+Đầu tháng 11
+Số giải ngân đầu tư công 10 tháng và CPI tháng 10
+chưa có ngày công bố
+Cao
+31/12
+Hạn liên kết tài khoản chứng khoán với VNeID mức 2 (Nghị định 320/2026/NĐ-CP)
+còn 76 ngày
+Trung bình
+15%
+45%
+11%
+Khối ngoại có ngừng chuỗi bán ròng 18 phiên tại HDB, VIC không.
+Tự doanh có tiếp tục mua đối ứng như phiên 16/10 hay chỉ là giao dịch thỏa thuận một lần ở VPB.
+Kết quả thị trường mở phiên 16/10 và lãi suất qua đêm đầu tuần.
+Nội dung kế hoạch đầu tư công 2027 trình Quốc hội từ 17/10.
+Nguồn: HOSE, HNX qua Index.vn, Tuổi Trẻ, Tin nhanh chứng khoán, SGGP, Mekong ASEAN; FireAnt (TVN tự tính); VietnamPlus, Báo Chính phủ; Thị trường Tài chính Tiền tệ, Người Quan Sát, VietNamNet, CafeF; Reuters, Euronews, CME FedWatch, FXEmpire, MSCI, CoinDesk, Metalcharts, cotuc.vn.
