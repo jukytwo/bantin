@@ -1,0 +1,29 @@
+# Tu va lai trang sau moi lan day (Guest, 25/11/2026, muc 4, anh Vu chot phuong an A "mot logo").
+# Tac vu Dong bo cua Team push --force trang tu bo dung nhung giu nguyen .github, nen quy trinh nay song qua moi luot.
+# Dung GITHUB_TOKEN cua lan chay; lan day bang GITHUB_TOKEN khong kich hoat lai quy trinh (khong lap) nhung van dung Pages.
+# Khi bo dung cua Team da co doan sua thi va_bantin.py khong doi gi; khi do co the xoa tep nay.
+name: Tu va ban tin
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bantin-tu-va
+  cancel-in-progress: false
+
+jobs:
+  va:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+      - name: Va mot logo, o Hoi TVN neu bo dung chua co
+        run: python3 .github/va_bantin.py
